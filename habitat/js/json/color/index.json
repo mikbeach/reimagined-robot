@@ -1,0 +1,351 @@
+{
+  "color": {
+    "palette": {
+      "black": "#000000",
+      "blue-100": "#0e4174",
+      "blue-90": "#114e8b",
+      "blue-80": "#135ca3",
+      "blue-70": "#1669ba",
+      "blue-60": "#1976d2",
+      "blue-50": "#428fda",
+      "blue-40": "#6ca7e2",
+      "blue-30": "#95c0ea",
+      "blue-20": "#bfd9f2",
+      "blue-10": "#e8f1fb",
+      "brand-1": "#000000",
+      "brand-1-highlight": "#404040",
+      "brand-2": "#ffffff",
+      "brand-2-highlight": "#f2f2f2",
+      "green-100": "#19451c",
+      "green-90": "#1f5321",
+      "green-80": "#246127",
+      "green-70": "#296f2c",
+      "green-60": "#2e7d32",
+      "green-50": "#549457",
+      "green-40": "#79ac7c",
+      "green-30": "#9fc3a1",
+      "green-20": "#c5dbc6",
+      "green-10": "#eaf2eb",
+      "grey-100": "#0d0d0d",
+      "grey-90": "#262626",
+      "grey-80": "#404040",
+      "grey-70": "#595959",
+      "grey-60": "#737373",
+      "grey-50": "#8c8c8c",
+      "grey-40": "#a6a6a6",
+      "grey-30": "#bfbfbf",
+      "grey-20": "#d8d8d8",
+      "grey-10": "#f2f2f2",
+      "blue": "#1976d2",
+      "green": "#2e7d32",
+      "red": "#d50000",
+      "yellow": "#ffd600",
+      "red-100": "#750000",
+      "red-90": "#8d0000",
+      "red-80": "#a50000",
+      "red-70": "#bd0000",
+      "red-60": "#d50000",
+      "red-50": "#dd2e2e",
+      "red-40": "#e45c5c",
+      "red-30": "#ec8a8a",
+      "red-20": "#f3b8b8",
+      "red-10": "#fbe6e6",
+      "white": "#ffffff",
+      "yellow-100": "#8c7600",
+      "yellow-90": "#a98e00",
+      "yellow-80": "#c6a600",
+      "yellow-70": "#e2be00",
+      "yellow-60": "#ffd600",
+      "yellow-50": "#ffdd2e",
+      "yellow-40": "#ffe55c",
+      "yellow-30": "#ffec8a",
+      "yellow-20": "#fff4b8",
+      "yellow-10": "#fffbe6",
+      "black-50": "#404040",
+      "black-60": "#000000",
+      "cloud-100": "#757676",
+      "cloud-90": "#909292",
+      "cloud-80": "#a5a6a7",
+      "cloud-70": "#b9bbbc",
+      "cloud-60": "#ced0d1",
+      "cloud-50": "#d8d8d8",
+      "cloud-40": "#e0e1e2",
+      "cloud-30": "#e9e9ea",
+      "cloud-20": "#f1f2f2",
+      "cloud-10": "#fafafa",
+      "earth-100": "#7d6b3d",
+      "earth-90": "#927d47",
+      "earth-80": "#a78e51",
+      "earth-70": "#bca05b",
+      "earth-60": "#d1b265",
+      "earth-50": "#d9c081",
+      "earth-40": "#e2ce9c",
+      "earth-30": "#eadcb8",
+      "earth-20": "#f2e9d4",
+      "earth-10": "#faf7f0",
+      "kiss-100": "#7d4d48",
+      "kiss-90": "#925a54",
+      "kiss-80": "#a66760",
+      "kiss-70": "#bb746c",
+      "kiss-60": "#d08178",
+      "kiss-50": "#d99890",
+      "kiss-40": "#e1aea9",
+      "kiss-30": "#e9c5c1",
+      "kiss-20": "#f2dcd9",
+      "kiss-10": "#fff0ed",
+      "lavender-100": "#525267",
+      "lavender-90": "#5f6078",
+      "lavender-80": "#6d6e89",
+      "lavender-70": "#7a7b9a",
+      "lavender-60": "#8889ab",
+      "lavender-50": "#9d9eba",
+      "lavender-40": "#b3b4c9",
+      "lavender-30": "#c8c9d8",
+      "lavender-20": "#dedee8",
+      "lavender-10": "#f3f3f7",
+      "leaf-100": "#486c54",
+      "leaf-90": "#547e62",
+      "leaf-80": "#609070",
+      "leaf-70": "#6ca27e",
+      "leaf-60": "#78b48c",
+      "leaf-50": "#90c2a1",
+      "leaf-40": "#a9cfb5",
+      "leaf-30": "#c1ddca",
+      "leaf-20": "#d9eadf",
+      "leaf-10": "#f2f8f4",
+      "black-light": "#404040",
+      "white-dark": "#f2f2f2",
+      "cloud": "#ced0d1",
+      "earth": "#d1b265",
+      "kiss": "#d08178",
+      "lavender": "#8889ab",
+      "sky": "#5d96bf",
+      "water": "#87bab8",
+      "sky-100": "#385a73",
+      "sky-90": "#416986",
+      "sky-80": "#4a7899",
+      "sky-70": "#5487ac",
+      "sky-60": "#5d96bf",
+      "sky-50": "#7aa9cb",
+      "sky-40": "#97bcd6",
+      "sky-30": "#b5cfe2",
+      "sky-20": "#d2e2ed",
+      "sky-10": "#eff5f9",
+      "water-100": "#51706e",
+      "water-90": "#5f8281",
+      "water-80": "#6c9593",
+      "water-70": "#7aa7a6",
+      "water-60": "#87bab8",
+      "water-50": "#9dc6c5",
+      "water-40": "#b2d3d2",
+      "water-30": "#c8dfde",
+      "water-20": "#ddeceb",
+      "water-10": "#f3f8f8",
+      "white-70": "#f2f2f2",
+      "white-60": "#ffffff"
+    },
+    "monochrome": {
+      "white": "#ffffff",
+      "lighter": "#f2f2f2",
+      "lighter--rgb": "#f2f2f2",
+      "light": "#d8d8d8",
+      "light--rgb": "#d8d8d8",
+      "medium": "#737373",
+      "medium--rgb": "#737373",
+      "dark": "#404040",
+      "dark--rgb": "#404040",
+      "darker": "#262626",
+      "darker--rgb": "#262626",
+      "grey-v-light": "#f2f2f2",
+      "grey-light": "#d8d8d8",
+      "grey": "#8c8c8c",
+      "grey-dark": "#404040",
+      "grey-darker": "#262626",
+      "black": "#000000"
+    },
+    "promotion": {
+      "sale": {
+        "lightest": "#fbe6e6",
+        "lighter": "#ec8a8a",
+        "light": "#dd2e2e",
+        "base": "#d50000",
+        "dark": "#bd0000",
+        "darker": "#a50000",
+        "darkest": "#8d0000"
+      },
+      "new": {
+        "lightest": "#e8f1fb",
+        "lighter": "#95c0ea",
+        "light": "#428fda",
+        "base": "#1976d2",
+        "dark": "#1669ba",
+        "darker": "#135ca3",
+        "darkest": "#114e8b"
+      }
+    },
+    "scheme": {
+      "light": {
+        "base": "#f2f2f2",
+        "highlight": "#ffffff",
+        "on": {
+          "base": "#404040",
+          "highlight": "#000000"
+        }
+      },
+      "dark": {
+        "base": "#404040",
+        "highlight": "#000000",
+        "on": {
+          "base": "#ffffff",
+          "highlight": "#ffffff"
+        }
+      },
+      "brand-1": {
+        "base": "#000000",
+        "highlight": "#404040",
+        "on": {
+          "base": "#ffffff",
+          "highlight": "#ffffff"
+        }
+      },
+      "brand-2": {
+        "base": "#404040",
+        "highlight": "#000000",
+        "on": {
+          "base": "#ffffff",
+          "highlight": "#ffffff"
+        }
+      }
+    },
+    "semantic": {
+      "error": {
+        "lighter": "#fbe6e6",
+        "light": "#dd2e2e",
+        "base": "#d50000",
+        "dark": "#bd0000",
+        "darker": "#a50000",
+        "text": "#ffffff"
+      },
+      "info": {
+        "lighter": "#e8f1fb",
+        "light": "#428fda",
+        "base": "#1976d2",
+        "dark": "#1669ba",
+        "darker": "#135ca3",
+        "text": "#ffffff"
+      },
+      "success": {
+        "lighter": "#eaf2eb",
+        "light": "#549457",
+        "base": "#2e7d32",
+        "dark": "#296f2c",
+        "darker": "#246127",
+        "text": "#ffffff"
+      },
+      "warning": {
+        "lighter": "#fffbe6",
+        "light": "#ffdd2e",
+        "base": "#ffd600",
+        "dark": "#e2be00",
+        "darker": "#c6a600",
+        "text": "#404040"
+      }
+    },
+    "brand-1": {
+      "base": "#000000",
+      "lighter": "#737373",
+      "light": "#595959",
+      "dark": "#404040",
+      "darker": "#262626",
+      "darkest": "#0d0d0d"
+    },
+    "brand-2": {
+      "base": "#ffffff",
+      "lighter": "#f2f2f2",
+      "light": "#d8d8d8",
+      "dark": "#bfbfbf",
+      "darker": "#a6a6a6",
+      "darkest": "#8c8c8c"
+    },
+    "campaign-1": {
+      "lightest": "#f2f8f4",
+      "lighter": "#c1ddca",
+      "light": "#90c2a1",
+      "base": "#78b48c",
+      "dark": "#6ca27e",
+      "darker": "#547e62",
+      "darkest": "#486c54"
+    },
+    "campaign-2": {
+      "lightest": "#fff0ed",
+      "lighter": "#e9c5c1",
+      "light": "#d99890",
+      "base": "#d08178",
+      "dark": "#bb746c",
+      "darker": "#925a54",
+      "darkest": "#7d4d48"
+    },
+    "campaign-3": {
+      "lightest": "#f3f8f8",
+      "lighter": "#c8dfde",
+      "light": "#9dc6c5",
+      "base": "#87bab8",
+      "dark": "#7aa7a6",
+      "darker": "#5f8281",
+      "darkest": "#51706e"
+    },
+    "campaign-4": {
+      "lightest": "#faf7f0",
+      "lighter": "#eadcb8",
+      "light": "#d9c081",
+      "base": "#d1b265",
+      "dark": "#bca05b",
+      "darker": "#927d47",
+      "darkest": "#7d6b3d"
+    },
+    "campaign-5": {
+      "lightest": "#f3f3f7",
+      "lighter": "#c8c9d8",
+      "light": "#9d9eba",
+      "base": "#8889ab",
+      "dark": "#7a7b9a",
+      "darker": "#5f6078",
+      "darkest": "#525267"
+    },
+    "campaign-6": {
+      "lightest": "#eff5f9",
+      "lighter": "#b5cfe2",
+      "light": "#7aa9cb",
+      "base": "#5d96bf",
+      "dark": "#5487ac",
+      "darker": "#416986",
+      "darkest": "#385a73"
+    },
+    "campaign-7": {
+      "lightest": "#fafafa",
+      "lighter": "#e9e9ea",
+      "light": "#d8d8d8",
+      "base": "#ced0d1",
+      "dark": "#b9bbbc",
+      "darker": "#909292",
+      "darkest": "#757676"
+    },
+    "mode": {
+      "default": {
+        "surface": {
+          "background": "#ffffff",
+          "foreground": "#ffffff"
+        },
+        "border": "#737373",
+        "scheme": {
+          "base": "#262626",
+          "highlight": "#000000",
+          "on": {
+            "base": "#ffffff",
+            "highlight": "#ffffff"
+          }
+        }
+      }
+    }
+  }
+}

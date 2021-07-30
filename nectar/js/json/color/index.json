@@ -1,0 +1,254 @@
+{
+  "color": {
+    "palette": {
+      "black": "#000000",
+      "blue-100": "#0e4174",
+      "blue-90": "#114e8b",
+      "blue-80": "#135ca3",
+      "blue-70": "#1669ba",
+      "blue-60": "#1976d2",
+      "blue-50": "#428fda",
+      "blue-40": "#6ca7e2",
+      "blue-30": "#95c0ea",
+      "blue-20": "#bfd9f2",
+      "blue-10": "#e8f1fb",
+      "brand-1": "#8223fa",
+      "brand-1-highlight": "#6c18cb",
+      "brand-2": "#ff6d4f",
+      "brand-2-highlight": "#d75241",
+      "green-100": "#004851",
+      "green-90": "#006c63",
+      "green-80": "#008971",
+      "green-70": "#00b587",
+      "green-60": "#00d999",
+      "green-50": "#2ee0ab",
+      "green-40": "#5ce7be",
+      "green-30": "#8aeed0",
+      "green-20": "#b8f4e2",
+      "green-10": "#e6fbf5",
+      "grey-100": "#0d0b11",
+      "grey-90": "#26212f",
+      "grey-80": "#3f384c",
+      "grey-70": "#585068",
+      "grey-60": "#726a82",
+      "grey-50": "#8b839b",
+      "grey-40": "#a49db3",
+      "grey-30": "#beb8ca",
+      "grey-20": "#d8d4e0",
+      "grey-10": "#f2f1f5",
+      "blue": "#1976d2",
+      "green": "#00d999",
+      "red": "#ff6d4f",
+      "yellow": "#ffcd00",
+      "red-100": "#5f0019",
+      "red-90": "#871b26",
+      "red-80": "#af3734",
+      "red-70": "#d75241",
+      "red-60": "#ff6d4f",
+      "red-50": "#ff876f",
+      "red-40": "#ffa28e",
+      "red-30": "#ffbcae",
+      "red-20": "#ffd6ce",
+      "red-10": "#fff0ed",
+      "white": "#ffffff",
+      "yellow-100": "#6a2a05",
+      "yellow-90": "#8f5304",
+      "yellow-80": "#b47c02",
+      "yellow-70": "#daa401",
+      "yellow-60": "#ffcd00",
+      "yellow-50": "#ffd62e",
+      "yellow-40": "#ffdf5c",
+      "yellow-30": "#ffe88a",
+      "yellow-20": "#fff1b8",
+      "yellow-10": "#fffae6",
+      "brand-3": "#00d999",
+      "brand-3-highlight": "#00b587",
+      "brand-4": "#ffcd00",
+      "brand-4-highlight": "#daa401",
+      "purple": "#8223fa",
+      "purple-dark": "#6c18cb",
+      "purple-darker": "#5d11ab",
+      "purple-darkest": "#4a0983",
+      "yellow-dark": "#daa401",
+      "yellow-darker": "#b47c02",
+      "yellow-darkest": "#8f5304",
+      "red-dark": "#d75241",
+      "red-darker": "#af3734",
+      "red-darkest": "#871b26",
+      "green-dark": "#00b587",
+      "green-darker": "#008971",
+      "green-darkest": "#006c63",
+      "putty": "#f3f0ec",
+      "purple-100": "#38005c",
+      "purple-90": "#4a0983",
+      "purple-80": "#5d11ab",
+      "purple-70": "#6c18cb",
+      "purple-60": "#8223fa",
+      "purple-50": "#994bfb",
+      "purple-40": "#af72fc",
+      "purple-30": "#c69afd",
+      "purple-20": "#dcc1fe",
+      "purple-10": "#f3e9ff",
+      "putty-60": "#f3f0ec"
+    },
+    "monochrome": {
+      "white": "#ffffff",
+      "lighter": "#f2f1f5",
+      "lighter--rgb": "#f2f1f5",
+      "light": "#d8d4e0",
+      "light--rgb": "#d8d4e0",
+      "medium": "#726a82",
+      "medium--rgb": "#726a82",
+      "dark": "#3f384c",
+      "dark--rgb": "#3f384c",
+      "darker": "#26212f",
+      "darker--rgb": "#26212f",
+      "grey-v-light": "#f2f1f5",
+      "grey-light": "#d8d4e0",
+      "grey": "#8b839b",
+      "grey-dark": "#3f384c",
+      "grey-darker": "#26212f",
+      "black": "#000000"
+    },
+    "promotion": {
+      "sale": {
+        "lightest": "#fff0ed",
+        "lighter": "#ffbcae",
+        "light": "#ff876f",
+        "base": "#ff6d4f",
+        "dark": "#d75241",
+        "darker": "#af3734",
+        "darkest": "#871b26"
+      },
+      "new": {
+        "lightest": "#e8f1fb",
+        "lighter": "#95c0ea",
+        "light": "#428fda",
+        "base": "#1976d2",
+        "dark": "#1669ba",
+        "darker": "#135ca3",
+        "darkest": "#114e8b"
+      }
+    },
+    "scheme": {
+      "light": {
+        "base": "#f2f1f5",
+        "highlight": "#ffffff",
+        "on": {
+          "base": "#3f384c",
+          "highlight": "#000000"
+        }
+      },
+      "dark": {
+        "base": "#3f384c",
+        "highlight": "#000000",
+        "on": {
+          "base": "#ffffff",
+          "highlight": "#ffffff"
+        }
+      },
+      "brand-1": {
+        "base": "#8223fa",
+        "highlight": "#6c18cb",
+        "on": {
+          "base": "#ffffff",
+          "highlight": "#ffffff"
+        }
+      },
+      "brand-2": {
+        "base": "#ffcd00",
+        "highlight": "#daa401",
+        "on": {
+          "base": "#871b26",
+          "highlight": "#871b26"
+        }
+      },
+      "brand-3": {
+        "base": "#ff6d4f",
+        "highlight": "#d75241",
+        "on": {
+          "base": "#ffffff",
+          "highlight": "#ffffff"
+        }
+      },
+      "brand-4": {
+        "base": "#00d999",
+        "highlight": "#008971",
+        "on": {
+          "base": "#ffffff",
+          "highlight": "#ffffff"
+        }
+      }
+    },
+    "semantic": {
+      "error": {
+        "lighter": "#fff0ed",
+        "light": "#ff876f",
+        "base": "#b20620",
+        "dark": "#d75241",
+        "darker": "#af3734",
+        "text": "#ffffff"
+      },
+      "info": {
+        "lighter": "#e8f1fb",
+        "light": "#428fda",
+        "base": "#1976d2",
+        "dark": "#1669ba",
+        "darker": "#135ca3",
+        "text": "#ffffff"
+      },
+      "success": {
+        "lighter": "#e6fbf5",
+        "light": "#2ee0ab",
+        "base": "#00d999",
+        "dark": "#00b587",
+        "darker": "#008971",
+        "text": "#ffffff"
+      },
+      "warning": {
+        "lighter": "#fffae6",
+        "light": "#ffd62e",
+        "base": "#ffcd00",
+        "dark": "#daa401",
+        "darker": "#b47c02",
+        "text": "#3f384c"
+      }
+    },
+    "brand-1": {
+      "base": "#8223fa",
+      "lightest": "#f3e9ff",
+      "lighter": "#c69afd",
+      "light": "#994bfb",
+      "dark": "#6c18cb",
+      "darker": "#4a0983",
+      "darkest": "#38005c"
+    },
+    "brand-2": {
+      "base": "#ff6d4f",
+      "lightest": "#fff0ed",
+      "lighter": "#ffbcae",
+      "light": "#ff876f",
+      "dark": "#d75241",
+      "darker": "#871b26",
+      "darkest": "#5f0019"
+    },
+    "brand-3": {
+      "base": "#00d999",
+      "lightest": "#e6fbf5",
+      "lighter": "#8aeed0",
+      "light": "#2ee0ab",
+      "dark": "#00b587",
+      "darker": "#006c63",
+      "darkest": "#004851"
+    },
+    "brand-4": {
+      "base": "#ffcd00",
+      "lightest": "#fffae6",
+      "lighter": "#ffe88a",
+      "light": "#ffd62e",
+      "dark": "#daa401",
+      "darker": "#8f5304",
+      "darkest": "#6a2a05"
+    }
+  }
+}

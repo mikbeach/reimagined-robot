@@ -1,0 +1,745 @@
+
+/**
+ * Do not edit directly
+ * Generated on Mon, 26 Jul 2021 14:20:34 GMT
+ */
+
+$ln-global-color-palette-black: #000000 !default;
+$ln-global-color-palette-blue-100: #0e4174 !default;
+$ln-global-color-palette-blue-90: #114e8b !default;
+$ln-global-color-palette-blue-80: #135ca3 !default;
+$ln-global-color-palette-blue-70: #1669ba !default;
+$ln-global-color-palette-blue-60: #1976d2 !default;
+$ln-global-color-palette-blue-50: #428fda !default;
+$ln-global-color-palette-blue-40: #6ca7e2 !default;
+$ln-global-color-palette-blue-30: #95c0ea !default;
+$ln-global-color-palette-blue-20: #bfd9f2 !default;
+$ln-global-color-palette-blue-10: #e8f1fb !default;
+$ln-global-color-palette-brand-1: #1976d2 !default;
+$ln-global-color-palette-brand-1-highlight: #000000 !default;
+$ln-global-color-palette-brand-2: #2e7d32 !default;
+$ln-global-color-palette-brand-2-highlight: #000000 !default;
+$ln-global-color-palette-green-100: #19451c !default;
+$ln-global-color-palette-green-90: #1f5321 !default;
+$ln-global-color-palette-green-80: #246127 !default;
+$ln-global-color-palette-green-70: #296f2c !default;
+$ln-global-color-palette-green-60: #2e7d32 !default;
+$ln-global-color-palette-green-50: #549457 !default;
+$ln-global-color-palette-green-40: #79ac7c !default;
+$ln-global-color-palette-green-30: #9fc3a1 !default;
+$ln-global-color-palette-green-20: #c5dbc6 !default;
+$ln-global-color-palette-green-10: #eaf2eb !default;
+$ln-global-color-palette-grey-100: #0d0d0d !default;
+$ln-global-color-palette-grey-90: #262626 !default;
+$ln-global-color-palette-grey-80: #404040 !default;
+$ln-global-color-palette-grey-70: #595959 !default;
+$ln-global-color-palette-grey-60: #737373 !default;
+$ln-global-color-palette-grey-50: #8c8c8c !default;
+$ln-global-color-palette-grey-40: #a6a6a6 !default;
+$ln-global-color-palette-grey-30: #bfbfbf !default;
+$ln-global-color-palette-grey-20: #d8d8d8 !default;
+$ln-global-color-palette-grey-10: #f2f2f2 !default;
+$ln-global-color-palette-blue: #1976d2 !default;
+$ln-global-color-palette-green: #2e7d32 !default;
+$ln-global-color-palette-red: #d50000 !default;
+$ln-global-color-palette-yellow: #ffd600 !default;
+$ln-global-color-palette-red-100: #750000 !default;
+$ln-global-color-palette-red-90: #8d0000 !default;
+$ln-global-color-palette-red-80: #a50000 !default;
+$ln-global-color-palette-red-70: #bd0000 !default;
+$ln-global-color-palette-red-60: #d50000 !default;
+$ln-global-color-palette-red-50: #dd2e2e !default;
+$ln-global-color-palette-red-40: #e45c5c !default;
+$ln-global-color-palette-red-30: #ec8a8a !default;
+$ln-global-color-palette-red-20: #f3b8b8 !default;
+$ln-global-color-palette-red-10: #fbe6e6 !default;
+$ln-global-color-palette-white: #ffffff !default;
+$ln-global-color-palette-yellow-100: #8c7600 !default;
+$ln-global-color-palette-yellow-90: #a98e00 !default;
+$ln-global-color-palette-yellow-80: #c6a600 !default;
+$ln-global-color-palette-yellow-70: #e2be00 !default;
+$ln-global-color-palette-yellow-60: #ffd600 !default;
+$ln-global-color-palette-yellow-50: #ffdd2e !default;
+$ln-global-color-palette-yellow-40: #ffe55c !default;
+$ln-global-color-palette-yellow-30: #ffec8a !default;
+$ln-global-color-palette-yellow-20: #fff4b8 !default;
+$ln-global-color-palette-yellow-10: #fffbe6 !default;
+$ln-global-color-monochrome-white: #ffffff !default;
+$ln-global-color-monochrome-lighter: #f2f2f2 !default;
+$ln-global-color-monochrome-lighter-rgb: #f2f2f2 !default;
+$ln-global-color-monochrome-light: #d8d8d8 !default;
+$ln-global-color-monochrome-light-rgb: #d8d8d8 !default;
+$ln-global-color-monochrome-medium: #737373 !default;
+$ln-global-color-monochrome-medium-rgb: #737373 !default;
+$ln-global-color-monochrome-dark: #404040 !default;
+$ln-global-color-monochrome-dark-rgb: #404040 !default;
+$ln-global-color-monochrome-darker: #262626 !default;
+$ln-global-color-monochrome-darker-rgb: #262626 !default;
+$ln-global-color-monochrome-grey-v-light: #f2f2f2 !default; // deprecated
+$ln-global-color-monochrome-grey-light: #d8d8d8 !default; // deprecated
+$ln-global-color-monochrome-grey: #8c8c8c !default; // deprecated
+$ln-global-color-monochrome-grey-dark: #404040 !default; // deprecated
+$ln-global-color-monochrome-grey-darker: #262626 !default; // deprecated
+$ln-global-color-monochrome-black: #000000 !default;
+$ln-global-color-promotion-sale-lightest: #fbe6e6 !default;
+$ln-global-color-promotion-sale-lighter: #ec8a8a !default;
+$ln-global-color-promotion-sale-light: #dd2e2e !default;
+$ln-global-color-promotion-sale-base: #d50000 !default;
+$ln-global-color-promotion-sale-dark: #bd0000 !default;
+$ln-global-color-promotion-sale-darker: #a50000 !default;
+$ln-global-color-promotion-sale-darkest: #8d0000 !default;
+$ln-global-color-promotion-new-lightest: #e8f1fb !default;
+$ln-global-color-promotion-new-lighter: #95c0ea !default;
+$ln-global-color-promotion-new-light: #428fda !default;
+$ln-global-color-promotion-new-base: #1976d2 !default;
+$ln-global-color-promotion-new-dark: #1669ba !default;
+$ln-global-color-promotion-new-darker: #135ca3 !default;
+$ln-global-color-promotion-new-darkest: #114e8b !default;
+$ln-global-color-scheme-light-base: #f2f2f2 !default;
+$ln-global-color-scheme-light-highlight: #ffffff !default;
+$ln-global-color-scheme-light-on-base: #404040 !default;
+$ln-global-color-scheme-light-on-highlight: #000000 !default;
+$ln-global-color-scheme-dark-base: #404040 !default;
+$ln-global-color-scheme-dark-highlight: #000000 !default;
+$ln-global-color-scheme-dark-on-base: #ffffff !default;
+$ln-global-color-scheme-dark-on-highlight: #ffffff !default;
+$ln-global-color-scheme-brand-1-base: #404040 !default;
+$ln-global-color-scheme-brand-1-highlight: #000000 !default;
+$ln-global-color-scheme-brand-1-on-base: #ffffff !default;
+$ln-global-color-scheme-brand-1-on-highlight: #ffffff !default;
+$ln-global-color-scheme-brand-2-base: #404040 !default;
+$ln-global-color-scheme-brand-2-highlight: #000000 !default;
+$ln-global-color-scheme-brand-2-on-base: #ffffff !default;
+$ln-global-color-scheme-brand-2-on-highlight: #ffffff !default;
+$ln-global-color-semantic-error-lighter: #fbe6e6 !default;
+$ln-global-color-semantic-error-light: #dd2e2e !default;
+$ln-global-color-semantic-error-base: #d50000 !default;
+$ln-global-color-semantic-error-dark: #bd0000 !default;
+$ln-global-color-semantic-error-darker: #a50000 !default;
+$ln-global-color-semantic-error-text: #ffffff !default; // The default accessible text on the base value
+$ln-global-color-semantic-info-lighter: #e8f1fb !default;
+$ln-global-color-semantic-info-light: #428fda !default;
+$ln-global-color-semantic-info-base: #1976d2 !default;
+$ln-global-color-semantic-info-dark: #1669ba !default;
+$ln-global-color-semantic-info-darker: #135ca3 !default;
+$ln-global-color-semantic-info-text: #ffffff !default; // The default accessible text on the base value
+$ln-global-color-semantic-success-lighter: #eaf2eb !default;
+$ln-global-color-semantic-success-light: #549457 !default;
+$ln-global-color-semantic-success-base: #2e7d32 !default;
+$ln-global-color-semantic-success-dark: #296f2c !default;
+$ln-global-color-semantic-success-darker: #246127 !default;
+$ln-global-color-semantic-success-text: #ffffff !default; // The default accessible text on the base value
+$ln-global-color-semantic-warning-lighter: #fffbe6 !default;
+$ln-global-color-semantic-warning-light: #ffdd2e !default;
+$ln-global-color-semantic-warning-base: #ffd600 !default;
+$ln-global-color-semantic-warning-dark: #e2be00 !default;
+$ln-global-color-semantic-warning-darker: #c6a600 !default;
+$ln-global-color-semantic-warning-text: #404040 !default; // The default accessible text on the base value
+$ln-global-mode-dark-background: #262626 !default;
+$ln-global-mode-dark-base: #f2f2f2 !default;
+$ln-global-mode-dark-base-inverse: #404040 !default;
+$ln-global-mode-dark-border: #404040 !default;
+$ln-global-mode-dark-border-interactive: #737373 !default;
+$ln-global-mode-dark-border-interactive-highlight: #f2f2f2 !default;
+$ln-global-mode-dark-footer-background: #ffffff !default;
+$ln-global-mode-dark-footer-text: #404040 !default;
+$ln-global-mode-dark-foreground: #262626 !default;
+$ln-global-mode-dark-header-background: #262626 !default;
+$ln-global-mode-dark-header-text: #f2f2f2 !default;
+$ln-global-mode-dark-highlight: #ffffff !default;
+$ln-global-mode-dark-highlight-inverse: #000000 !default;
+$ln-global-mode-default-background: #f2f2f2 !default; // default website background
+$ln-global-mode-default-base: #404040 !default; // base text colour on default bg
+$ln-global-mode-default-base-inverse: #404040 !default; // base text colour on default foreground
+$ln-global-mode-default-border: #d8d8d8 !default;
+$ln-global-mode-default-border-interactive: #737373 !default;
+$ln-global-mode-default-border-interactive-highlight: #f2f2f2 !default;
+$ln-global-mode-default-footer-background: #262626 !default;
+$ln-global-mode-default-footer-text: #f2f2f2 !default;
+$ln-global-mode-default-foreground: #ffffff !default; // default background that are given to luna components
+$ln-global-mode-default-header-background: #ffffff !default;
+$ln-global-mode-default-header-text: #404040 !default;
+$ln-global-mode-default-highlight: #000000 !default;
+$ln-global-mode-default-highlight-inverse: #000000 !default;
+$ln-global-surface-light-background: #f2f2f2 !default; // surface colour most likely to be used as a background
+$ln-global-surface-light-base: #404040 !default; // base text colour on default bg
+$ln-global-surface-light-border: #d8d8d8 !default;
+$ln-global-surface-light-highlight: #000000 !default;
+$ln-global-surface-light-interactive: #737373 !default;
+$ln-global-surface-light-interactive-hover: #f2f2f2 !default;
+$ln-global-surface-white-background: #ffffff !default;
+$ln-global-surface-white-base: #404040 !default;
+$ln-global-surface-white-border: #d8d8d8 !default;
+$ln-global-surface-white-highlight: #000000 !default;
+$ln-global-surface-dark-background: #262626 !default;
+$ln-global-surface-dark-base: #f2f2f2 !default; // base text colour on default bg
+$ln-global-surface-dark-border: #404040 !default;
+$ln-global-surface-dark-highlight: #ffffff !default;
+$ln-global-surface-dark-interactive: #737373 !default;
+$ln-global-surface-dark-interactive-hover: #404040 !default;
+$ln-global-surface-grey-background: #262626 !default;
+$ln-global-surface-grey-base: #f2f2f2 !default; // base text colour on default bg
+$ln-global-surface-grey-border: #404040 !default;
+$ln-global-surface-grey-highlight: #000000 !default;
+$ln-global-modifier-border-width: 1px !default;
+$ln-global-modifier-border-width-large: 2px !default;
+$ln-global-modifier-border-radius: 2px !default;
+$ln-global-modifier-border-radius-large: 4px !default;
+$ln-global-modifier-border-interactive-width: 1px !default; // generally used for interactive components such as input fields
+$ln-global-modifier-button-border: 2px !default;
+$ln-global-modifier-focus-ring-focus-width: 3px !default;
+$ln-global-modifier-focus-ring-color: #1976d2 !default;
+$ln-global-modifier-footer-background: #404040 !default;
+$ln-global-modifier-footer-text: #ffffff !default;
+$ln-global-modifier-header-background: #ffffff !default;
+$ln-global-modifier-global-bar-height: 36px !default;
+$ln-global-modifier-transition-duration: 0.2s !default;
+$ln-global-modifier-transition-duration-long: 0.4s !default;
+$ln-global-modifier-transition-timing-function-default: ease-out !default;
+$ln-global-opacity-default: 0.7 !default;
+$ln-global-opacity-light: 0.15 !default;
+$ln-global-opacity-disabled: 0.35 !default;
+$ln-global-opacity-background: 0.06 !default;
+$ln-global-overlay-color: #000000 !default;
+$ln-global-overlay-opacity: 0.7 !default;
+$ln-global-space-baseline-grid: 8 !default;
+$ln-global-space-baseline-condensed: 4 !default;
+$ln-global-space-fixed-width-extra-small: 800 !default;
+$ln-global-space-fixed-width-small: 1280 !default;
+$ln-global-space-fixed-width-medium: 1440 !default;
+$ln-global-space-fixed-width-large: 1800 !default;
+$ln-global-space-size-small: 24px !default;
+$ln-global-space-size-medium: 48px !default;
+$ln-global-space-size-large: 80px !default;
+$ln-global-space-spacing-default: 8px !default;
+$ln-global-space-spacing-extra-small: 4px !default;
+$ln-global-space-spacing-small: 8px !default;
+$ln-global-space-spacing-medium: 16px !default;
+$ln-global-space-spacing-large: 24px !default;
+$ln-global-space-spacing-extra-large: 32px !default;
+$ln-global-space-spacing-half: 4px !default;
+$ln-global-space-spacing-x1: 8px !default;
+$ln-global-space-spacing-x2: 16px !default;
+$ln-global-space-spacing-x3: 24px !default;
+$ln-global-space-spacing-x4: 32px !default;
+$ln-global-space-spacing-x5: 40px !default;
+$ln-global-space-spacing-x6: 48px !default;
+$ln-global-space-spacing-x7: 56px !default;
+$ln-global-space-spacing-x8: 64px !default;
+$ln-global-space-spacing-x9: 72px !default;
+$ln-global-space-spacing-x10: 80px !default;
+$ln-global-space-breakpoints-extra-extra-small: 480px !default;
+$ln-global-space-breakpoints-extra-small: 600px !default;
+$ln-global-space-breakpoints-small: 720px !default;
+$ln-global-space-breakpoints-medium: 960px !default;
+$ln-global-space-breakpoints-large: 1200px !default;
+$ln-global-space-breakpoints-extra-large: 1400px !default;
+$ln-global-space-breakpoints-extra-extra-large: 1800px !default;
+$ln-global-typography-base-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default; // The font stack which has fallbacks primarly used on web
+$ln-global-typography-base-font: System !default; // Main font used in this category
+$ln-global-typography-base-letterform: sans-serif !default; // the letterform type which the font belongs to
+$ln-global-typography-brand-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default; // The font stack which has fallbacks primarly used on web
+$ln-global-typography-brand-font: System !default; // Main font used in this category
+$ln-global-typography-brand-letterform: sans-serif !default; // the letterform type which the font belongs to
+$ln-global-typography-monospace-font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace !default;
+$ln-global-typography-system-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-global-typography-font-size-root: 1rem !default; // The browser default font-size
+$ln-global-typography-font-size-default: 16 !default; // The font-size in px
+$ln-global-typography-font-size-rem: 16 !default; // The font-size in rem
+$ln-global-typography-font-weight-light: 300 !default;
+$ln-global-typography-font-weight-regular: 400 !default;
+$ln-global-typography-font-weight-medium: 500 !default;
+$ln-global-typography-font-weight-semi-bold: 600 !default;
+$ln-global-typography-font-weight-bold: 700 !default;
+$ln-global-typography-font-weight-extra-bold: 800 !default;
+$ln-global-typography-font-weight-black: 900 !default;
+$ln-global-font-stack-display-7-font-size: 60px !default;
+$ln-global-font-stack-display-7-line-height: 76px !default;
+$ln-global-font-stack-display-7-font-weight: 700 !default;
+$ln-global-font-stack-display-7-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-global-font-stack-display-6-font-size: 48px !default;
+$ln-global-font-stack-display-6-line-height: 62px !default;
+$ln-global-font-stack-display-6-font-weight: 700 !default;
+$ln-global-font-stack-display-6-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-global-font-stack-display-5-font-size: 38px !default;
+$ln-global-font-stack-display-5-line-height: 50px !default;
+$ln-global-font-stack-display-5-font-weight: 700 !default;
+$ln-global-font-stack-display-5-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-global-font-stack-display-4-font-size: 30px !default;
+$ln-global-font-stack-display-4-line-height: 40px !default;
+$ln-global-font-stack-display-4-font-weight: 700 !default;
+$ln-global-font-stack-display-4-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-global-font-stack-display-3-font-size: 24px !default;
+$ln-global-font-stack-display-3-line-height: 32px !default;
+$ln-global-font-stack-display-3-font-weight: 700 !default;
+$ln-global-font-stack-display-3-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-global-font-stack-display-2-font-size: 20px !default;
+$ln-global-font-stack-display-2-line-height: 26px !default;
+$ln-global-font-stack-display-2-font-weight: 700 !default;
+$ln-global-font-stack-display-2-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-global-font-stack-display-1-font-size: 18px !default;
+$ln-global-font-stack-display-1-line-height: 26px !default;
+$ln-global-font-stack-display-1-font-weight: 700 !default;
+$ln-global-font-stack-display-1-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-global-font-stack-label-1-font-size: 16px !default;
+$ln-global-font-stack-label-1-line-height: 24px !default;
+$ln-global-font-stack-label-1-font-weight: 700 !default;
+$ln-global-font-stack-label-1-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-global-font-stack-label-2-font-size: 16px !default;
+$ln-global-font-stack-label-2-line-height: 24px !default;
+$ln-global-font-stack-label-2-font-weight: 700 !default;
+$ln-global-font-stack-label-2-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-global-font-stack-body-2-font-size: 18px !default;
+$ln-global-font-stack-body-2-line-height: 26px !default;
+$ln-global-font-stack-body-2-font-weight: 400 !default;
+$ln-global-font-stack-body-2-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-global-font-stack-body-1-font-size: 16px !default;
+$ln-global-font-stack-body-1-line-height: 24px !default;
+$ln-global-font-stack-body-1-font-weight: 400 !default;
+$ln-global-font-stack-body-1-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-global-font-stack-caption-font-size: 14px !default;
+$ln-global-font-stack-caption-line-height: 22px !default;
+$ln-global-font-stack-caption-font-weight: 400 !default;
+$ln-global-font-stack-caption-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-global-font-stack-button-font-size: 16px !default;
+$ln-global-font-stack-button-line-height: 24px !default;
+$ln-global-font-stack-button-font-weight: 700 !default;
+$ln-global-font-stack-button-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+
+$ln-global: (
+  'color': (
+    'palette': (
+      'black': $ln-global-color-palette-black,
+      'blue-100': $ln-global-color-palette-blue-100,
+      'blue-90': $ln-global-color-palette-blue-90,
+      'blue-80': $ln-global-color-palette-blue-80,
+      'blue-70': $ln-global-color-palette-blue-70,
+      'blue-60': $ln-global-color-palette-blue-60,
+      'blue-50': $ln-global-color-palette-blue-50,
+      'blue-40': $ln-global-color-palette-blue-40,
+      'blue-30': $ln-global-color-palette-blue-30,
+      'blue-20': $ln-global-color-palette-blue-20,
+      'blue-10': $ln-global-color-palette-blue-10,
+      'brand-1': $ln-global-color-palette-brand-1,
+      'brand-1-highlight': $ln-global-color-palette-brand-1-highlight,
+      'brand-2': $ln-global-color-palette-brand-2,
+      'brand-2-highlight': $ln-global-color-palette-brand-2-highlight,
+      'green-100': $ln-global-color-palette-green-100,
+      'green-90': $ln-global-color-palette-green-90,
+      'green-80': $ln-global-color-palette-green-80,
+      'green-70': $ln-global-color-palette-green-70,
+      'green-60': $ln-global-color-palette-green-60,
+      'green-50': $ln-global-color-palette-green-50,
+      'green-40': $ln-global-color-palette-green-40,
+      'green-30': $ln-global-color-palette-green-30,
+      'green-20': $ln-global-color-palette-green-20,
+      'green-10': $ln-global-color-palette-green-10,
+      'grey-100': $ln-global-color-palette-grey-100,
+      'grey-90': $ln-global-color-palette-grey-90,
+      'grey-80': $ln-global-color-palette-grey-80,
+      'grey-70': $ln-global-color-palette-grey-70,
+      'grey-60': $ln-global-color-palette-grey-60,
+      'grey-50': $ln-global-color-palette-grey-50,
+      'grey-40': $ln-global-color-palette-grey-40,
+      'grey-30': $ln-global-color-palette-grey-30,
+      'grey-20': $ln-global-color-palette-grey-20,
+      'grey-10': $ln-global-color-palette-grey-10,
+      'blue': $ln-global-color-palette-blue,
+      'green': $ln-global-color-palette-green,
+      'red': $ln-global-color-palette-red,
+      'yellow': $ln-global-color-palette-yellow,
+      'red-100': $ln-global-color-palette-red-100,
+      'red-90': $ln-global-color-palette-red-90,
+      'red-80': $ln-global-color-palette-red-80,
+      'red-70': $ln-global-color-palette-red-70,
+      'red-60': $ln-global-color-palette-red-60,
+      'red-50': $ln-global-color-palette-red-50,
+      'red-40': $ln-global-color-palette-red-40,
+      'red-30': $ln-global-color-palette-red-30,
+      'red-20': $ln-global-color-palette-red-20,
+      'red-10': $ln-global-color-palette-red-10,
+      'white': $ln-global-color-palette-white,
+      'yellow-100': $ln-global-color-palette-yellow-100,
+      'yellow-90': $ln-global-color-palette-yellow-90,
+      'yellow-80': $ln-global-color-palette-yellow-80,
+      'yellow-70': $ln-global-color-palette-yellow-70,
+      'yellow-60': $ln-global-color-palette-yellow-60,
+      'yellow-50': $ln-global-color-palette-yellow-50,
+      'yellow-40': $ln-global-color-palette-yellow-40,
+      'yellow-30': $ln-global-color-palette-yellow-30,
+      'yellow-20': $ln-global-color-palette-yellow-20,
+      'yellow-10': $ln-global-color-palette-yellow-10
+    ),
+    'monochrome': (
+      'white': $ln-global-color-monochrome-white,
+      'lighter': $ln-global-color-monochrome-lighter,
+      'lighter--rgb': $ln-global-color-monochrome-lighter-rgb,
+      'light': $ln-global-color-monochrome-light,
+      'light--rgb': $ln-global-color-monochrome-light-rgb,
+      'medium': $ln-global-color-monochrome-medium,
+      'medium--rgb': $ln-global-color-monochrome-medium-rgb,
+      'dark': $ln-global-color-monochrome-dark,
+      'dark--rgb': $ln-global-color-monochrome-dark-rgb,
+      'darker': $ln-global-color-monochrome-darker,
+      'darker--rgb': $ln-global-color-monochrome-darker-rgb,
+      'grey-v-light': $ln-global-color-monochrome-grey-v-light,
+      'grey-light': $ln-global-color-monochrome-grey-light,
+      'grey': $ln-global-color-monochrome-grey,
+      'grey-dark': $ln-global-color-monochrome-grey-dark,
+      'grey-darker': $ln-global-color-monochrome-grey-darker,
+      'black': $ln-global-color-monochrome-black
+    ),
+    'promotion': (
+      'sale': (
+        'lightest': $ln-global-color-promotion-sale-lightest,
+        'lighter': $ln-global-color-promotion-sale-lighter,
+        'light': $ln-global-color-promotion-sale-light,
+        'base': $ln-global-color-promotion-sale-base,
+        'dark': $ln-global-color-promotion-sale-dark,
+        'darker': $ln-global-color-promotion-sale-darker,
+        'darkest': $ln-global-color-promotion-sale-darkest
+      ),
+      'new': (
+        'lightest': $ln-global-color-promotion-new-lightest,
+        'lighter': $ln-global-color-promotion-new-lighter,
+        'light': $ln-global-color-promotion-new-light,
+        'base': $ln-global-color-promotion-new-base,
+        'dark': $ln-global-color-promotion-new-dark,
+        'darker': $ln-global-color-promotion-new-darker,
+        'darkest': $ln-global-color-promotion-new-darkest
+      )
+    ),
+    'scheme': (
+      'light': (
+        'base': $ln-global-color-scheme-light-base,
+        'highlight': $ln-global-color-scheme-light-highlight,
+        'on': (
+          'base': $ln-global-color-scheme-light-on-base,
+          'highlight': $ln-global-color-scheme-light-on-highlight
+        )
+      ),
+      'dark': (
+        'base': $ln-global-color-scheme-dark-base,
+        'highlight': $ln-global-color-scheme-dark-highlight,
+        'on': (
+          'base': $ln-global-color-scheme-dark-on-base,
+          'highlight': $ln-global-color-scheme-dark-on-highlight
+        )
+      ),
+      'brand-1': (
+        'base': $ln-global-color-scheme-brand-1-base,
+        'highlight': $ln-global-color-scheme-brand-1-highlight,
+        'on': (
+          'base': $ln-global-color-scheme-brand-1-on-base,
+          'highlight': $ln-global-color-scheme-brand-1-on-highlight
+        )
+      ),
+      'brand-2': (
+        'base': $ln-global-color-scheme-brand-2-base,
+        'highlight': $ln-global-color-scheme-brand-2-highlight,
+        'on': (
+          'base': $ln-global-color-scheme-brand-2-on-base,
+          'highlight': $ln-global-color-scheme-brand-2-on-highlight
+        )
+      )
+    ),
+    'semantic': (
+      'error': (
+        'lighter': $ln-global-color-semantic-error-lighter,
+        'light': $ln-global-color-semantic-error-light,
+        'base': $ln-global-color-semantic-error-base,
+        'dark': $ln-global-color-semantic-error-dark,
+        'darker': $ln-global-color-semantic-error-darker,
+        'text': $ln-global-color-semantic-error-text
+      ),
+      'info': (
+        'lighter': $ln-global-color-semantic-info-lighter,
+        'light': $ln-global-color-semantic-info-light,
+        'base': $ln-global-color-semantic-info-base,
+        'dark': $ln-global-color-semantic-info-dark,
+        'darker': $ln-global-color-semantic-info-darker,
+        'text': $ln-global-color-semantic-info-text
+      ),
+      'success': (
+        'lighter': $ln-global-color-semantic-success-lighter,
+        'light': $ln-global-color-semantic-success-light,
+        'base': $ln-global-color-semantic-success-base,
+        'dark': $ln-global-color-semantic-success-dark,
+        'darker': $ln-global-color-semantic-success-darker,
+        'text': $ln-global-color-semantic-success-text
+      ),
+      'warning': (
+        'lighter': $ln-global-color-semantic-warning-lighter,
+        'light': $ln-global-color-semantic-warning-light,
+        'base': $ln-global-color-semantic-warning-base,
+        'dark': $ln-global-color-semantic-warning-dark,
+        'darker': $ln-global-color-semantic-warning-darker,
+        'text': $ln-global-color-semantic-warning-text
+      )
+    )
+  ),
+  'mode': (
+    'dark': (
+      'background': $ln-global-mode-dark-background,
+      'base': $ln-global-mode-dark-base,
+      'base-inverse': $ln-global-mode-dark-base-inverse,
+      'border': $ln-global-mode-dark-border,
+      'border-interactive': $ln-global-mode-dark-border-interactive,
+      'border-interactive-highlight': $ln-global-mode-dark-border-interactive-highlight,
+      'footer-background': $ln-global-mode-dark-footer-background,
+      'footer-text': $ln-global-mode-dark-footer-text,
+      'foreground': $ln-global-mode-dark-foreground,
+      'header-background': $ln-global-mode-dark-header-background,
+      'header-text': $ln-global-mode-dark-header-text,
+      'highlight': $ln-global-mode-dark-highlight,
+      'highlight-inverse': $ln-global-mode-dark-highlight-inverse
+    ),
+    'default': (
+      'background': $ln-global-mode-default-background,
+      'base': $ln-global-mode-default-base,
+      'base-inverse': $ln-global-mode-default-base-inverse,
+      'border': $ln-global-mode-default-border,
+      'border-interactive': $ln-global-mode-default-border-interactive,
+      'border-interactive-highlight': $ln-global-mode-default-border-interactive-highlight,
+      'footer-background': $ln-global-mode-default-footer-background,
+      'footer-text': $ln-global-mode-default-footer-text,
+      'foreground': $ln-global-mode-default-foreground,
+      'header-background': $ln-global-mode-default-header-background,
+      'header-text': $ln-global-mode-default-header-text,
+      'highlight': $ln-global-mode-default-highlight,
+      'highlight-inverse': $ln-global-mode-default-highlight-inverse
+    )
+  ),
+  'surface': (
+    'light': (
+      'background': $ln-global-surface-light-background,
+      'base': $ln-global-surface-light-base,
+      'border': $ln-global-surface-light-border,
+      'highlight': $ln-global-surface-light-highlight,
+      'interactive': $ln-global-surface-light-interactive,
+      'interactive-hover': $ln-global-surface-light-interactive-hover
+    ),
+    'white': (
+      'background': $ln-global-surface-white-background,
+      'base': $ln-global-surface-white-base,
+      'border': $ln-global-surface-white-border,
+      'highlight': $ln-global-surface-white-highlight
+    ),
+    'dark': (
+      'background': $ln-global-surface-dark-background,
+      'base': $ln-global-surface-dark-base,
+      'border': $ln-global-surface-dark-border,
+      'highlight': $ln-global-surface-dark-highlight,
+      'interactive': $ln-global-surface-dark-interactive,
+      'interactive-hover': $ln-global-surface-dark-interactive-hover
+    ),
+    'grey': (
+      'background': $ln-global-surface-grey-background,
+      'base': $ln-global-surface-grey-base,
+      'border': $ln-global-surface-grey-border,
+      'highlight': $ln-global-surface-grey-highlight
+    )
+  ),
+  'modifier': (
+    'border': (
+      'width': $ln-global-modifier-border-width,
+      'width-large': $ln-global-modifier-border-width-large,
+      'radius': $ln-global-modifier-border-radius,
+      'radius-large': $ln-global-modifier-border-radius-large
+    ),
+    'border-interactive': (
+      'width': $ln-global-modifier-border-interactive-width
+    ),
+    'button': (
+      'border': $ln-global-modifier-button-border
+    ),
+    'focus-ring': (
+      'focus-width': $ln-global-modifier-focus-ring-focus-width,
+      'color': $ln-global-modifier-focus-ring-color
+    ),
+    'footer': (
+      'background': $ln-global-modifier-footer-background,
+      'text': $ln-global-modifier-footer-text
+    ),
+    'header': (
+      'background': $ln-global-modifier-header-background
+    ),
+    'global-bar': (
+      'height': $ln-global-modifier-global-bar-height
+    ),
+    'transition': (
+      'duration': $ln-global-modifier-transition-duration,
+      'duration-long': $ln-global-modifier-transition-duration-long,
+      'timing-function': (
+        'default': $ln-global-modifier-transition-timing-function-default
+      )
+    )
+  ),
+  'opacity': (
+    'default': $ln-global-opacity-default,
+    'light': $ln-global-opacity-light,
+    'disabled': $ln-global-opacity-disabled,
+    'background': $ln-global-opacity-background
+  ),
+  'overlay': (
+    'color': $ln-global-overlay-color,
+    'opacity': $ln-global-overlay-opacity
+  ),
+  'space': (
+    'baseline': (
+      'grid': $ln-global-space-baseline-grid,
+      'condensed': $ln-global-space-baseline-condensed
+    ),
+    'fixed-width': (
+      'extra-small': $ln-global-space-fixed-width-extra-small,
+      'small': $ln-global-space-fixed-width-small,
+      'medium': $ln-global-space-fixed-width-medium,
+      'large': $ln-global-space-fixed-width-large
+    ),
+    'size': (
+      'small': $ln-global-space-size-small,
+      'medium': $ln-global-space-size-medium,
+      'large': $ln-global-space-size-large
+    ),
+    'spacing': (
+      'default': $ln-global-space-spacing-default,
+      'extra-small': $ln-global-space-spacing-extra-small,
+      'small': $ln-global-space-spacing-small,
+      'medium': $ln-global-space-spacing-medium,
+      'large': $ln-global-space-spacing-large,
+      'extra-large': $ln-global-space-spacing-extra-large,
+      'half': $ln-global-space-spacing-half,
+      'x1': $ln-global-space-spacing-x1,
+      'x2': $ln-global-space-spacing-x2,
+      'x3': $ln-global-space-spacing-x3,
+      'x4': $ln-global-space-spacing-x4,
+      'x5': $ln-global-space-spacing-x5,
+      'x6': $ln-global-space-spacing-x6,
+      'x7': $ln-global-space-spacing-x7,
+      'x8': $ln-global-space-spacing-x8,
+      'x9': $ln-global-space-spacing-x9,
+      'x10': $ln-global-space-spacing-x10
+    ),
+    'breakpoints': (
+      'extra-extra-small': $ln-global-space-breakpoints-extra-extra-small,
+      'extra-small': $ln-global-space-breakpoints-extra-small,
+      'small': $ln-global-space-breakpoints-small,
+      'medium': $ln-global-space-breakpoints-medium,
+      'large': $ln-global-space-breakpoints-large,
+      'extra-large': $ln-global-space-breakpoints-extra-large,
+      'extra-extra-large': $ln-global-space-breakpoints-extra-extra-large
+    )
+  ),
+  'typography': (
+    'base': (
+      'font-family': $ln-global-typography-base-font-family,
+      'font': $ln-global-typography-base-font,
+      'letterform': $ln-global-typography-base-letterform
+    ),
+    'brand': (
+      'font-family': $ln-global-typography-brand-font-family,
+      'font': $ln-global-typography-brand-font,
+      'letterform': $ln-global-typography-brand-letterform
+    ),
+    'monospace': (
+      'font-family': $ln-global-typography-monospace-font-family
+    ),
+    'system': (
+      'font-family': $ln-global-typography-system-font-family
+    ),
+    'font-size': (
+      'root': $ln-global-typography-font-size-root,
+      'default': $ln-global-typography-font-size-default,
+      'rem': $ln-global-typography-font-size-rem
+    ),
+    'font-weight': (
+      'light': $ln-global-typography-font-weight-light,
+      'regular': $ln-global-typography-font-weight-regular,
+      'medium': $ln-global-typography-font-weight-medium,
+      'semi-bold': $ln-global-typography-font-weight-semi-bold,
+      'bold': $ln-global-typography-font-weight-bold,
+      'extra-bold': $ln-global-typography-font-weight-extra-bold,
+      'black': $ln-global-typography-font-weight-black
+    )
+  ),
+  'font-stack': (
+    'display-7': (
+      'font-size': $ln-global-font-stack-display-7-font-size,
+      'line-height': $ln-global-font-stack-display-7-line-height,
+      'font-weight': $ln-global-font-stack-display-7-font-weight,
+      'font-family': $ln-global-font-stack-display-7-font-family
+    ),
+    'display-6': (
+      'font-size': $ln-global-font-stack-display-6-font-size,
+      'line-height': $ln-global-font-stack-display-6-line-height,
+      'font-weight': $ln-global-font-stack-display-6-font-weight,
+      'font-family': $ln-global-font-stack-display-6-font-family
+    ),
+    'display-5': (
+      'font-size': $ln-global-font-stack-display-5-font-size,
+      'line-height': $ln-global-font-stack-display-5-line-height,
+      'font-weight': $ln-global-font-stack-display-5-font-weight,
+      'font-family': $ln-global-font-stack-display-5-font-family
+    ),
+    'display-4': (
+      'font-size': $ln-global-font-stack-display-4-font-size,
+      'line-height': $ln-global-font-stack-display-4-line-height,
+      'font-weight': $ln-global-font-stack-display-4-font-weight,
+      'font-family': $ln-global-font-stack-display-4-font-family
+    ),
+    'display-3': (
+      'font-size': $ln-global-font-stack-display-3-font-size,
+      'line-height': $ln-global-font-stack-display-3-line-height,
+      'font-weight': $ln-global-font-stack-display-3-font-weight,
+      'font-family': $ln-global-font-stack-display-3-font-family
+    ),
+    'display-2': (
+      'font-size': $ln-global-font-stack-display-2-font-size,
+      'line-height': $ln-global-font-stack-display-2-line-height,
+      'font-weight': $ln-global-font-stack-display-2-font-weight,
+      'font-family': $ln-global-font-stack-display-2-font-family
+    ),
+    'display-1': (
+      'font-size': $ln-global-font-stack-display-1-font-size,
+      'line-height': $ln-global-font-stack-display-1-line-height,
+      'font-weight': $ln-global-font-stack-display-1-font-weight,
+      'font-family': $ln-global-font-stack-display-1-font-family
+    ),
+    'label-1': (
+      'font-size': $ln-global-font-stack-label-1-font-size,
+      'line-height': $ln-global-font-stack-label-1-line-height,
+      'font-weight': $ln-global-font-stack-label-1-font-weight,
+      'font-family': $ln-global-font-stack-label-1-font-family
+    ),
+    'label-2': (
+      'font-size': $ln-global-font-stack-label-2-font-size,
+      'line-height': $ln-global-font-stack-label-2-line-height,
+      'font-weight': $ln-global-font-stack-label-2-font-weight,
+      'font-family': $ln-global-font-stack-label-2-font-family
+    ),
+    'body-2': (
+      'font-size': $ln-global-font-stack-body-2-font-size,
+      'line-height': $ln-global-font-stack-body-2-line-height,
+      'font-weight': $ln-global-font-stack-body-2-font-weight,
+      'font-family': $ln-global-font-stack-body-2-font-family
+    ),
+    'body-1': (
+      'font-size': $ln-global-font-stack-body-1-font-size,
+      'line-height': $ln-global-font-stack-body-1-line-height,
+      'font-weight': $ln-global-font-stack-body-1-font-weight,
+      'font-family': $ln-global-font-stack-body-1-font-family
+    ),
+    'caption': (
+      'font-size': $ln-global-font-stack-caption-font-size,
+      'line-height': $ln-global-font-stack-caption-line-height,
+      'font-weight': $ln-global-font-stack-caption-font-weight,
+      'font-family': $ln-global-font-stack-caption-font-family
+    ),
+    'button': (
+      'font-size': $ln-global-font-stack-button-font-size,
+      'line-height': $ln-global-font-stack-button-line-height,
+      'font-weight': $ln-global-font-stack-button-font-weight,
+      'font-family': $ln-global-font-stack-button-font-family
+    )
+  )
+);

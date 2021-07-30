@@ -1,0 +1,22 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 26 Jul 2021 14:20:36 GMT
+ */
+
+:root {
+  --ln-modifier-border-width: 1px;
+  --ln-modifier-border-width-large: 2px;
+  --ln-modifier-border-radius: 2px;
+  --ln-modifier-border-radius-large: 4px;
+  --ln-modifier-border-interactive-width: 1px; /* generally used for interactive components such as input fields */
+  --ln-modifier-button-border: 2px;
+  --ln-modifier-focus-ring-focus-width: 3px;
+  --ln-modifier-focus-ring-color: #0c509f;
+  --ln-modifier-footer-background: #404040;
+  --ln-modifier-footer-text: #ffffff;
+  --ln-modifier-header-background: #ffffff;
+  --ln-modifier-global-bar-height: 36px;
+  --ln-modifier-transition-duration: 0.2s;
+  --ln-modifier-transition-duration-long: 0.4s;
+  --ln-modifier-transition-timing-function-default: ease-out;
+}

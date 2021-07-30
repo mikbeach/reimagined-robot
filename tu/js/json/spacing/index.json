@@ -1,0 +1,47 @@
+{
+  "space": {
+    "baseline": {
+      "grid": 8,
+      "condensed": 4
+    },
+    "fixed-width": {
+      "extra-small": 800,
+      "small": 1280,
+      "medium": 1440,
+      "large": 1800
+    },
+    "size": {
+      "small": 24,
+      "medium": 48,
+      "large": 80
+    },
+    "spacing": {
+      "default": 8,
+      "extra-small": 4,
+      "small": 8,
+      "medium": 16,
+      "large": 24,
+      "extra-large": 32,
+      "half": 4,
+      "x1": 8,
+      "x2": 16,
+      "x3": 24,
+      "x4": 32,
+      "x5": 40,
+      "x6": 48,
+      "x7": 56,
+      "x8": 64,
+      "x9": 72,
+      "x10": 80
+    },
+    "breakpoints": {
+      "extra-extra-small": 480,
+      "extra-small": 600,
+      "small": 720,
+      "medium": 960,
+      "large": 1200,
+      "extra-large": 1400,
+      "extra-extra-large": 1800
+    }
+  }
+}

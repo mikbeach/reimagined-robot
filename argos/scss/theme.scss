@@ -1,0 +1,809 @@
+
+/**
+ * Do not edit directly
+ * Generated on Mon, 26 Jul 2021 14:20:36 GMT
+ */
+
+$ln-argos-color-palette-black: #000000 !default;
+$ln-argos-color-palette-blue-100: #0e4174 !default;
+$ln-argos-color-palette-blue-90: #114e8b !default;
+$ln-argos-color-palette-blue-80: #135ca3 !default;
+$ln-argos-color-palette-blue-70: #08305f !default;
+$ln-argos-color-palette-blue-60: #0c509f !default;
+$ln-argos-color-palette-blue-50: #e4f1ff !default;
+$ln-argos-color-palette-blue-40: #6ca7e2 !default;
+$ln-argos-color-palette-blue-30: #95c0ea !default;
+$ln-argos-color-palette-blue-20: #bfd9f2 !default;
+$ln-argos-color-palette-blue-10: #e8f1fb !default;
+$ln-argos-color-palette-brand-1: #008542 !default;
+$ln-argos-color-palette-brand-1-highlight: #045228 !default;
+$ln-argos-color-palette-brand-2: #d42114 !default;
+$ln-argos-color-palette-brand-2-highlight: #7f150d !default;
+$ln-argos-color-palette-green-100: #19451c !default;
+$ln-argos-color-palette-green-90: #1f5321 !default;
+$ln-argos-color-palette-green-80: #246127 !default;
+$ln-argos-color-palette-green-70: #045228 !default;
+$ln-argos-color-palette-green-60: #008542 !default;
+$ln-argos-color-palette-green-50: #edfff6 !default;
+$ln-argos-color-palette-green-40: #79ac7c !default;
+$ln-argos-color-palette-green-30: #9fc3a1 !default;
+$ln-argos-color-palette-green-20: #c5dbc6 !default;
+$ln-argos-color-palette-green-10: #eaf2eb !default;
+$ln-argos-color-palette-grey-100: #0d0d0d !default;
+$ln-argos-color-palette-grey-90: #262626 !default;
+$ln-argos-color-palette-grey-80: #404040 !default;
+$ln-argos-color-palette-grey-70: #595959 !default;
+$ln-argos-color-palette-grey-60: #737373 !default;
+$ln-argos-color-palette-grey-50: #8c8c8c !default;
+$ln-argos-color-palette-grey-40: #a6a6a6 !default;
+$ln-argos-color-palette-grey-30: #bfbfbf !default;
+$ln-argos-color-palette-grey-20: #d8d8d8 !default;
+$ln-argos-color-palette-grey-10: #f2f2f2 !default;
+$ln-argos-color-palette-blue: #0c509f !default;
+$ln-argos-color-palette-green: #008542 !default;
+$ln-argos-color-palette-red: #d42114 !default;
+$ln-argos-color-palette-yellow: #efc71d !default;
+$ln-argos-color-palette-red-100: #750000 !default;
+$ln-argos-color-palette-red-90: #8d0000 !default;
+$ln-argos-color-palette-red-80: #a50000 !default;
+$ln-argos-color-palette-red-70: #7f150d !default;
+$ln-argos-color-palette-red-60: #d42114 !default;
+$ln-argos-color-palette-red-50: #ffeeed !default;
+$ln-argos-color-palette-red-40: #e45c5c !default;
+$ln-argos-color-palette-red-30: #ec8a8a !default;
+$ln-argos-color-palette-red-20: #f3b8b8 !default;
+$ln-argos-color-palette-red-10: #fbe6e6 !default;
+$ln-argos-color-palette-white: #ffffff !default;
+$ln-argos-color-palette-yellow-100: #8c7600 !default;
+$ln-argos-color-palette-yellow-90: #a98e00 !default;
+$ln-argos-color-palette-yellow-80: #c6a600 !default;
+$ln-argos-color-palette-yellow-70: #bf9f18 !default;
+$ln-argos-color-palette-yellow-60: #efc71d !default;
+$ln-argos-color-palette-yellow-50: #ffdd2e !default;
+$ln-argos-color-palette-yellow-40: #ffe55c !default;
+$ln-argos-color-palette-yellow-30: #ffec8a !default;
+$ln-argos-color-palette-yellow-20: #fff4b8 !default;
+$ln-argos-color-palette-yellow-10: #fffbe6 !default;
+$ln-argos-color-palette-brand-1-lowlight: #edfff6 !default;
+$ln-argos-color-palette-brand-2-lowlight: #ffeeed !default;
+$ln-argos-color-palette-brand-3: #0c509f !default;
+$ln-argos-color-palette-brand-3-highlight: #08305f !default;
+$ln-argos-color-palette-brand-3-lowlight: #e4f1ff !default;
+$ln-argos-color-palette-brand-4: #efc71d !default;
+$ln-argos-color-palette-brand-4-highlight: #bf9f18 !default;
+$ln-argos-color-palette-green-light: #edfff6 !default;
+$ln-argos-color-palette-green-dark: #045228 !default;
+$ln-argos-color-palette-blue-light: #e4f1ff !default;
+$ln-argos-color-palette-blue-dark: #08305f !default;
+$ln-argos-color-palette-red-light: #ffeeed !default;
+$ln-argos-color-palette-red-dark: #7f150d !default;
+$ln-argos-color-palette-yellow-dark: #bf9f18 !default;
+$ln-argos-color-monochrome-white: #ffffff !default;
+$ln-argos-color-monochrome-lighter: #f2f2f2 !default;
+$ln-argos-color-monochrome-lighter-rgb: #f2f2f2 !default;
+$ln-argos-color-monochrome-light: #d8d8d8 !default;
+$ln-argos-color-monochrome-light-rgb: #d8d8d8 !default;
+$ln-argos-color-monochrome-medium: #737373 !default;
+$ln-argos-color-monochrome-medium-rgb: #737373 !default;
+$ln-argos-color-monochrome-dark: #404040 !default;
+$ln-argos-color-monochrome-dark-rgb: #404040 !default;
+$ln-argos-color-monochrome-darker: #262626 !default;
+$ln-argos-color-monochrome-darker-rgb: #262626 !default;
+$ln-argos-color-monochrome-grey-v-light: #f2f2f2 !default; // deprecated
+$ln-argos-color-monochrome-grey-light: #d8d8d8 !default; // deprecated
+$ln-argos-color-monochrome-grey: #8c8c8c !default; // deprecated
+$ln-argos-color-monochrome-grey-dark: #404040 !default; // deprecated
+$ln-argos-color-monochrome-grey-darker: #262626 !default; // deprecated
+$ln-argos-color-monochrome-black: #000000 !default;
+$ln-argos-color-promotion-sale-lightest: #fbe6e6 !default;
+$ln-argos-color-promotion-sale-lighter: #ec8a8a !default;
+$ln-argos-color-promotion-sale-light: #ffeeed !default;
+$ln-argos-color-promotion-sale-base: #d42114 !default;
+$ln-argos-color-promotion-sale-dark: #7f150d !default;
+$ln-argos-color-promotion-sale-darker: #a50000 !default;
+$ln-argos-color-promotion-sale-darkest: #8d0000 !default;
+$ln-argos-color-promotion-new-lightest: #e8f1fb !default;
+$ln-argos-color-promotion-new-lighter: #95c0ea !default;
+$ln-argos-color-promotion-new-light: #e4f1ff !default;
+$ln-argos-color-promotion-new-base: #0c509f !default;
+$ln-argos-color-promotion-new-dark: #08305f !default;
+$ln-argos-color-promotion-new-darker: #135ca3 !default;
+$ln-argos-color-promotion-new-darkest: #114e8b !default;
+$ln-argos-color-scheme-light-base: #f2f2f2 !default;
+$ln-argos-color-scheme-light-highlight: #ffffff !default;
+$ln-argos-color-scheme-light-on-base: #404040 !default;
+$ln-argos-color-scheme-light-on-highlight: #000000 !default;
+$ln-argos-color-scheme-dark-base: #404040 !default;
+$ln-argos-color-scheme-dark-highlight: #000000 !default;
+$ln-argos-color-scheme-dark-on-base: #ffffff !default;
+$ln-argos-color-scheme-dark-on-highlight: #ffffff !default;
+$ln-argos-color-scheme-brand-1-base: #d42114 !default;
+$ln-argos-color-scheme-brand-1-highlight: #7f150d !default;
+$ln-argos-color-scheme-brand-1-on-base: #ffffff !default;
+$ln-argos-color-scheme-brand-1-on-highlight: #ffffff !default;
+$ln-argos-color-scheme-brand-2-base: #008542 !default;
+$ln-argos-color-scheme-brand-2-highlight: #045228 !default;
+$ln-argos-color-scheme-brand-2-on-base: #ffffff !default;
+$ln-argos-color-scheme-brand-2-on-highlight: #ffffff !default;
+$ln-argos-color-scheme-brand-3-base: #0c509f !default;
+$ln-argos-color-scheme-brand-3-highlight: #08305f !default;
+$ln-argos-color-scheme-brand-3-on-base: #ffffff !default;
+$ln-argos-color-scheme-brand-3-on-highlight: #ffffff !default;
+$ln-argos-color-semantic-error-lighter: #fbe6e6 !default;
+$ln-argos-color-semantic-error-light: #ffeeed !default;
+$ln-argos-color-semantic-error-base: #d42114 !default;
+$ln-argos-color-semantic-error-dark: #7f150d !default;
+$ln-argos-color-semantic-error-darker: #a50000 !default;
+$ln-argos-color-semantic-error-text: #d42114 !default; // The default accessible text on the base value
+$ln-argos-color-semantic-info-lighter: #e8f1fb !default;
+$ln-argos-color-semantic-info-light: #e4f1ff !default;
+$ln-argos-color-semantic-info-base: #0c509f !default;
+$ln-argos-color-semantic-info-dark: #08305f !default;
+$ln-argos-color-semantic-info-darker: #135ca3 !default;
+$ln-argos-color-semantic-info-text: #0c509f !default; // The default accessible text on the base value
+$ln-argos-color-semantic-success-lighter: #eaf2eb !default;
+$ln-argos-color-semantic-success-light: #edfff6 !default;
+$ln-argos-color-semantic-success-base: #008542 !default;
+$ln-argos-color-semantic-success-dark: #045228 !default;
+$ln-argos-color-semantic-success-darker: #246127 !default;
+$ln-argos-color-semantic-success-text: #008542 !default; // The default accessible text on the base value
+$ln-argos-color-semantic-warning-lighter: #fffbe6 !default;
+$ln-argos-color-semantic-warning-light: #ffdd2e !default;
+$ln-argos-color-semantic-warning-base: #efc71d !default;
+$ln-argos-color-semantic-warning-dark: #bf9f18 !default;
+$ln-argos-color-semantic-warning-darker: #c6a600 !default;
+$ln-argos-color-semantic-warning-text: #404040 !default; // The default accessible text on the base value
+$ln-argos-color-mode-default-surface-background: #ffffff !default;
+$ln-argos-color-mode-default-surface-foreground: #ffffff !default;
+$ln-argos-color-mode-default-border: #737373 !default;
+$ln-argos-color-mode-default-scheme-base: #262626 !default;
+$ln-argos-color-mode-default-scheme-highlight: #000000 !default;
+$ln-argos-color-mode-default-scheme-on-base: #ffffff !default;
+$ln-argos-color-mode-default-scheme-on-highlight: #ffffff !default;
+$ln-argos-mode-dark-background: #262626 !default;
+$ln-argos-mode-dark-base: #f2f2f2 !default;
+$ln-argos-mode-dark-base-inverse: #404040 !default;
+$ln-argos-mode-dark-border: #404040 !default;
+$ln-argos-mode-dark-border-interactive: #737373 !default;
+$ln-argos-mode-dark-border-interactive-highlight: #f2f2f2 !default;
+$ln-argos-mode-dark-footer-background: #ffffff !default;
+$ln-argos-mode-dark-footer-text: #404040 !default;
+$ln-argos-mode-dark-foreground: #262626 !default;
+$ln-argos-mode-dark-header-background: #262626 !default;
+$ln-argos-mode-dark-header-text: #f2f2f2 !default;
+$ln-argos-mode-dark-highlight: #ffffff !default;
+$ln-argos-mode-dark-highlight-inverse: #000000 !default;
+$ln-argos-mode-default-background: #f2f2f2 !default; // default website background
+$ln-argos-mode-default-base: #404040 !default; // base text colour on default bg
+$ln-argos-mode-default-base-inverse: #404040 !default; // base text colour on default foreground
+$ln-argos-mode-default-border: #d8d8d8 !default;
+$ln-argos-mode-default-border-interactive: #737373 !default;
+$ln-argos-mode-default-border-interactive-highlight: #f2f2f2 !default;
+$ln-argos-mode-default-footer-background: #262626 !default;
+$ln-argos-mode-default-footer-text: #f2f2f2 !default;
+$ln-argos-mode-default-foreground: #ffffff !default; // default background that are given to luna components
+$ln-argos-mode-default-header-background: #ffffff !default;
+$ln-argos-mode-default-header-text: #404040 !default;
+$ln-argos-mode-default-highlight: #000000 !default;
+$ln-argos-mode-default-highlight-inverse: #000000 !default;
+$ln-argos-surface-light-background: #f2f2f2 !default; // surface colour most likely to be used as a background
+$ln-argos-surface-light-base: #404040 !default; // base text colour on default bg
+$ln-argos-surface-light-border: #d8d8d8 !default;
+$ln-argos-surface-light-highlight: #000000 !default;
+$ln-argos-surface-light-interactive: #737373 !default;
+$ln-argos-surface-light-interactive-hover: #f2f2f2 !default;
+$ln-argos-surface-white-background: #ffffff !default;
+$ln-argos-surface-white-base: #404040 !default;
+$ln-argos-surface-white-border: #d8d8d8 !default;
+$ln-argos-surface-white-highlight: #000000 !default;
+$ln-argos-surface-dark-background: #262626 !default;
+$ln-argos-surface-dark-base: #f2f2f2 !default; // base text colour on default bg
+$ln-argos-surface-dark-border: #404040 !default;
+$ln-argos-surface-dark-highlight: #ffffff !default;
+$ln-argos-surface-dark-interactive: #737373 !default;
+$ln-argos-surface-dark-interactive-hover: #404040 !default;
+$ln-argos-surface-grey-background: #262626 !default;
+$ln-argos-surface-grey-base: #f2f2f2 !default; // base text colour on default bg
+$ln-argos-surface-grey-border: #404040 !default;
+$ln-argos-surface-grey-highlight: #000000 !default;
+$ln-argos-modifier-border-width: 1px !default;
+$ln-argos-modifier-border-width-large: 2px !default;
+$ln-argos-modifier-border-radius: 2px !default;
+$ln-argos-modifier-border-radius-large: 4px !default;
+$ln-argos-modifier-border-interactive-width: 1px !default; // generally used for interactive components such as input fields
+$ln-argos-modifier-button-border: 2px !default;
+$ln-argos-modifier-focus-ring-focus-width: 3px !default;
+$ln-argos-modifier-focus-ring-color: #0c509f !default;
+$ln-argos-modifier-footer-background: #404040 !default;
+$ln-argos-modifier-footer-text: #ffffff !default;
+$ln-argos-modifier-header-background: #ffffff !default;
+$ln-argos-modifier-global-bar-height: 36px !default;
+$ln-argos-modifier-transition-duration: 0.2s !default;
+$ln-argos-modifier-transition-duration-long: 0.4s !default;
+$ln-argos-modifier-transition-timing-function-default: ease-out !default;
+$ln-argos-opacity-default: 0.7 !default;
+$ln-argos-opacity-light: 0.15 !default;
+$ln-argos-opacity-disabled: 0.35 !default;
+$ln-argos-opacity-background: 0.06 !default;
+$ln-argos-overlay-color: #000000 !default;
+$ln-argos-overlay-opacity: 0.7 !default;
+$ln-argos-space-baseline-grid: 8 !default;
+$ln-argos-space-baseline-condensed: 4 !default;
+$ln-argos-space-fixed-width-extra-small: 800 !default;
+$ln-argos-space-fixed-width-small: 1280 !default;
+$ln-argos-space-fixed-width-medium: 1440 !default;
+$ln-argos-space-fixed-width-large: 1800 !default;
+$ln-argos-space-size-small: 24px !default;
+$ln-argos-space-size-medium: 48px !default;
+$ln-argos-space-size-large: 80px !default;
+$ln-argos-space-spacing-default: 8px !default;
+$ln-argos-space-spacing-extra-small: 4px !default;
+$ln-argos-space-spacing-small: 8px !default;
+$ln-argos-space-spacing-medium: 16px !default;
+$ln-argos-space-spacing-large: 24px !default;
+$ln-argos-space-spacing-extra-large: 32px !default;
+$ln-argos-space-spacing-half: 4px !default;
+$ln-argos-space-spacing-x1: 8px !default;
+$ln-argos-space-spacing-x2: 16px !default;
+$ln-argos-space-spacing-x3: 24px !default;
+$ln-argos-space-spacing-x4: 32px !default;
+$ln-argos-space-spacing-x5: 40px !default;
+$ln-argos-space-spacing-x6: 48px !default;
+$ln-argos-space-spacing-x7: 56px !default;
+$ln-argos-space-spacing-x8: 64px !default;
+$ln-argos-space-spacing-x9: 72px !default;
+$ln-argos-space-spacing-x10: 80px !default;
+$ln-argos-space-breakpoints-extra-extra-small: 480px !default;
+$ln-argos-space-breakpoints-extra-small: 600px !default;
+$ln-argos-space-breakpoints-small: 720px !default;
+$ln-argos-space-breakpoints-medium: 960px !default;
+$ln-argos-space-breakpoints-large: 1200px !default;
+$ln-argos-space-breakpoints-extra-large: 1400px !default;
+$ln-argos-space-breakpoints-extra-extra-large: 1800px !default;
+$ln-argos-typography-base-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default; // The font stack which has fallbacks primarly used on web
+$ln-argos-typography-base-font: Barlow !default; // Main font used in this category
+$ln-argos-typography-base-letterform: sans-serif !default; // the letterform type which the font belongs to
+$ln-argos-typography-brand-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default; // The font stack which has fallbacks primarly used on web
+$ln-argos-typography-brand-font: Barlow !default; // Main font used in this category
+$ln-argos-typography-brand-letterform: sans-serif !default; // the letterform type which the font belongs to
+$ln-argos-typography-monospace-font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace !default;
+$ln-argos-typography-system-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-argos-typography-font-size-root: 1rem !default; // The browser default font-size
+$ln-argos-typography-font-size-default: 16 !default; // The font-size in px
+$ln-argos-typography-font-size-rem: 16 !default; // The font-size in rem
+$ln-argos-typography-font-weight-light: 300 !default;
+$ln-argos-typography-font-weight-regular: 400 !default;
+$ln-argos-typography-font-weight-medium: 500 !default;
+$ln-argos-typography-font-weight-semi-bold: 600 !default;
+$ln-argos-typography-font-weight-bold: 700 !default;
+$ln-argos-typography-font-weight-extra-bold: 800 !default;
+$ln-argos-typography-font-weight-black: 900 !default;
+$ln-argos-font-stack-display-7-font-size: 61px !default;
+$ln-argos-font-stack-display-7-line-height: 76px !default;
+$ln-argos-font-stack-display-7-font-weight: 600 !default;
+$ln-argos-font-stack-display-7-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-argos-font-stack-display-6-font-size: 49px !default;
+$ln-argos-font-stack-display-6-line-height: 62px !default;
+$ln-argos-font-stack-display-6-font-weight: 600 !default;
+$ln-argos-font-stack-display-6-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-argos-font-stack-display-5-font-size: 39px !default;
+$ln-argos-font-stack-display-5-line-height: 50px !default;
+$ln-argos-font-stack-display-5-font-weight: 600 !default;
+$ln-argos-font-stack-display-5-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-argos-font-stack-display-4-font-size: 31px !default;
+$ln-argos-font-stack-display-4-line-height: 40px !default;
+$ln-argos-font-stack-display-4-font-weight: 600 !default;
+$ln-argos-font-stack-display-4-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-argos-font-stack-display-3-font-size: 25px !default;
+$ln-argos-font-stack-display-3-line-height: 32px !default;
+$ln-argos-font-stack-display-3-font-weight: 600 !default;
+$ln-argos-font-stack-display-3-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-argos-font-stack-display-2-font-size: 21px !default;
+$ln-argos-font-stack-display-2-line-height: 26px !default;
+$ln-argos-font-stack-display-2-font-weight: 600 !default;
+$ln-argos-font-stack-display-2-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-argos-font-stack-display-1-font-size: 19px !default;
+$ln-argos-font-stack-display-1-line-height: 26px !default;
+$ln-argos-font-stack-display-1-font-weight: 600 !default;
+$ln-argos-font-stack-display-1-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-argos-font-stack-label-1-font-size: 17px !default;
+$ln-argos-font-stack-label-1-line-height: 24px !default;
+$ln-argos-font-stack-label-1-font-weight: 600 !default;
+$ln-argos-font-stack-label-1-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-argos-font-stack-label-2-font-size: 17px !default;
+$ln-argos-font-stack-label-2-line-height: 24px !default;
+$ln-argos-font-stack-label-2-font-weight: 600 !default;
+$ln-argos-font-stack-label-2-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-argos-font-stack-body-2-font-size: 19px !default;
+$ln-argos-font-stack-body-2-line-height: 26px !default;
+$ln-argos-font-stack-body-2-font-weight: 400 !default;
+$ln-argos-font-stack-body-2-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-argos-font-stack-body-1-font-size: 17px !default;
+$ln-argos-font-stack-body-1-line-height: 24px !default;
+$ln-argos-font-stack-body-1-font-weight: 400 !default;
+$ln-argos-font-stack-body-1-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-argos-font-stack-caption-font-size: 15px !default;
+$ln-argos-font-stack-caption-line-height: 22px !default;
+$ln-argos-font-stack-caption-font-weight: 400 !default;
+$ln-argos-font-stack-caption-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-argos-font-stack-button-font-size: 17px !default;
+$ln-argos-font-stack-button-line-height: 24px !default;
+$ln-argos-font-stack-button-font-weight: 600 !default;
+$ln-argos-font-stack-button-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+
+$ln-argos: (
+  'color': (
+    'palette': (
+      'black': $ln-argos-color-palette-black,
+      'blue-100': $ln-argos-color-palette-blue-100,
+      'blue-90': $ln-argos-color-palette-blue-90,
+      'blue-80': $ln-argos-color-palette-blue-80,
+      'blue-70': $ln-argos-color-palette-blue-70,
+      'blue-60': $ln-argos-color-palette-blue-60,
+      'blue-50': $ln-argos-color-palette-blue-50,
+      'blue-40': $ln-argos-color-palette-blue-40,
+      'blue-30': $ln-argos-color-palette-blue-30,
+      'blue-20': $ln-argos-color-palette-blue-20,
+      'blue-10': $ln-argos-color-palette-blue-10,
+      'brand-1': $ln-argos-color-palette-brand-1,
+      'brand-1-highlight': $ln-argos-color-palette-brand-1-highlight,
+      'brand-2': $ln-argos-color-palette-brand-2,
+      'brand-2-highlight': $ln-argos-color-palette-brand-2-highlight,
+      'green-100': $ln-argos-color-palette-green-100,
+      'green-90': $ln-argos-color-palette-green-90,
+      'green-80': $ln-argos-color-palette-green-80,
+      'green-70': $ln-argos-color-palette-green-70,
+      'green-60': $ln-argos-color-palette-green-60,
+      'green-50': $ln-argos-color-palette-green-50,
+      'green-40': $ln-argos-color-palette-green-40,
+      'green-30': $ln-argos-color-palette-green-30,
+      'green-20': $ln-argos-color-palette-green-20,
+      'green-10': $ln-argos-color-palette-green-10,
+      'grey-100': $ln-argos-color-palette-grey-100,
+      'grey-90': $ln-argos-color-palette-grey-90,
+      'grey-80': $ln-argos-color-palette-grey-80,
+      'grey-70': $ln-argos-color-palette-grey-70,
+      'grey-60': $ln-argos-color-palette-grey-60,
+      'grey-50': $ln-argos-color-palette-grey-50,
+      'grey-40': $ln-argos-color-palette-grey-40,
+      'grey-30': $ln-argos-color-palette-grey-30,
+      'grey-20': $ln-argos-color-palette-grey-20,
+      'grey-10': $ln-argos-color-palette-grey-10,
+      'blue': $ln-argos-color-palette-blue,
+      'green': $ln-argos-color-palette-green,
+      'red': $ln-argos-color-palette-red,
+      'yellow': $ln-argos-color-palette-yellow,
+      'red-100': $ln-argos-color-palette-red-100,
+      'red-90': $ln-argos-color-palette-red-90,
+      'red-80': $ln-argos-color-palette-red-80,
+      'red-70': $ln-argos-color-palette-red-70,
+      'red-60': $ln-argos-color-palette-red-60,
+      'red-50': $ln-argos-color-palette-red-50,
+      'red-40': $ln-argos-color-palette-red-40,
+      'red-30': $ln-argos-color-palette-red-30,
+      'red-20': $ln-argos-color-palette-red-20,
+      'red-10': $ln-argos-color-palette-red-10,
+      'white': $ln-argos-color-palette-white,
+      'yellow-100': $ln-argos-color-palette-yellow-100,
+      'yellow-90': $ln-argos-color-palette-yellow-90,
+      'yellow-80': $ln-argos-color-palette-yellow-80,
+      'yellow-70': $ln-argos-color-palette-yellow-70,
+      'yellow-60': $ln-argos-color-palette-yellow-60,
+      'yellow-50': $ln-argos-color-palette-yellow-50,
+      'yellow-40': $ln-argos-color-palette-yellow-40,
+      'yellow-30': $ln-argos-color-palette-yellow-30,
+      'yellow-20': $ln-argos-color-palette-yellow-20,
+      'yellow-10': $ln-argos-color-palette-yellow-10,
+      'brand-1-lowlight': $ln-argos-color-palette-brand-1-lowlight,
+      'brand-2-lowlight': $ln-argos-color-palette-brand-2-lowlight,
+      'brand-3': $ln-argos-color-palette-brand-3,
+      'brand-3-highlight': $ln-argos-color-palette-brand-3-highlight,
+      'brand-3-lowlight': $ln-argos-color-palette-brand-3-lowlight,
+      'brand-4': $ln-argos-color-palette-brand-4,
+      'brand-4-highlight': $ln-argos-color-palette-brand-4-highlight,
+      'green-light': $ln-argos-color-palette-green-light,
+      'green-dark': $ln-argos-color-palette-green-dark,
+      'blue-light': $ln-argos-color-palette-blue-light,
+      'blue-dark': $ln-argos-color-palette-blue-dark,
+      'red-light': $ln-argos-color-palette-red-light,
+      'red-dark': $ln-argos-color-palette-red-dark,
+      'yellow-dark': $ln-argos-color-palette-yellow-dark
+    ),
+    'monochrome': (
+      'white': $ln-argos-color-monochrome-white,
+      'lighter': $ln-argos-color-monochrome-lighter,
+      'lighter--rgb': $ln-argos-color-monochrome-lighter-rgb,
+      'light': $ln-argos-color-monochrome-light,
+      'light--rgb': $ln-argos-color-monochrome-light-rgb,
+      'medium': $ln-argos-color-monochrome-medium,
+      'medium--rgb': $ln-argos-color-monochrome-medium-rgb,
+      'dark': $ln-argos-color-monochrome-dark,
+      'dark--rgb': $ln-argos-color-monochrome-dark-rgb,
+      'darker': $ln-argos-color-monochrome-darker,
+      'darker--rgb': $ln-argos-color-monochrome-darker-rgb,
+      'grey-v-light': $ln-argos-color-monochrome-grey-v-light,
+      'grey-light': $ln-argos-color-monochrome-grey-light,
+      'grey': $ln-argos-color-monochrome-grey,
+      'grey-dark': $ln-argos-color-monochrome-grey-dark,
+      'grey-darker': $ln-argos-color-monochrome-grey-darker,
+      'black': $ln-argos-color-monochrome-black
+    ),
+    'promotion': (
+      'sale': (
+        'lightest': $ln-argos-color-promotion-sale-lightest,
+        'lighter': $ln-argos-color-promotion-sale-lighter,
+        'light': $ln-argos-color-promotion-sale-light,
+        'base': $ln-argos-color-promotion-sale-base,
+        'dark': $ln-argos-color-promotion-sale-dark,
+        'darker': $ln-argos-color-promotion-sale-darker,
+        'darkest': $ln-argos-color-promotion-sale-darkest
+      ),
+      'new': (
+        'lightest': $ln-argos-color-promotion-new-lightest,
+        'lighter': $ln-argos-color-promotion-new-lighter,
+        'light': $ln-argos-color-promotion-new-light,
+        'base': $ln-argos-color-promotion-new-base,
+        'dark': $ln-argos-color-promotion-new-dark,
+        'darker': $ln-argos-color-promotion-new-darker,
+        'darkest': $ln-argos-color-promotion-new-darkest
+      )
+    ),
+    'scheme': (
+      'light': (
+        'base': $ln-argos-color-scheme-light-base,
+        'highlight': $ln-argos-color-scheme-light-highlight,
+        'on': (
+          'base': $ln-argos-color-scheme-light-on-base,
+          'highlight': $ln-argos-color-scheme-light-on-highlight
+        )
+      ),
+      'dark': (
+        'base': $ln-argos-color-scheme-dark-base,
+        'highlight': $ln-argos-color-scheme-dark-highlight,
+        'on': (
+          'base': $ln-argos-color-scheme-dark-on-base,
+          'highlight': $ln-argos-color-scheme-dark-on-highlight
+        )
+      ),
+      'brand-1': (
+        'base': $ln-argos-color-scheme-brand-1-base,
+        'highlight': $ln-argos-color-scheme-brand-1-highlight,
+        'on': (
+          'base': $ln-argos-color-scheme-brand-1-on-base,
+          'highlight': $ln-argos-color-scheme-brand-1-on-highlight
+        )
+      ),
+      'brand-2': (
+        'base': $ln-argos-color-scheme-brand-2-base,
+        'highlight': $ln-argos-color-scheme-brand-2-highlight,
+        'on': (
+          'base': $ln-argos-color-scheme-brand-2-on-base,
+          'highlight': $ln-argos-color-scheme-brand-2-on-highlight
+        )
+      ),
+      'brand-3': (
+        'base': $ln-argos-color-scheme-brand-3-base,
+        'highlight': $ln-argos-color-scheme-brand-3-highlight,
+        'on': (
+          'base': $ln-argos-color-scheme-brand-3-on-base,
+          'highlight': $ln-argos-color-scheme-brand-3-on-highlight
+        )
+      )
+    ),
+    'semantic': (
+      'error': (
+        'lighter': $ln-argos-color-semantic-error-lighter,
+        'light': $ln-argos-color-semantic-error-light,
+        'base': $ln-argos-color-semantic-error-base,
+        'dark': $ln-argos-color-semantic-error-dark,
+        'darker': $ln-argos-color-semantic-error-darker,
+        'text': $ln-argos-color-semantic-error-text
+      ),
+      'info': (
+        'lighter': $ln-argos-color-semantic-info-lighter,
+        'light': $ln-argos-color-semantic-info-light,
+        'base': $ln-argos-color-semantic-info-base,
+        'dark': $ln-argos-color-semantic-info-dark,
+        'darker': $ln-argos-color-semantic-info-darker,
+        'text': $ln-argos-color-semantic-info-text
+      ),
+      'success': (
+        'lighter': $ln-argos-color-semantic-success-lighter,
+        'light': $ln-argos-color-semantic-success-light,
+        'base': $ln-argos-color-semantic-success-base,
+        'dark': $ln-argos-color-semantic-success-dark,
+        'darker': $ln-argos-color-semantic-success-darker,
+        'text': $ln-argos-color-semantic-success-text
+      ),
+      'warning': (
+        'lighter': $ln-argos-color-semantic-warning-lighter,
+        'light': $ln-argos-color-semantic-warning-light,
+        'base': $ln-argos-color-semantic-warning-base,
+        'dark': $ln-argos-color-semantic-warning-dark,
+        'darker': $ln-argos-color-semantic-warning-darker,
+        'text': $ln-argos-color-semantic-warning-text
+      )
+    ),
+    'mode': (
+      'default': (
+        'surface': (
+          'background': $ln-argos-color-mode-default-surface-background,
+          'foreground': $ln-argos-color-mode-default-surface-foreground
+        ),
+        'border': $ln-argos-color-mode-default-border,
+        'scheme': (
+          'base': $ln-argos-color-mode-default-scheme-base,
+          'highlight': $ln-argos-color-mode-default-scheme-highlight,
+          'on': (
+            'base': $ln-argos-color-mode-default-scheme-on-base,
+            'highlight': $ln-argos-color-mode-default-scheme-on-highlight
+          )
+        )
+      )
+    )
+  ),
+  'mode': (
+    'dark': (
+      'background': $ln-argos-mode-dark-background,
+      'base': $ln-argos-mode-dark-base,
+      'base-inverse': $ln-argos-mode-dark-base-inverse,
+      'border': $ln-argos-mode-dark-border,
+      'border-interactive': $ln-argos-mode-dark-border-interactive,
+      'border-interactive-highlight': $ln-argos-mode-dark-border-interactive-highlight,
+      'footer-background': $ln-argos-mode-dark-footer-background,
+      'footer-text': $ln-argos-mode-dark-footer-text,
+      'foreground': $ln-argos-mode-dark-foreground,
+      'header-background': $ln-argos-mode-dark-header-background,
+      'header-text': $ln-argos-mode-dark-header-text,
+      'highlight': $ln-argos-mode-dark-highlight,
+      'highlight-inverse': $ln-argos-mode-dark-highlight-inverse
+    ),
+    'default': (
+      'background': $ln-argos-mode-default-background,
+      'base': $ln-argos-mode-default-base,
+      'base-inverse': $ln-argos-mode-default-base-inverse,
+      'border': $ln-argos-mode-default-border,
+      'border-interactive': $ln-argos-mode-default-border-interactive,
+      'border-interactive-highlight': $ln-argos-mode-default-border-interactive-highlight,
+      'footer-background': $ln-argos-mode-default-footer-background,
+      'footer-text': $ln-argos-mode-default-footer-text,
+      'foreground': $ln-argos-mode-default-foreground,
+      'header-background': $ln-argos-mode-default-header-background,
+      'header-text': $ln-argos-mode-default-header-text,
+      'highlight': $ln-argos-mode-default-highlight,
+      'highlight-inverse': $ln-argos-mode-default-highlight-inverse
+    )
+  ),
+  'surface': (
+    'light': (
+      'background': $ln-argos-surface-light-background,
+      'base': $ln-argos-surface-light-base,
+      'border': $ln-argos-surface-light-border,
+      'highlight': $ln-argos-surface-light-highlight,
+      'interactive': $ln-argos-surface-light-interactive,
+      'interactive-hover': $ln-argos-surface-light-interactive-hover
+    ),
+    'white': (
+      'background': $ln-argos-surface-white-background,
+      'base': $ln-argos-surface-white-base,
+      'border': $ln-argos-surface-white-border,
+      'highlight': $ln-argos-surface-white-highlight
+    ),
+    'dark': (
+      'background': $ln-argos-surface-dark-background,
+      'base': $ln-argos-surface-dark-base,
+      'border': $ln-argos-surface-dark-border,
+      'highlight': $ln-argos-surface-dark-highlight,
+      'interactive': $ln-argos-surface-dark-interactive,
+      'interactive-hover': $ln-argos-surface-dark-interactive-hover
+    ),
+    'grey': (
+      'background': $ln-argos-surface-grey-background,
+      'base': $ln-argos-surface-grey-base,
+      'border': $ln-argos-surface-grey-border,
+      'highlight': $ln-argos-surface-grey-highlight
+    )
+  ),
+  'modifier': (
+    'border': (
+      'width': $ln-argos-modifier-border-width,
+      'width-large': $ln-argos-modifier-border-width-large,
+      'radius': $ln-argos-modifier-border-radius,
+      'radius-large': $ln-argos-modifier-border-radius-large
+    ),
+    'border-interactive': (
+      'width': $ln-argos-modifier-border-interactive-width
+    ),
+    'button': (
+      'border': $ln-argos-modifier-button-border
+    ),
+    'focus-ring': (
+      'focus-width': $ln-argos-modifier-focus-ring-focus-width,
+      'color': $ln-argos-modifier-focus-ring-color
+    ),
+    'footer': (
+      'background': $ln-argos-modifier-footer-background,
+      'text': $ln-argos-modifier-footer-text
+    ),
+    'header': (
+      'background': $ln-argos-modifier-header-background
+    ),
+    'global-bar': (
+      'height': $ln-argos-modifier-global-bar-height
+    ),
+    'transition': (
+      'duration': $ln-argos-modifier-transition-duration,
+      'duration-long': $ln-argos-modifier-transition-duration-long,
+      'timing-function': (
+        'default': $ln-argos-modifier-transition-timing-function-default
+      )
+    )
+  ),
+  'opacity': (
+    'default': $ln-argos-opacity-default,
+    'light': $ln-argos-opacity-light,
+    'disabled': $ln-argos-opacity-disabled,
+    'background': $ln-argos-opacity-background
+  ),
+  'overlay': (
+    'color': $ln-argos-overlay-color,
+    'opacity': $ln-argos-overlay-opacity
+  ),
+  'space': (
+    'baseline': (
+      'grid': $ln-argos-space-baseline-grid,
+      'condensed': $ln-argos-space-baseline-condensed
+    ),
+    'fixed-width': (
+      'extra-small': $ln-argos-space-fixed-width-extra-small,
+      'small': $ln-argos-space-fixed-width-small,
+      'medium': $ln-argos-space-fixed-width-medium,
+      'large': $ln-argos-space-fixed-width-large
+    ),
+    'size': (
+      'small': $ln-argos-space-size-small,
+      'medium': $ln-argos-space-size-medium,
+      'large': $ln-argos-space-size-large
+    ),
+    'spacing': (
+      'default': $ln-argos-space-spacing-default,
+      'extra-small': $ln-argos-space-spacing-extra-small,
+      'small': $ln-argos-space-spacing-small,
+      'medium': $ln-argos-space-spacing-medium,
+      'large': $ln-argos-space-spacing-large,
+      'extra-large': $ln-argos-space-spacing-extra-large,
+      'half': $ln-argos-space-spacing-half,
+      'x1': $ln-argos-space-spacing-x1,
+      'x2': $ln-argos-space-spacing-x2,
+      'x3': $ln-argos-space-spacing-x3,
+      'x4': $ln-argos-space-spacing-x4,
+      'x5': $ln-argos-space-spacing-x5,
+      'x6': $ln-argos-space-spacing-x6,
+      'x7': $ln-argos-space-spacing-x7,
+      'x8': $ln-argos-space-spacing-x8,
+      'x9': $ln-argos-space-spacing-x9,
+      'x10': $ln-argos-space-spacing-x10
+    ),
+    'breakpoints': (
+      'extra-extra-small': $ln-argos-space-breakpoints-extra-extra-small,
+      'extra-small': $ln-argos-space-breakpoints-extra-small,
+      'small': $ln-argos-space-breakpoints-small,
+      'medium': $ln-argos-space-breakpoints-medium,
+      'large': $ln-argos-space-breakpoints-large,
+      'extra-large': $ln-argos-space-breakpoints-extra-large,
+      'extra-extra-large': $ln-argos-space-breakpoints-extra-extra-large
+    )
+  ),
+  'typography': (
+    'base': (
+      'font-family': $ln-argos-typography-base-font-family,
+      'font': $ln-argos-typography-base-font,
+      'letterform': $ln-argos-typography-base-letterform
+    ),
+    'brand': (
+      'font-family': $ln-argos-typography-brand-font-family,
+      'font': $ln-argos-typography-brand-font,
+      'letterform': $ln-argos-typography-brand-letterform
+    ),
+    'monospace': (
+      'font-family': $ln-argos-typography-monospace-font-family
+    ),
+    'system': (
+      'font-family': $ln-argos-typography-system-font-family
+    ),
+    'font-size': (
+      'root': $ln-argos-typography-font-size-root,
+      'default': $ln-argos-typography-font-size-default,
+      'rem': $ln-argos-typography-font-size-rem
+    ),
+    'font-weight': (
+      'light': $ln-argos-typography-font-weight-light,
+      'regular': $ln-argos-typography-font-weight-regular,
+      'medium': $ln-argos-typography-font-weight-medium,
+      'semi-bold': $ln-argos-typography-font-weight-semi-bold,
+      'bold': $ln-argos-typography-font-weight-bold,
+      'extra-bold': $ln-argos-typography-font-weight-extra-bold,
+      'black': $ln-argos-typography-font-weight-black
+    )
+  ),
+  'font-stack': (
+    'display-7': (
+      'font-size': $ln-argos-font-stack-display-7-font-size,
+      'line-height': $ln-argos-font-stack-display-7-line-height,
+      'font-weight': $ln-argos-font-stack-display-7-font-weight,
+      'font-family': $ln-argos-font-stack-display-7-font-family
+    ),
+    'display-6': (
+      'font-size': $ln-argos-font-stack-display-6-font-size,
+      'line-height': $ln-argos-font-stack-display-6-line-height,
+      'font-weight': $ln-argos-font-stack-display-6-font-weight,
+      'font-family': $ln-argos-font-stack-display-6-font-family
+    ),
+    'display-5': (
+      'font-size': $ln-argos-font-stack-display-5-font-size,
+      'line-height': $ln-argos-font-stack-display-5-line-height,
+      'font-weight': $ln-argos-font-stack-display-5-font-weight,
+      'font-family': $ln-argos-font-stack-display-5-font-family
+    ),
+    'display-4': (
+      'font-size': $ln-argos-font-stack-display-4-font-size,
+      'line-height': $ln-argos-font-stack-display-4-line-height,
+      'font-weight': $ln-argos-font-stack-display-4-font-weight,
+      'font-family': $ln-argos-font-stack-display-4-font-family
+    ),
+    'display-3': (
+      'font-size': $ln-argos-font-stack-display-3-font-size,
+      'line-height': $ln-argos-font-stack-display-3-line-height,
+      'font-weight': $ln-argos-font-stack-display-3-font-weight,
+      'font-family': $ln-argos-font-stack-display-3-font-family
+    ),
+    'display-2': (
+      'font-size': $ln-argos-font-stack-display-2-font-size,
+      'line-height': $ln-argos-font-stack-display-2-line-height,
+      'font-weight': $ln-argos-font-stack-display-2-font-weight,
+      'font-family': $ln-argos-font-stack-display-2-font-family
+    ),
+    'display-1': (
+      'font-size': $ln-argos-font-stack-display-1-font-size,
+      'line-height': $ln-argos-font-stack-display-1-line-height,
+      'font-weight': $ln-argos-font-stack-display-1-font-weight,
+      'font-family': $ln-argos-font-stack-display-1-font-family
+    ),
+    'label-1': (
+      'font-size': $ln-argos-font-stack-label-1-font-size,
+      'line-height': $ln-argos-font-stack-label-1-line-height,
+      'font-weight': $ln-argos-font-stack-label-1-font-weight,
+      'font-family': $ln-argos-font-stack-label-1-font-family
+    ),
+    'label-2': (
+      'font-size': $ln-argos-font-stack-label-2-font-size,
+      'line-height': $ln-argos-font-stack-label-2-line-height,
+      'font-weight': $ln-argos-font-stack-label-2-font-weight,
+      'font-family': $ln-argos-font-stack-label-2-font-family
+    ),
+    'body-2': (
+      'font-size': $ln-argos-font-stack-body-2-font-size,
+      'line-height': $ln-argos-font-stack-body-2-line-height,
+      'font-weight': $ln-argos-font-stack-body-2-font-weight,
+      'font-family': $ln-argos-font-stack-body-2-font-family
+    ),
+    'body-1': (
+      'font-size': $ln-argos-font-stack-body-1-font-size,
+      'line-height': $ln-argos-font-stack-body-1-line-height,
+      'font-weight': $ln-argos-font-stack-body-1-font-weight,
+      'font-family': $ln-argos-font-stack-body-1-font-family
+    ),
+    'caption': (
+      'font-size': $ln-argos-font-stack-caption-font-size,
+      'line-height': $ln-argos-font-stack-caption-line-height,
+      'font-weight': $ln-argos-font-stack-caption-font-weight,
+      'font-family': $ln-argos-font-stack-caption-font-family
+    ),
+    'button': (
+      'font-size': $ln-argos-font-stack-button-font-size,
+      'line-height': $ln-argos-font-stack-button-line-height,
+      'font-weight': $ln-argos-font-stack-button-font-weight,
+      'font-family': $ln-argos-font-stack-button-font-family
+    )
+  )
+);

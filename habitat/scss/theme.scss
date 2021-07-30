@@ -1,0 +1,1073 @@
+
+/**
+ * Do not edit directly
+ * Generated on Mon, 26 Jul 2021 14:20:37 GMT
+ */
+
+$ln-habitat-color-palette-black: #000000 !default;
+$ln-habitat-color-palette-blue-100: #0e4174 !default;
+$ln-habitat-color-palette-blue-90: #114e8b !default;
+$ln-habitat-color-palette-blue-80: #135ca3 !default;
+$ln-habitat-color-palette-blue-70: #1669ba !default;
+$ln-habitat-color-palette-blue-60: #1976d2 !default;
+$ln-habitat-color-palette-blue-50: #428fda !default;
+$ln-habitat-color-palette-blue-40: #6ca7e2 !default;
+$ln-habitat-color-palette-blue-30: #95c0ea !default;
+$ln-habitat-color-palette-blue-20: #bfd9f2 !default;
+$ln-habitat-color-palette-blue-10: #e8f1fb !default;
+$ln-habitat-color-palette-brand-1: #000000 !default;
+$ln-habitat-color-palette-brand-1-highlight: #404040 !default;
+$ln-habitat-color-palette-brand-2: #ffffff !default;
+$ln-habitat-color-palette-brand-2-highlight: #f2f2f2 !default;
+$ln-habitat-color-palette-green-100: #19451c !default;
+$ln-habitat-color-palette-green-90: #1f5321 !default;
+$ln-habitat-color-palette-green-80: #246127 !default;
+$ln-habitat-color-palette-green-70: #296f2c !default;
+$ln-habitat-color-palette-green-60: #2e7d32 !default;
+$ln-habitat-color-palette-green-50: #549457 !default;
+$ln-habitat-color-palette-green-40: #79ac7c !default;
+$ln-habitat-color-palette-green-30: #9fc3a1 !default;
+$ln-habitat-color-palette-green-20: #c5dbc6 !default;
+$ln-habitat-color-palette-green-10: #eaf2eb !default;
+$ln-habitat-color-palette-grey-100: #0d0d0d !default;
+$ln-habitat-color-palette-grey-90: #262626 !default;
+$ln-habitat-color-palette-grey-80: #404040 !default;
+$ln-habitat-color-palette-grey-70: #595959 !default;
+$ln-habitat-color-palette-grey-60: #737373 !default;
+$ln-habitat-color-palette-grey-50: #8c8c8c !default;
+$ln-habitat-color-palette-grey-40: #a6a6a6 !default;
+$ln-habitat-color-palette-grey-30: #bfbfbf !default;
+$ln-habitat-color-palette-grey-20: #d8d8d8 !default;
+$ln-habitat-color-palette-grey-10: #f2f2f2 !default;
+$ln-habitat-color-palette-blue: #1976d2 !default;
+$ln-habitat-color-palette-green: #2e7d32 !default;
+$ln-habitat-color-palette-red: #d50000 !default;
+$ln-habitat-color-palette-yellow: #ffd600 !default;
+$ln-habitat-color-palette-red-100: #750000 !default;
+$ln-habitat-color-palette-red-90: #8d0000 !default;
+$ln-habitat-color-palette-red-80: #a50000 !default;
+$ln-habitat-color-palette-red-70: #bd0000 !default;
+$ln-habitat-color-palette-red-60: #d50000 !default;
+$ln-habitat-color-palette-red-50: #dd2e2e !default;
+$ln-habitat-color-palette-red-40: #e45c5c !default;
+$ln-habitat-color-palette-red-30: #ec8a8a !default;
+$ln-habitat-color-palette-red-20: #f3b8b8 !default;
+$ln-habitat-color-palette-red-10: #fbe6e6 !default;
+$ln-habitat-color-palette-white: #ffffff !default;
+$ln-habitat-color-palette-yellow-100: #8c7600 !default;
+$ln-habitat-color-palette-yellow-90: #a98e00 !default;
+$ln-habitat-color-palette-yellow-80: #c6a600 !default;
+$ln-habitat-color-palette-yellow-70: #e2be00 !default;
+$ln-habitat-color-palette-yellow-60: #ffd600 !default;
+$ln-habitat-color-palette-yellow-50: #ffdd2e !default;
+$ln-habitat-color-palette-yellow-40: #ffe55c !default;
+$ln-habitat-color-palette-yellow-30: #ffec8a !default;
+$ln-habitat-color-palette-yellow-20: #fff4b8 !default;
+$ln-habitat-color-palette-yellow-10: #fffbe6 !default;
+$ln-habitat-color-palette-black-50: #404040 !default;
+$ln-habitat-color-palette-black-60: #000000 !default;
+$ln-habitat-color-palette-cloud-100: #757676 !default;
+$ln-habitat-color-palette-cloud-90: #909292 !default;
+$ln-habitat-color-palette-cloud-80: #a5a6a7 !default;
+$ln-habitat-color-palette-cloud-70: #b9bbbc !default;
+$ln-habitat-color-palette-cloud-60: #ced0d1 !default;
+$ln-habitat-color-palette-cloud-50: #d8d8d8 !default;
+$ln-habitat-color-palette-cloud-40: #e0e1e2 !default;
+$ln-habitat-color-palette-cloud-30: #e9e9ea !default;
+$ln-habitat-color-palette-cloud-20: #f1f2f2 !default;
+$ln-habitat-color-palette-cloud-10: #fafafa !default;
+$ln-habitat-color-palette-earth-100: #7d6b3d !default;
+$ln-habitat-color-palette-earth-90: #927d47 !default;
+$ln-habitat-color-palette-earth-80: #a78e51 !default;
+$ln-habitat-color-palette-earth-70: #bca05b !default;
+$ln-habitat-color-palette-earth-60: #d1b265 !default;
+$ln-habitat-color-palette-earth-50: #d9c081 !default;
+$ln-habitat-color-palette-earth-40: #e2ce9c !default;
+$ln-habitat-color-palette-earth-30: #eadcb8 !default;
+$ln-habitat-color-palette-earth-20: #f2e9d4 !default;
+$ln-habitat-color-palette-earth-10: #faf7f0 !default;
+$ln-habitat-color-palette-kiss-100: #7d4d48 !default;
+$ln-habitat-color-palette-kiss-90: #925a54 !default;
+$ln-habitat-color-palette-kiss-80: #a66760 !default;
+$ln-habitat-color-palette-kiss-70: #bb746c !default;
+$ln-habitat-color-palette-kiss-60: #d08178 !default;
+$ln-habitat-color-palette-kiss-50: #d99890 !default;
+$ln-habitat-color-palette-kiss-40: #e1aea9 !default;
+$ln-habitat-color-palette-kiss-30: #e9c5c1 !default;
+$ln-habitat-color-palette-kiss-20: #f2dcd9 !default;
+$ln-habitat-color-palette-kiss-10: #fff0ed !default;
+$ln-habitat-color-palette-lavender-100: #525267 !default;
+$ln-habitat-color-palette-lavender-90: #5f6078 !default;
+$ln-habitat-color-palette-lavender-80: #6d6e89 !default;
+$ln-habitat-color-palette-lavender-70: #7a7b9a !default;
+$ln-habitat-color-palette-lavender-60: #8889ab !default;
+$ln-habitat-color-palette-lavender-50: #9d9eba !default;
+$ln-habitat-color-palette-lavender-40: #b3b4c9 !default;
+$ln-habitat-color-palette-lavender-30: #c8c9d8 !default;
+$ln-habitat-color-palette-lavender-20: #dedee8 !default;
+$ln-habitat-color-palette-lavender-10: #f3f3f7 !default;
+$ln-habitat-color-palette-leaf-100: #486c54 !default;
+$ln-habitat-color-palette-leaf-90: #547e62 !default;
+$ln-habitat-color-palette-leaf-80: #609070 !default;
+$ln-habitat-color-palette-leaf-70: #6ca27e !default;
+$ln-habitat-color-palette-leaf-60: #78b48c !default;
+$ln-habitat-color-palette-leaf-50: #90c2a1 !default;
+$ln-habitat-color-palette-leaf-40: #a9cfb5 !default;
+$ln-habitat-color-palette-leaf-30: #c1ddca !default;
+$ln-habitat-color-palette-leaf-20: #d9eadf !default;
+$ln-habitat-color-palette-leaf-10: #f2f8f4 !default;
+$ln-habitat-color-palette-black-light: #404040 !default;
+$ln-habitat-color-palette-white-dark: #f2f2f2 !default;
+$ln-habitat-color-palette-cloud: #ced0d1 !default;
+$ln-habitat-color-palette-earth: #d1b265 !default;
+$ln-habitat-color-palette-kiss: #d08178 !default;
+$ln-habitat-color-palette-lavender: #8889ab !default;
+$ln-habitat-color-palette-sky: #5d96bf !default;
+$ln-habitat-color-palette-water: #87bab8 !default;
+$ln-habitat-color-palette-sky-100: #385a73 !default;
+$ln-habitat-color-palette-sky-90: #416986 !default;
+$ln-habitat-color-palette-sky-80: #4a7899 !default;
+$ln-habitat-color-palette-sky-70: #5487ac !default;
+$ln-habitat-color-palette-sky-60: #5d96bf !default;
+$ln-habitat-color-palette-sky-50: #7aa9cb !default;
+$ln-habitat-color-palette-sky-40: #97bcd6 !default;
+$ln-habitat-color-palette-sky-30: #b5cfe2 !default;
+$ln-habitat-color-palette-sky-20: #d2e2ed !default;
+$ln-habitat-color-palette-sky-10: #eff5f9 !default;
+$ln-habitat-color-palette-water-100: #51706e !default;
+$ln-habitat-color-palette-water-90: #5f8281 !default;
+$ln-habitat-color-palette-water-80: #6c9593 !default;
+$ln-habitat-color-palette-water-70: #7aa7a6 !default;
+$ln-habitat-color-palette-water-60: #87bab8 !default;
+$ln-habitat-color-palette-water-50: #9dc6c5 !default;
+$ln-habitat-color-palette-water-40: #b2d3d2 !default;
+$ln-habitat-color-palette-water-30: #c8dfde !default;
+$ln-habitat-color-palette-water-20: #ddeceb !default;
+$ln-habitat-color-palette-water-10: #f3f8f8 !default;
+$ln-habitat-color-palette-white-70: #f2f2f2 !default;
+$ln-habitat-color-palette-white-60: #ffffff !default;
+$ln-habitat-color-monochrome-white: #ffffff !default;
+$ln-habitat-color-monochrome-lighter: #f2f2f2 !default;
+$ln-habitat-color-monochrome-lighter-rgb: #f2f2f2 !default;
+$ln-habitat-color-monochrome-light: #d8d8d8 !default;
+$ln-habitat-color-monochrome-light-rgb: #d8d8d8 !default;
+$ln-habitat-color-monochrome-medium: #737373 !default;
+$ln-habitat-color-monochrome-medium-rgb: #737373 !default;
+$ln-habitat-color-monochrome-dark: #404040 !default;
+$ln-habitat-color-monochrome-dark-rgb: #404040 !default;
+$ln-habitat-color-monochrome-darker: #262626 !default;
+$ln-habitat-color-monochrome-darker-rgb: #262626 !default;
+$ln-habitat-color-monochrome-grey-v-light: #f2f2f2 !default; // deprecated
+$ln-habitat-color-monochrome-grey-light: #d8d8d8 !default; // deprecated
+$ln-habitat-color-monochrome-grey: #8c8c8c !default; // deprecated
+$ln-habitat-color-monochrome-grey-dark: #404040 !default; // deprecated
+$ln-habitat-color-monochrome-grey-darker: #262626 !default; // deprecated
+$ln-habitat-color-monochrome-black: #000000 !default;
+$ln-habitat-color-promotion-sale-lightest: #fbe6e6 !default;
+$ln-habitat-color-promotion-sale-lighter: #ec8a8a !default;
+$ln-habitat-color-promotion-sale-light: #dd2e2e !default;
+$ln-habitat-color-promotion-sale-base: #d50000 !default;
+$ln-habitat-color-promotion-sale-dark: #bd0000 !default;
+$ln-habitat-color-promotion-sale-darker: #a50000 !default;
+$ln-habitat-color-promotion-sale-darkest: #8d0000 !default;
+$ln-habitat-color-promotion-new-lightest: #e8f1fb !default;
+$ln-habitat-color-promotion-new-lighter: #95c0ea !default;
+$ln-habitat-color-promotion-new-light: #428fda !default;
+$ln-habitat-color-promotion-new-base: #1976d2 !default;
+$ln-habitat-color-promotion-new-dark: #1669ba !default;
+$ln-habitat-color-promotion-new-darker: #135ca3 !default;
+$ln-habitat-color-promotion-new-darkest: #114e8b !default;
+$ln-habitat-color-scheme-light-base: #f2f2f2 !default;
+$ln-habitat-color-scheme-light-highlight: #ffffff !default;
+$ln-habitat-color-scheme-light-on-base: #404040 !default;
+$ln-habitat-color-scheme-light-on-highlight: #000000 !default;
+$ln-habitat-color-scheme-dark-base: #404040 !default;
+$ln-habitat-color-scheme-dark-highlight: #000000 !default;
+$ln-habitat-color-scheme-dark-on-base: #ffffff !default;
+$ln-habitat-color-scheme-dark-on-highlight: #ffffff !default;
+$ln-habitat-color-scheme-brand-1-base: #000000 !default;
+$ln-habitat-color-scheme-brand-1-highlight: #404040 !default;
+$ln-habitat-color-scheme-brand-1-on-base: #ffffff !default;
+$ln-habitat-color-scheme-brand-1-on-highlight: #ffffff !default;
+$ln-habitat-color-scheme-brand-2-base: #404040 !default;
+$ln-habitat-color-scheme-brand-2-highlight: #000000 !default;
+$ln-habitat-color-scheme-brand-2-on-base: #ffffff !default;
+$ln-habitat-color-scheme-brand-2-on-highlight: #ffffff !default;
+$ln-habitat-color-semantic-error-lighter: #fbe6e6 !default;
+$ln-habitat-color-semantic-error-light: #dd2e2e !default;
+$ln-habitat-color-semantic-error-base: #d50000 !default;
+$ln-habitat-color-semantic-error-dark: #bd0000 !default;
+$ln-habitat-color-semantic-error-darker: #a50000 !default;
+$ln-habitat-color-semantic-error-text: #ffffff !default; // The default accessible text on the base value
+$ln-habitat-color-semantic-info-lighter: #e8f1fb !default;
+$ln-habitat-color-semantic-info-light: #428fda !default;
+$ln-habitat-color-semantic-info-base: #1976d2 !default;
+$ln-habitat-color-semantic-info-dark: #1669ba !default;
+$ln-habitat-color-semantic-info-darker: #135ca3 !default;
+$ln-habitat-color-semantic-info-text: #ffffff !default; // The default accessible text on the base value
+$ln-habitat-color-semantic-success-lighter: #eaf2eb !default;
+$ln-habitat-color-semantic-success-light: #549457 !default;
+$ln-habitat-color-semantic-success-base: #2e7d32 !default;
+$ln-habitat-color-semantic-success-dark: #296f2c !default;
+$ln-habitat-color-semantic-success-darker: #246127 !default;
+$ln-habitat-color-semantic-success-text: #ffffff !default; // The default accessible text on the base value
+$ln-habitat-color-semantic-warning-lighter: #fffbe6 !default;
+$ln-habitat-color-semantic-warning-light: #ffdd2e !default;
+$ln-habitat-color-semantic-warning-base: #ffd600 !default;
+$ln-habitat-color-semantic-warning-dark: #e2be00 !default;
+$ln-habitat-color-semantic-warning-darker: #c6a600 !default;
+$ln-habitat-color-semantic-warning-text: #404040 !default; // The default accessible text on the base value
+$ln-habitat-color-brand-1-base: #000000 !default;
+$ln-habitat-color-brand-1-lighter: #737373 !default;
+$ln-habitat-color-brand-1-light: #595959 !default;
+$ln-habitat-color-brand-1-dark: #404040 !default;
+$ln-habitat-color-brand-1-darker: #262626 !default;
+$ln-habitat-color-brand-1-darkest: #0d0d0d !default;
+$ln-habitat-color-brand-2-base: #ffffff !default;
+$ln-habitat-color-brand-2-lighter: #f2f2f2 !default;
+$ln-habitat-color-brand-2-light: #d8d8d8 !default;
+$ln-habitat-color-brand-2-dark: #bfbfbf !default;
+$ln-habitat-color-brand-2-darker: #a6a6a6 !default;
+$ln-habitat-color-brand-2-darkest: #8c8c8c !default;
+$ln-habitat-color-campaign-1-lightest: #f2f8f4 !default;
+$ln-habitat-color-campaign-1-lighter: #c1ddca !default;
+$ln-habitat-color-campaign-1-light: #90c2a1 !default;
+$ln-habitat-color-campaign-1-base: #78b48c !default;
+$ln-habitat-color-campaign-1-dark: #6ca27e !default;
+$ln-habitat-color-campaign-1-darker: #547e62 !default;
+$ln-habitat-color-campaign-1-darkest: #486c54 !default;
+$ln-habitat-color-campaign-2-lightest: #fff0ed !default;
+$ln-habitat-color-campaign-2-lighter: #e9c5c1 !default;
+$ln-habitat-color-campaign-2-light: #d99890 !default;
+$ln-habitat-color-campaign-2-base: #d08178 !default;
+$ln-habitat-color-campaign-2-dark: #bb746c !default;
+$ln-habitat-color-campaign-2-darker: #925a54 !default;
+$ln-habitat-color-campaign-2-darkest: #7d4d48 !default;
+$ln-habitat-color-campaign-3-lightest: #f3f8f8 !default;
+$ln-habitat-color-campaign-3-lighter: #c8dfde !default;
+$ln-habitat-color-campaign-3-light: #9dc6c5 !default;
+$ln-habitat-color-campaign-3-base: #87bab8 !default;
+$ln-habitat-color-campaign-3-dark: #7aa7a6 !default;
+$ln-habitat-color-campaign-3-darker: #5f8281 !default;
+$ln-habitat-color-campaign-3-darkest: #51706e !default;
+$ln-habitat-color-campaign-4-lightest: #faf7f0 !default;
+$ln-habitat-color-campaign-4-lighter: #eadcb8 !default;
+$ln-habitat-color-campaign-4-light: #d9c081 !default;
+$ln-habitat-color-campaign-4-base: #d1b265 !default;
+$ln-habitat-color-campaign-4-dark: #bca05b !default;
+$ln-habitat-color-campaign-4-darker: #927d47 !default;
+$ln-habitat-color-campaign-4-darkest: #7d6b3d !default;
+$ln-habitat-color-campaign-5-lightest: #f3f3f7 !default;
+$ln-habitat-color-campaign-5-lighter: #c8c9d8 !default;
+$ln-habitat-color-campaign-5-light: #9d9eba !default;
+$ln-habitat-color-campaign-5-base: #8889ab !default;
+$ln-habitat-color-campaign-5-dark: #7a7b9a !default;
+$ln-habitat-color-campaign-5-darker: #5f6078 !default;
+$ln-habitat-color-campaign-5-darkest: #525267 !default;
+$ln-habitat-color-campaign-6-lightest: #eff5f9 !default;
+$ln-habitat-color-campaign-6-lighter: #b5cfe2 !default;
+$ln-habitat-color-campaign-6-light: #7aa9cb !default;
+$ln-habitat-color-campaign-6-base: #5d96bf !default;
+$ln-habitat-color-campaign-6-dark: #5487ac !default;
+$ln-habitat-color-campaign-6-darker: #416986 !default;
+$ln-habitat-color-campaign-6-darkest: #385a73 !default;
+$ln-habitat-color-campaign-7-lightest: #fafafa !default;
+$ln-habitat-color-campaign-7-lighter: #e9e9ea !default;
+$ln-habitat-color-campaign-7-light: #d8d8d8 !default;
+$ln-habitat-color-campaign-7-base: #ced0d1 !default;
+$ln-habitat-color-campaign-7-dark: #b9bbbc !default;
+$ln-habitat-color-campaign-7-darker: #909292 !default;
+$ln-habitat-color-campaign-7-darkest: #757676 !default;
+$ln-habitat-color-mode-default-surface-background: #ffffff !default;
+$ln-habitat-color-mode-default-surface-foreground: #ffffff !default;
+$ln-habitat-color-mode-default-border: #737373 !default;
+$ln-habitat-color-mode-default-scheme-base: #262626 !default;
+$ln-habitat-color-mode-default-scheme-highlight: #000000 !default;
+$ln-habitat-color-mode-default-scheme-on-base: #ffffff !default;
+$ln-habitat-color-mode-default-scheme-on-highlight: #ffffff !default;
+$ln-habitat-mode-dark-background: #262626 !default;
+$ln-habitat-mode-dark-base: #f2f2f2 !default;
+$ln-habitat-mode-dark-base-inverse: #404040 !default;
+$ln-habitat-mode-dark-border: #404040 !default;
+$ln-habitat-mode-dark-border-interactive: #737373 !default;
+$ln-habitat-mode-dark-border-interactive-highlight: #f2f2f2 !default;
+$ln-habitat-mode-dark-footer-background: #ffffff !default;
+$ln-habitat-mode-dark-footer-text: #404040 !default;
+$ln-habitat-mode-dark-foreground: #262626 !default;
+$ln-habitat-mode-dark-header-background: #262626 !default;
+$ln-habitat-mode-dark-header-text: #f2f2f2 !default;
+$ln-habitat-mode-dark-highlight: #ffffff !default;
+$ln-habitat-mode-dark-highlight-inverse: #000000 !default;
+$ln-habitat-mode-default-background: #f2f2f2 !default; // default website background
+$ln-habitat-mode-default-base: #404040 !default; // base text colour on default bg
+$ln-habitat-mode-default-base-inverse: #404040 !default; // base text colour on default foreground
+$ln-habitat-mode-default-border: #d8d8d8 !default;
+$ln-habitat-mode-default-border-interactive: #737373 !default;
+$ln-habitat-mode-default-border-interactive-highlight: #f2f2f2 !default;
+$ln-habitat-mode-default-footer-background: #262626 !default;
+$ln-habitat-mode-default-footer-text: #f2f2f2 !default;
+$ln-habitat-mode-default-foreground: #ffffff !default; // default background that are given to luna components
+$ln-habitat-mode-default-header-background: #ffffff !default;
+$ln-habitat-mode-default-header-text: #404040 !default;
+$ln-habitat-mode-default-highlight: #000000 !default;
+$ln-habitat-mode-default-highlight-inverse: #000000 !default;
+$ln-habitat-surface-light-background: #f2f2f2 !default; // surface colour most likely to be used as a background
+$ln-habitat-surface-light-base: #404040 !default; // base text colour on default bg
+$ln-habitat-surface-light-border: #d8d8d8 !default;
+$ln-habitat-surface-light-highlight: #000000 !default;
+$ln-habitat-surface-light-interactive: #737373 !default;
+$ln-habitat-surface-light-interactive-hover: #f2f2f2 !default;
+$ln-habitat-surface-white-background: #ffffff !default;
+$ln-habitat-surface-white-base: #404040 !default;
+$ln-habitat-surface-white-border: #d8d8d8 !default;
+$ln-habitat-surface-white-highlight: #000000 !default;
+$ln-habitat-surface-dark-background: #262626 !default;
+$ln-habitat-surface-dark-base: #f2f2f2 !default; // base text colour on default bg
+$ln-habitat-surface-dark-border: #404040 !default;
+$ln-habitat-surface-dark-highlight: #ffffff !default;
+$ln-habitat-surface-dark-interactive: #737373 !default;
+$ln-habitat-surface-dark-interactive-hover: #404040 !default;
+$ln-habitat-surface-grey-background: #262626 !default;
+$ln-habitat-surface-grey-base: #f2f2f2 !default; // base text colour on default bg
+$ln-habitat-surface-grey-border: #404040 !default;
+$ln-habitat-surface-grey-highlight: #000000 !default;
+$ln-habitat-modifier-border-width: 1px !default;
+$ln-habitat-modifier-border-width-large: 2px !default;
+$ln-habitat-modifier-border-radius: 2px !default;
+$ln-habitat-modifier-border-radius-large: 4px !default;
+$ln-habitat-modifier-border-interactive-width: 1px !default; // generally used for interactive components such as input fields
+$ln-habitat-modifier-button-border: 2px !default;
+$ln-habitat-modifier-focus-ring-focus-width: 3px !default;
+$ln-habitat-modifier-focus-ring-color: #1976d2 !default;
+$ln-habitat-modifier-footer-background: #404040 !default;
+$ln-habitat-modifier-footer-text: #ffffff !default;
+$ln-habitat-modifier-header-background: #ffffff !default;
+$ln-habitat-modifier-global-bar-height: 36px !default;
+$ln-habitat-modifier-transition-duration: 0.2s !default;
+$ln-habitat-modifier-transition-duration-long: 0.4s !default;
+$ln-habitat-modifier-transition-timing-function-default: ease-out !default;
+$ln-habitat-opacity-default: 0.7 !default;
+$ln-habitat-opacity-light: 0.15 !default;
+$ln-habitat-opacity-disabled: 0.35 !default;
+$ln-habitat-opacity-background: 0.06 !default;
+$ln-habitat-overlay-color: #000000 !default;
+$ln-habitat-overlay-opacity: 0.7 !default;
+$ln-habitat-space-baseline-grid: 8 !default;
+$ln-habitat-space-baseline-condensed: 4 !default;
+$ln-habitat-space-fixed-width-extra-small: 800 !default;
+$ln-habitat-space-fixed-width-small: 1280 !default;
+$ln-habitat-space-fixed-width-medium: 1440 !default;
+$ln-habitat-space-fixed-width-large: 1800 !default;
+$ln-habitat-space-size-small: 24px !default;
+$ln-habitat-space-size-medium: 48px !default;
+$ln-habitat-space-size-large: 80px !default;
+$ln-habitat-space-spacing-default: 8px !default;
+$ln-habitat-space-spacing-extra-small: 4px !default;
+$ln-habitat-space-spacing-small: 8px !default;
+$ln-habitat-space-spacing-medium: 16px !default;
+$ln-habitat-space-spacing-large: 24px !default;
+$ln-habitat-space-spacing-extra-large: 32px !default;
+$ln-habitat-space-spacing-half: 4px !default;
+$ln-habitat-space-spacing-x1: 8px !default;
+$ln-habitat-space-spacing-x2: 16px !default;
+$ln-habitat-space-spacing-x3: 24px !default;
+$ln-habitat-space-spacing-x4: 32px !default;
+$ln-habitat-space-spacing-x5: 40px !default;
+$ln-habitat-space-spacing-x6: 48px !default;
+$ln-habitat-space-spacing-x7: 56px !default;
+$ln-habitat-space-spacing-x8: 64px !default;
+$ln-habitat-space-spacing-x9: 72px !default;
+$ln-habitat-space-spacing-x10: 80px !default;
+$ln-habitat-space-breakpoints-extra-extra-small: 480px !default;
+$ln-habitat-space-breakpoints-extra-small: 600px !default;
+$ln-habitat-space-breakpoints-small: 720px !default;
+$ln-habitat-space-breakpoints-medium: 960px !default;
+$ln-habitat-space-breakpoints-large: 1200px !default;
+$ln-habitat-space-breakpoints-extra-large: 1400px !default;
+$ln-habitat-space-breakpoints-extra-extra-large: 1800px !default;
+$ln-habitat-typography-base-font-family: Inhabit !default; // The font stack which has fallbacks primarly used on web
+$ln-habitat-typography-base-font: Inhabit !default; // Main font used in this category
+$ln-habitat-typography-base-letterform: sans-serif !default; // the letterform type which the font belongs to
+$ln-habitat-typography-brand-font-family: Inhabit, 'Helvetica Neue', Helvetica, Arial, sans-serif !default; // The font stack which has fallbacks primarly used on web
+$ln-habitat-typography-brand-font: Inhabit !default; // Main font used in this category
+$ln-habitat-typography-brand-letterform: sans-serif !default; // the letterform type which the font belongs to
+$ln-habitat-typography-monospace-font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace !default;
+$ln-habitat-typography-system-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-habitat-typography-font-size-root: 1rem !default; // The browser default font-size
+$ln-habitat-typography-font-size-default: 16 !default; // The font-size in px
+$ln-habitat-typography-font-size-rem: 16 !default; // The font-size in rem
+$ln-habitat-typography-font-weight-light: 300 !default;
+$ln-habitat-typography-font-weight-regular: 400 !default;
+$ln-habitat-typography-font-weight-medium: 500 !default;
+$ln-habitat-typography-font-weight-semi-bold: 600 !default;
+$ln-habitat-typography-font-weight-bold: 700 !default;
+$ln-habitat-typography-font-weight-extra-bold: 800 !default;
+$ln-habitat-typography-font-weight-black: 900 !default;
+$ln-habitat-font-stack-display-7-font-size: 60px !default;
+$ln-habitat-font-stack-display-7-line-height: 76px !default;
+$ln-habitat-font-stack-display-7-font-weight: 700 !default;
+$ln-habitat-font-stack-display-7-font-family: Inhabit, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-habitat-font-stack-display-6-font-size: 48px !default;
+$ln-habitat-font-stack-display-6-line-height: 62px !default;
+$ln-habitat-font-stack-display-6-font-weight: 700 !default;
+$ln-habitat-font-stack-display-6-font-family: Inhabit, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-habitat-font-stack-display-5-font-size: 38px !default;
+$ln-habitat-font-stack-display-5-line-height: 50px !default;
+$ln-habitat-font-stack-display-5-font-weight: 700 !default;
+$ln-habitat-font-stack-display-5-font-family: Inhabit, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-habitat-font-stack-display-4-font-size: 30px !default;
+$ln-habitat-font-stack-display-4-line-height: 40px !default;
+$ln-habitat-font-stack-display-4-font-weight: 700 !default;
+$ln-habitat-font-stack-display-4-font-family: Inhabit, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-habitat-font-stack-display-3-font-size: 24px !default;
+$ln-habitat-font-stack-display-3-line-height: 32px !default;
+$ln-habitat-font-stack-display-3-font-weight: 700 !default;
+$ln-habitat-font-stack-display-3-font-family: Inhabit, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-habitat-font-stack-display-2-font-size: 20px !default;
+$ln-habitat-font-stack-display-2-line-height: 26px !default;
+$ln-habitat-font-stack-display-2-font-weight: 700 !default;
+$ln-habitat-font-stack-display-2-font-family: Inhabit, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-habitat-font-stack-display-1-font-size: 18px !default;
+$ln-habitat-font-stack-display-1-line-height: 26px !default;
+$ln-habitat-font-stack-display-1-font-weight: 700 !default;
+$ln-habitat-font-stack-display-1-font-family: Inhabit, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-habitat-font-stack-label-1-font-size: 16px !default;
+$ln-habitat-font-stack-label-1-line-height: 24px !default;
+$ln-habitat-font-stack-label-1-font-weight: 700 !default;
+$ln-habitat-font-stack-label-1-font-family: Inhabit, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-habitat-font-stack-label-2-font-size: 16px !default;
+$ln-habitat-font-stack-label-2-line-height: 24px !default;
+$ln-habitat-font-stack-label-2-font-weight: 700 !default;
+$ln-habitat-font-stack-label-2-font-family: Inhabit !default;
+$ln-habitat-font-stack-body-2-font-size: 18px !default;
+$ln-habitat-font-stack-body-2-line-height: 26px !default;
+$ln-habitat-font-stack-body-2-font-weight: 400 !default;
+$ln-habitat-font-stack-body-2-font-family: Inhabit !default;
+$ln-habitat-font-stack-body-1-font-size: 16px !default;
+$ln-habitat-font-stack-body-1-line-height: 24px !default;
+$ln-habitat-font-stack-body-1-font-weight: 400 !default;
+$ln-habitat-font-stack-body-1-font-family: Inhabit !default;
+$ln-habitat-font-stack-caption-font-size: 14px !default;
+$ln-habitat-font-stack-caption-line-height: 22px !default;
+$ln-habitat-font-stack-caption-font-weight: 400 !default;
+$ln-habitat-font-stack-caption-font-family: Inhabit, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-habitat-font-stack-button-font-size: 16px !default;
+$ln-habitat-font-stack-button-line-height: 24px !default;
+$ln-habitat-font-stack-button-font-weight: 700 !default;
+$ln-habitat-font-stack-button-font-family: Inhabit, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+
+$ln-habitat: (
+  'color': (
+    'palette': (
+      'black': $ln-habitat-color-palette-black,
+      'blue-100': $ln-habitat-color-palette-blue-100,
+      'blue-90': $ln-habitat-color-palette-blue-90,
+      'blue-80': $ln-habitat-color-palette-blue-80,
+      'blue-70': $ln-habitat-color-palette-blue-70,
+      'blue-60': $ln-habitat-color-palette-blue-60,
+      'blue-50': $ln-habitat-color-palette-blue-50,
+      'blue-40': $ln-habitat-color-palette-blue-40,
+      'blue-30': $ln-habitat-color-palette-blue-30,
+      'blue-20': $ln-habitat-color-palette-blue-20,
+      'blue-10': $ln-habitat-color-palette-blue-10,
+      'brand-1': $ln-habitat-color-palette-brand-1,
+      'brand-1-highlight': $ln-habitat-color-palette-brand-1-highlight,
+      'brand-2': $ln-habitat-color-palette-brand-2,
+      'brand-2-highlight': $ln-habitat-color-palette-brand-2-highlight,
+      'green-100': $ln-habitat-color-palette-green-100,
+      'green-90': $ln-habitat-color-palette-green-90,
+      'green-80': $ln-habitat-color-palette-green-80,
+      'green-70': $ln-habitat-color-palette-green-70,
+      'green-60': $ln-habitat-color-palette-green-60,
+      'green-50': $ln-habitat-color-palette-green-50,
+      'green-40': $ln-habitat-color-palette-green-40,
+      'green-30': $ln-habitat-color-palette-green-30,
+      'green-20': $ln-habitat-color-palette-green-20,
+      'green-10': $ln-habitat-color-palette-green-10,
+      'grey-100': $ln-habitat-color-palette-grey-100,
+      'grey-90': $ln-habitat-color-palette-grey-90,
+      'grey-80': $ln-habitat-color-palette-grey-80,
+      'grey-70': $ln-habitat-color-palette-grey-70,
+      'grey-60': $ln-habitat-color-palette-grey-60,
+      'grey-50': $ln-habitat-color-palette-grey-50,
+      'grey-40': $ln-habitat-color-palette-grey-40,
+      'grey-30': $ln-habitat-color-palette-grey-30,
+      'grey-20': $ln-habitat-color-palette-grey-20,
+      'grey-10': $ln-habitat-color-palette-grey-10,
+      'blue': $ln-habitat-color-palette-blue,
+      'green': $ln-habitat-color-palette-green,
+      'red': $ln-habitat-color-palette-red,
+      'yellow': $ln-habitat-color-palette-yellow,
+      'red-100': $ln-habitat-color-palette-red-100,
+      'red-90': $ln-habitat-color-palette-red-90,
+      'red-80': $ln-habitat-color-palette-red-80,
+      'red-70': $ln-habitat-color-palette-red-70,
+      'red-60': $ln-habitat-color-palette-red-60,
+      'red-50': $ln-habitat-color-palette-red-50,
+      'red-40': $ln-habitat-color-palette-red-40,
+      'red-30': $ln-habitat-color-palette-red-30,
+      'red-20': $ln-habitat-color-palette-red-20,
+      'red-10': $ln-habitat-color-palette-red-10,
+      'white': $ln-habitat-color-palette-white,
+      'yellow-100': $ln-habitat-color-palette-yellow-100,
+      'yellow-90': $ln-habitat-color-palette-yellow-90,
+      'yellow-80': $ln-habitat-color-palette-yellow-80,
+      'yellow-70': $ln-habitat-color-palette-yellow-70,
+      'yellow-60': $ln-habitat-color-palette-yellow-60,
+      'yellow-50': $ln-habitat-color-palette-yellow-50,
+      'yellow-40': $ln-habitat-color-palette-yellow-40,
+      'yellow-30': $ln-habitat-color-palette-yellow-30,
+      'yellow-20': $ln-habitat-color-palette-yellow-20,
+      'yellow-10': $ln-habitat-color-palette-yellow-10,
+      'black-50': $ln-habitat-color-palette-black-50,
+      'black-60': $ln-habitat-color-palette-black-60,
+      'cloud-100': $ln-habitat-color-palette-cloud-100,
+      'cloud-90': $ln-habitat-color-palette-cloud-90,
+      'cloud-80': $ln-habitat-color-palette-cloud-80,
+      'cloud-70': $ln-habitat-color-palette-cloud-70,
+      'cloud-60': $ln-habitat-color-palette-cloud-60,
+      'cloud-50': $ln-habitat-color-palette-cloud-50,
+      'cloud-40': $ln-habitat-color-palette-cloud-40,
+      'cloud-30': $ln-habitat-color-palette-cloud-30,
+      'cloud-20': $ln-habitat-color-palette-cloud-20,
+      'cloud-10': $ln-habitat-color-palette-cloud-10,
+      'earth-100': $ln-habitat-color-palette-earth-100,
+      'earth-90': $ln-habitat-color-palette-earth-90,
+      'earth-80': $ln-habitat-color-palette-earth-80,
+      'earth-70': $ln-habitat-color-palette-earth-70,
+      'earth-60': $ln-habitat-color-palette-earth-60,
+      'earth-50': $ln-habitat-color-palette-earth-50,
+      'earth-40': $ln-habitat-color-palette-earth-40,
+      'earth-30': $ln-habitat-color-palette-earth-30,
+      'earth-20': $ln-habitat-color-palette-earth-20,
+      'earth-10': $ln-habitat-color-palette-earth-10,
+      'kiss-100': $ln-habitat-color-palette-kiss-100,
+      'kiss-90': $ln-habitat-color-palette-kiss-90,
+      'kiss-80': $ln-habitat-color-palette-kiss-80,
+      'kiss-70': $ln-habitat-color-palette-kiss-70,
+      'kiss-60': $ln-habitat-color-palette-kiss-60,
+      'kiss-50': $ln-habitat-color-palette-kiss-50,
+      'kiss-40': $ln-habitat-color-palette-kiss-40,
+      'kiss-30': $ln-habitat-color-palette-kiss-30,
+      'kiss-20': $ln-habitat-color-palette-kiss-20,
+      'kiss-10': $ln-habitat-color-palette-kiss-10,
+      'lavender-100': $ln-habitat-color-palette-lavender-100,
+      'lavender-90': $ln-habitat-color-palette-lavender-90,
+      'lavender-80': $ln-habitat-color-palette-lavender-80,
+      'lavender-70': $ln-habitat-color-palette-lavender-70,
+      'lavender-60': $ln-habitat-color-palette-lavender-60,
+      'lavender-50': $ln-habitat-color-palette-lavender-50,
+      'lavender-40': $ln-habitat-color-palette-lavender-40,
+      'lavender-30': $ln-habitat-color-palette-lavender-30,
+      'lavender-20': $ln-habitat-color-palette-lavender-20,
+      'lavender-10': $ln-habitat-color-palette-lavender-10,
+      'leaf-100': $ln-habitat-color-palette-leaf-100,
+      'leaf-90': $ln-habitat-color-palette-leaf-90,
+      'leaf-80': $ln-habitat-color-palette-leaf-80,
+      'leaf-70': $ln-habitat-color-palette-leaf-70,
+      'leaf-60': $ln-habitat-color-palette-leaf-60,
+      'leaf-50': $ln-habitat-color-palette-leaf-50,
+      'leaf-40': $ln-habitat-color-palette-leaf-40,
+      'leaf-30': $ln-habitat-color-palette-leaf-30,
+      'leaf-20': $ln-habitat-color-palette-leaf-20,
+      'leaf-10': $ln-habitat-color-palette-leaf-10,
+      'black-light': $ln-habitat-color-palette-black-light,
+      'white-dark': $ln-habitat-color-palette-white-dark,
+      'cloud': $ln-habitat-color-palette-cloud,
+      'earth': $ln-habitat-color-palette-earth,
+      'kiss': $ln-habitat-color-palette-kiss,
+      'lavender': $ln-habitat-color-palette-lavender,
+      'sky': $ln-habitat-color-palette-sky,
+      'water': $ln-habitat-color-palette-water,
+      'sky-100': $ln-habitat-color-palette-sky-100,
+      'sky-90': $ln-habitat-color-palette-sky-90,
+      'sky-80': $ln-habitat-color-palette-sky-80,
+      'sky-70': $ln-habitat-color-palette-sky-70,
+      'sky-60': $ln-habitat-color-palette-sky-60,
+      'sky-50': $ln-habitat-color-palette-sky-50,
+      'sky-40': $ln-habitat-color-palette-sky-40,
+      'sky-30': $ln-habitat-color-palette-sky-30,
+      'sky-20': $ln-habitat-color-palette-sky-20,
+      'sky-10': $ln-habitat-color-palette-sky-10,
+      'water-100': $ln-habitat-color-palette-water-100,
+      'water-90': $ln-habitat-color-palette-water-90,
+      'water-80': $ln-habitat-color-palette-water-80,
+      'water-70': $ln-habitat-color-palette-water-70,
+      'water-60': $ln-habitat-color-palette-water-60,
+      'water-50': $ln-habitat-color-palette-water-50,
+      'water-40': $ln-habitat-color-palette-water-40,
+      'water-30': $ln-habitat-color-palette-water-30,
+      'water-20': $ln-habitat-color-palette-water-20,
+      'water-10': $ln-habitat-color-palette-water-10,
+      'white-70': $ln-habitat-color-palette-white-70,
+      'white-60': $ln-habitat-color-palette-white-60
+    ),
+    'monochrome': (
+      'white': $ln-habitat-color-monochrome-white,
+      'lighter': $ln-habitat-color-monochrome-lighter,
+      'lighter--rgb': $ln-habitat-color-monochrome-lighter-rgb,
+      'light': $ln-habitat-color-monochrome-light,
+      'light--rgb': $ln-habitat-color-monochrome-light-rgb,
+      'medium': $ln-habitat-color-monochrome-medium,
+      'medium--rgb': $ln-habitat-color-monochrome-medium-rgb,
+      'dark': $ln-habitat-color-monochrome-dark,
+      'dark--rgb': $ln-habitat-color-monochrome-dark-rgb,
+      'darker': $ln-habitat-color-monochrome-darker,
+      'darker--rgb': $ln-habitat-color-monochrome-darker-rgb,
+      'grey-v-light': $ln-habitat-color-monochrome-grey-v-light,
+      'grey-light': $ln-habitat-color-monochrome-grey-light,
+      'grey': $ln-habitat-color-monochrome-grey,
+      'grey-dark': $ln-habitat-color-monochrome-grey-dark,
+      'grey-darker': $ln-habitat-color-monochrome-grey-darker,
+      'black': $ln-habitat-color-monochrome-black
+    ),
+    'promotion': (
+      'sale': (
+        'lightest': $ln-habitat-color-promotion-sale-lightest,
+        'lighter': $ln-habitat-color-promotion-sale-lighter,
+        'light': $ln-habitat-color-promotion-sale-light,
+        'base': $ln-habitat-color-promotion-sale-base,
+        'dark': $ln-habitat-color-promotion-sale-dark,
+        'darker': $ln-habitat-color-promotion-sale-darker,
+        'darkest': $ln-habitat-color-promotion-sale-darkest
+      ),
+      'new': (
+        'lightest': $ln-habitat-color-promotion-new-lightest,
+        'lighter': $ln-habitat-color-promotion-new-lighter,
+        'light': $ln-habitat-color-promotion-new-light,
+        'base': $ln-habitat-color-promotion-new-base,
+        'dark': $ln-habitat-color-promotion-new-dark,
+        'darker': $ln-habitat-color-promotion-new-darker,
+        'darkest': $ln-habitat-color-promotion-new-darkest
+      )
+    ),
+    'scheme': (
+      'light': (
+        'base': $ln-habitat-color-scheme-light-base,
+        'highlight': $ln-habitat-color-scheme-light-highlight,
+        'on': (
+          'base': $ln-habitat-color-scheme-light-on-base,
+          'highlight': $ln-habitat-color-scheme-light-on-highlight
+        )
+      ),
+      'dark': (
+        'base': $ln-habitat-color-scheme-dark-base,
+        'highlight': $ln-habitat-color-scheme-dark-highlight,
+        'on': (
+          'base': $ln-habitat-color-scheme-dark-on-base,
+          'highlight': $ln-habitat-color-scheme-dark-on-highlight
+        )
+      ),
+      'brand-1': (
+        'base': $ln-habitat-color-scheme-brand-1-base,
+        'highlight': $ln-habitat-color-scheme-brand-1-highlight,
+        'on': (
+          'base': $ln-habitat-color-scheme-brand-1-on-base,
+          'highlight': $ln-habitat-color-scheme-brand-1-on-highlight
+        )
+      ),
+      'brand-2': (
+        'base': $ln-habitat-color-scheme-brand-2-base,
+        'highlight': $ln-habitat-color-scheme-brand-2-highlight,
+        'on': (
+          'base': $ln-habitat-color-scheme-brand-2-on-base,
+          'highlight': $ln-habitat-color-scheme-brand-2-on-highlight
+        )
+      )
+    ),
+    'semantic': (
+      'error': (
+        'lighter': $ln-habitat-color-semantic-error-lighter,
+        'light': $ln-habitat-color-semantic-error-light,
+        'base': $ln-habitat-color-semantic-error-base,
+        'dark': $ln-habitat-color-semantic-error-dark,
+        'darker': $ln-habitat-color-semantic-error-darker,
+        'text': $ln-habitat-color-semantic-error-text
+      ),
+      'info': (
+        'lighter': $ln-habitat-color-semantic-info-lighter,
+        'light': $ln-habitat-color-semantic-info-light,
+        'base': $ln-habitat-color-semantic-info-base,
+        'dark': $ln-habitat-color-semantic-info-dark,
+        'darker': $ln-habitat-color-semantic-info-darker,
+        'text': $ln-habitat-color-semantic-info-text
+      ),
+      'success': (
+        'lighter': $ln-habitat-color-semantic-success-lighter,
+        'light': $ln-habitat-color-semantic-success-light,
+        'base': $ln-habitat-color-semantic-success-base,
+        'dark': $ln-habitat-color-semantic-success-dark,
+        'darker': $ln-habitat-color-semantic-success-darker,
+        'text': $ln-habitat-color-semantic-success-text
+      ),
+      'warning': (
+        'lighter': $ln-habitat-color-semantic-warning-lighter,
+        'light': $ln-habitat-color-semantic-warning-light,
+        'base': $ln-habitat-color-semantic-warning-base,
+        'dark': $ln-habitat-color-semantic-warning-dark,
+        'darker': $ln-habitat-color-semantic-warning-darker,
+        'text': $ln-habitat-color-semantic-warning-text
+      )
+    ),
+    'brand-1': (
+      'base': $ln-habitat-color-brand-1-base,
+      'lighter': $ln-habitat-color-brand-1-lighter,
+      'light': $ln-habitat-color-brand-1-light,
+      'dark': $ln-habitat-color-brand-1-dark,
+      'darker': $ln-habitat-color-brand-1-darker,
+      'darkest': $ln-habitat-color-brand-1-darkest
+    ),
+    'brand-2': (
+      'base': $ln-habitat-color-brand-2-base,
+      'lighter': $ln-habitat-color-brand-2-lighter,
+      'light': $ln-habitat-color-brand-2-light,
+      'dark': $ln-habitat-color-brand-2-dark,
+      'darker': $ln-habitat-color-brand-2-darker,
+      'darkest': $ln-habitat-color-brand-2-darkest
+    ),
+    'campaign-1': (
+      'lightest': $ln-habitat-color-campaign-1-lightest,
+      'lighter': $ln-habitat-color-campaign-1-lighter,
+      'light': $ln-habitat-color-campaign-1-light,
+      'base': $ln-habitat-color-campaign-1-base,
+      'dark': $ln-habitat-color-campaign-1-dark,
+      'darker': $ln-habitat-color-campaign-1-darker,
+      'darkest': $ln-habitat-color-campaign-1-darkest
+    ),
+    'campaign-2': (
+      'lightest': $ln-habitat-color-campaign-2-lightest,
+      'lighter': $ln-habitat-color-campaign-2-lighter,
+      'light': $ln-habitat-color-campaign-2-light,
+      'base': $ln-habitat-color-campaign-2-base,
+      'dark': $ln-habitat-color-campaign-2-dark,
+      'darker': $ln-habitat-color-campaign-2-darker,
+      'darkest': $ln-habitat-color-campaign-2-darkest
+    ),
+    'campaign-3': (
+      'lightest': $ln-habitat-color-campaign-3-lightest,
+      'lighter': $ln-habitat-color-campaign-3-lighter,
+      'light': $ln-habitat-color-campaign-3-light,
+      'base': $ln-habitat-color-campaign-3-base,
+      'dark': $ln-habitat-color-campaign-3-dark,
+      'darker': $ln-habitat-color-campaign-3-darker,
+      'darkest': $ln-habitat-color-campaign-3-darkest
+    ),
+    'campaign-4': (
+      'lightest': $ln-habitat-color-campaign-4-lightest,
+      'lighter': $ln-habitat-color-campaign-4-lighter,
+      'light': $ln-habitat-color-campaign-4-light,
+      'base': $ln-habitat-color-campaign-4-base,
+      'dark': $ln-habitat-color-campaign-4-dark,
+      'darker': $ln-habitat-color-campaign-4-darker,
+      'darkest': $ln-habitat-color-campaign-4-darkest
+    ),
+    'campaign-5': (
+      'lightest': $ln-habitat-color-campaign-5-lightest,
+      'lighter': $ln-habitat-color-campaign-5-lighter,
+      'light': $ln-habitat-color-campaign-5-light,
+      'base': $ln-habitat-color-campaign-5-base,
+      'dark': $ln-habitat-color-campaign-5-dark,
+      'darker': $ln-habitat-color-campaign-5-darker,
+      'darkest': $ln-habitat-color-campaign-5-darkest
+    ),
+    'campaign-6': (
+      'lightest': $ln-habitat-color-campaign-6-lightest,
+      'lighter': $ln-habitat-color-campaign-6-lighter,
+      'light': $ln-habitat-color-campaign-6-light,
+      'base': $ln-habitat-color-campaign-6-base,
+      'dark': $ln-habitat-color-campaign-6-dark,
+      'darker': $ln-habitat-color-campaign-6-darker,
+      'darkest': $ln-habitat-color-campaign-6-darkest
+    ),
+    'campaign-7': (
+      'lightest': $ln-habitat-color-campaign-7-lightest,
+      'lighter': $ln-habitat-color-campaign-7-lighter,
+      'light': $ln-habitat-color-campaign-7-light,
+      'base': $ln-habitat-color-campaign-7-base,
+      'dark': $ln-habitat-color-campaign-7-dark,
+      'darker': $ln-habitat-color-campaign-7-darker,
+      'darkest': $ln-habitat-color-campaign-7-darkest
+    ),
+    'mode': (
+      'default': (
+        'surface': (
+          'background': $ln-habitat-color-mode-default-surface-background,
+          'foreground': $ln-habitat-color-mode-default-surface-foreground
+        ),
+        'border': $ln-habitat-color-mode-default-border,
+        'scheme': (
+          'base': $ln-habitat-color-mode-default-scheme-base,
+          'highlight': $ln-habitat-color-mode-default-scheme-highlight,
+          'on': (
+            'base': $ln-habitat-color-mode-default-scheme-on-base,
+            'highlight': $ln-habitat-color-mode-default-scheme-on-highlight
+          )
+        )
+      )
+    )
+  ),
+  'mode': (
+    'dark': (
+      'background': $ln-habitat-mode-dark-background,
+      'base': $ln-habitat-mode-dark-base,
+      'base-inverse': $ln-habitat-mode-dark-base-inverse,
+      'border': $ln-habitat-mode-dark-border,
+      'border-interactive': $ln-habitat-mode-dark-border-interactive,
+      'border-interactive-highlight': $ln-habitat-mode-dark-border-interactive-highlight,
+      'footer-background': $ln-habitat-mode-dark-footer-background,
+      'footer-text': $ln-habitat-mode-dark-footer-text,
+      'foreground': $ln-habitat-mode-dark-foreground,
+      'header-background': $ln-habitat-mode-dark-header-background,
+      'header-text': $ln-habitat-mode-dark-header-text,
+      'highlight': $ln-habitat-mode-dark-highlight,
+      'highlight-inverse': $ln-habitat-mode-dark-highlight-inverse
+    ),
+    'default': (
+      'background': $ln-habitat-mode-default-background,
+      'base': $ln-habitat-mode-default-base,
+      'base-inverse': $ln-habitat-mode-default-base-inverse,
+      'border': $ln-habitat-mode-default-border,
+      'border-interactive': $ln-habitat-mode-default-border-interactive,
+      'border-interactive-highlight': $ln-habitat-mode-default-border-interactive-highlight,
+      'footer-background': $ln-habitat-mode-default-footer-background,
+      'footer-text': $ln-habitat-mode-default-footer-text,
+      'foreground': $ln-habitat-mode-default-foreground,
+      'header-background': $ln-habitat-mode-default-header-background,
+      'header-text': $ln-habitat-mode-default-header-text,
+      'highlight': $ln-habitat-mode-default-highlight,
+      'highlight-inverse': $ln-habitat-mode-default-highlight-inverse
+    )
+  ),
+  'surface': (
+    'light': (
+      'background': $ln-habitat-surface-light-background,
+      'base': $ln-habitat-surface-light-base,
+      'border': $ln-habitat-surface-light-border,
+      'highlight': $ln-habitat-surface-light-highlight,
+      'interactive': $ln-habitat-surface-light-interactive,
+      'interactive-hover': $ln-habitat-surface-light-interactive-hover
+    ),
+    'white': (
+      'background': $ln-habitat-surface-white-background,
+      'base': $ln-habitat-surface-white-base,
+      'border': $ln-habitat-surface-white-border,
+      'highlight': $ln-habitat-surface-white-highlight
+    ),
+    'dark': (
+      'background': $ln-habitat-surface-dark-background,
+      'base': $ln-habitat-surface-dark-base,
+      'border': $ln-habitat-surface-dark-border,
+      'highlight': $ln-habitat-surface-dark-highlight,
+      'interactive': $ln-habitat-surface-dark-interactive,
+      'interactive-hover': $ln-habitat-surface-dark-interactive-hover
+    ),
+    'grey': (
+      'background': $ln-habitat-surface-grey-background,
+      'base': $ln-habitat-surface-grey-base,
+      'border': $ln-habitat-surface-grey-border,
+      'highlight': $ln-habitat-surface-grey-highlight
+    )
+  ),
+  'modifier': (
+    'border': (
+      'width': $ln-habitat-modifier-border-width,
+      'width-large': $ln-habitat-modifier-border-width-large,
+      'radius': $ln-habitat-modifier-border-radius,
+      'radius-large': $ln-habitat-modifier-border-radius-large
+    ),
+    'border-interactive': (
+      'width': $ln-habitat-modifier-border-interactive-width
+    ),
+    'button': (
+      'border': $ln-habitat-modifier-button-border
+    ),
+    'focus-ring': (
+      'focus-width': $ln-habitat-modifier-focus-ring-focus-width,
+      'color': $ln-habitat-modifier-focus-ring-color
+    ),
+    'footer': (
+      'background': $ln-habitat-modifier-footer-background,
+      'text': $ln-habitat-modifier-footer-text
+    ),
+    'header': (
+      'background': $ln-habitat-modifier-header-background
+    ),
+    'global-bar': (
+      'height': $ln-habitat-modifier-global-bar-height
+    ),
+    'transition': (
+      'duration': $ln-habitat-modifier-transition-duration,
+      'duration-long': $ln-habitat-modifier-transition-duration-long,
+      'timing-function': (
+        'default': $ln-habitat-modifier-transition-timing-function-default
+      )
+    )
+  ),
+  'opacity': (
+    'default': $ln-habitat-opacity-default,
+    'light': $ln-habitat-opacity-light,
+    'disabled': $ln-habitat-opacity-disabled,
+    'background': $ln-habitat-opacity-background
+  ),
+  'overlay': (
+    'color': $ln-habitat-overlay-color,
+    'opacity': $ln-habitat-overlay-opacity
+  ),
+  'space': (
+    'baseline': (
+      'grid': $ln-habitat-space-baseline-grid,
+      'condensed': $ln-habitat-space-baseline-condensed
+    ),
+    'fixed-width': (
+      'extra-small': $ln-habitat-space-fixed-width-extra-small,
+      'small': $ln-habitat-space-fixed-width-small,
+      'medium': $ln-habitat-space-fixed-width-medium,
+      'large': $ln-habitat-space-fixed-width-large
+    ),
+    'size': (
+      'small': $ln-habitat-space-size-small,
+      'medium': $ln-habitat-space-size-medium,
+      'large': $ln-habitat-space-size-large
+    ),
+    'spacing': (
+      'default': $ln-habitat-space-spacing-default,
+      'extra-small': $ln-habitat-space-spacing-extra-small,
+      'small': $ln-habitat-space-spacing-small,
+      'medium': $ln-habitat-space-spacing-medium,
+      'large': $ln-habitat-space-spacing-large,
+      'extra-large': $ln-habitat-space-spacing-extra-large,
+      'half': $ln-habitat-space-spacing-half,
+      'x1': $ln-habitat-space-spacing-x1,
+      'x2': $ln-habitat-space-spacing-x2,
+      'x3': $ln-habitat-space-spacing-x3,
+      'x4': $ln-habitat-space-spacing-x4,
+      'x5': $ln-habitat-space-spacing-x5,
+      'x6': $ln-habitat-space-spacing-x6,
+      'x7': $ln-habitat-space-spacing-x7,
+      'x8': $ln-habitat-space-spacing-x8,
+      'x9': $ln-habitat-space-spacing-x9,
+      'x10': $ln-habitat-space-spacing-x10
+    ),
+    'breakpoints': (
+      'extra-extra-small': $ln-habitat-space-breakpoints-extra-extra-small,
+      'extra-small': $ln-habitat-space-breakpoints-extra-small,
+      'small': $ln-habitat-space-breakpoints-small,
+      'medium': $ln-habitat-space-breakpoints-medium,
+      'large': $ln-habitat-space-breakpoints-large,
+      'extra-large': $ln-habitat-space-breakpoints-extra-large,
+      'extra-extra-large': $ln-habitat-space-breakpoints-extra-extra-large
+    )
+  ),
+  'typography': (
+    'base': (
+      'font-family': $ln-habitat-typography-base-font-family,
+      'font': $ln-habitat-typography-base-font,
+      'letterform': $ln-habitat-typography-base-letterform
+    ),
+    'brand': (
+      'font-family': $ln-habitat-typography-brand-font-family,
+      'font': $ln-habitat-typography-brand-font,
+      'letterform': $ln-habitat-typography-brand-letterform
+    ),
+    'monospace': (
+      'font-family': $ln-habitat-typography-monospace-font-family
+    ),
+    'system': (
+      'font-family': $ln-habitat-typography-system-font-family
+    ),
+    'font-size': (
+      'root': $ln-habitat-typography-font-size-root,
+      'default': $ln-habitat-typography-font-size-default,
+      'rem': $ln-habitat-typography-font-size-rem
+    ),
+    'font-weight': (
+      'light': $ln-habitat-typography-font-weight-light,
+      'regular': $ln-habitat-typography-font-weight-regular,
+      'medium': $ln-habitat-typography-font-weight-medium,
+      'semi-bold': $ln-habitat-typography-font-weight-semi-bold,
+      'bold': $ln-habitat-typography-font-weight-bold,
+      'extra-bold': $ln-habitat-typography-font-weight-extra-bold,
+      'black': $ln-habitat-typography-font-weight-black
+    )
+  ),
+  'font-stack': (
+    'display-7': (
+      'font-size': $ln-habitat-font-stack-display-7-font-size,
+      'line-height': $ln-habitat-font-stack-display-7-line-height,
+      'font-weight': $ln-habitat-font-stack-display-7-font-weight,
+      'font-family': $ln-habitat-font-stack-display-7-font-family
+    ),
+    'display-6': (
+      'font-size': $ln-habitat-font-stack-display-6-font-size,
+      'line-height': $ln-habitat-font-stack-display-6-line-height,
+      'font-weight': $ln-habitat-font-stack-display-6-font-weight,
+      'font-family': $ln-habitat-font-stack-display-6-font-family
+    ),
+    'display-5': (
+      'font-size': $ln-habitat-font-stack-display-5-font-size,
+      'line-height': $ln-habitat-font-stack-display-5-line-height,
+      'font-weight': $ln-habitat-font-stack-display-5-font-weight,
+      'font-family': $ln-habitat-font-stack-display-5-font-family
+    ),
+    'display-4': (
+      'font-size': $ln-habitat-font-stack-display-4-font-size,
+      'line-height': $ln-habitat-font-stack-display-4-line-height,
+      'font-weight': $ln-habitat-font-stack-display-4-font-weight,
+      'font-family': $ln-habitat-font-stack-display-4-font-family
+    ),
+    'display-3': (
+      'font-size': $ln-habitat-font-stack-display-3-font-size,
+      'line-height': $ln-habitat-font-stack-display-3-line-height,
+      'font-weight': $ln-habitat-font-stack-display-3-font-weight,
+      'font-family': $ln-habitat-font-stack-display-3-font-family
+    ),
+    'display-2': (
+      'font-size': $ln-habitat-font-stack-display-2-font-size,
+      'line-height': $ln-habitat-font-stack-display-2-line-height,
+      'font-weight': $ln-habitat-font-stack-display-2-font-weight,
+      'font-family': $ln-habitat-font-stack-display-2-font-family
+    ),
+    'display-1': (
+      'font-size': $ln-habitat-font-stack-display-1-font-size,
+      'line-height': $ln-habitat-font-stack-display-1-line-height,
+      'font-weight': $ln-habitat-font-stack-display-1-font-weight,
+      'font-family': $ln-habitat-font-stack-display-1-font-family
+    ),
+    'label-1': (
+      'font-size': $ln-habitat-font-stack-label-1-font-size,
+      'line-height': $ln-habitat-font-stack-label-1-line-height,
+      'font-weight': $ln-habitat-font-stack-label-1-font-weight,
+      'font-family': $ln-habitat-font-stack-label-1-font-family
+    ),
+    'label-2': (
+      'font-size': $ln-habitat-font-stack-label-2-font-size,
+      'line-height': $ln-habitat-font-stack-label-2-line-height,
+      'font-weight': $ln-habitat-font-stack-label-2-font-weight,
+      'font-family': $ln-habitat-font-stack-label-2-font-family
+    ),
+    'body-2': (
+      'font-size': $ln-habitat-font-stack-body-2-font-size,
+      'line-height': $ln-habitat-font-stack-body-2-line-height,
+      'font-weight': $ln-habitat-font-stack-body-2-font-weight,
+      'font-family': $ln-habitat-font-stack-body-2-font-family
+    ),
+    'body-1': (
+      'font-size': $ln-habitat-font-stack-body-1-font-size,
+      'line-height': $ln-habitat-font-stack-body-1-line-height,
+      'font-weight': $ln-habitat-font-stack-body-1-font-weight,
+      'font-family': $ln-habitat-font-stack-body-1-font-family
+    ),
+    'caption': (
+      'font-size': $ln-habitat-font-stack-caption-font-size,
+      'line-height': $ln-habitat-font-stack-caption-line-height,
+      'font-weight': $ln-habitat-font-stack-caption-font-weight,
+      'font-family': $ln-habitat-font-stack-caption-font-family
+    ),
+    'button': (
+      'font-size': $ln-habitat-font-stack-button-font-size,
+      'line-height': $ln-habitat-font-stack-button-line-height,
+      'font-weight': $ln-habitat-font-stack-button-font-weight,
+      'font-family': $ln-habitat-font-stack-button-font-family
+    )
+  )
+);

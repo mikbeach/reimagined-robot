@@ -1,0 +1,33 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 26 Jul 2021 14:20:43 GMT
+ */
+
+:root {
+  --ln-mode-dark-background: #262626;
+  --ln-mode-dark-base: #f2f2f2;
+  --ln-mode-dark-base-inverse: #404040;
+  --ln-mode-dark-border: #404040;
+  --ln-mode-dark-border-interactive: #737373;
+  --ln-mode-dark-border-interactive-highlight: #f2f2f2;
+  --ln-mode-dark-footer-background: #ffffff;
+  --ln-mode-dark-footer-text: #404040;
+  --ln-mode-dark-foreground: #262626;
+  --ln-mode-dark-header-background: #262626;
+  --ln-mode-dark-header-text: #f2f2f2;
+  --ln-mode-dark-highlight: #ffffff;
+  --ln-mode-dark-highlight-inverse: #000000;
+  --ln-mode-default-background: #f2f2f2; /* default website background */
+  --ln-mode-default-base: #404040; /* base text colour on default bg */
+  --ln-mode-default-base-inverse: #404040; /* base text colour on default foreground */
+  --ln-mode-default-border: rgba(216,216,216,1);
+  --ln-mode-default-border-interactive: #737373;
+  --ln-mode-default-border-interactive-highlight: #f2f2f2;
+  --ln-mode-default-footer-background: #262626;
+  --ln-mode-default-footer-text: #f2f2f2;
+  --ln-mode-default-foreground: #ffffff; /* default background that are given to luna components */
+  --ln-mode-default-header-background: #ffffff;
+  --ln-mode-default-header-text: #404040;
+  --ln-mode-default-highlight: #000000;
+  --ln-mode-default-highlight-inverse: #000000;
+}

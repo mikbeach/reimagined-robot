@@ -1,0 +1,875 @@
+
+/**
+ * Do not edit directly
+ * Generated on Mon, 26 Jul 2021 14:20:42 GMT
+ */
+
+$ln-tu-color-palette-black: #000000 !default;
+$ln-tu-color-palette-blue-100: #0e4174 !default;
+$ln-tu-color-palette-blue-90: #114e8b !default;
+$ln-tu-color-palette-blue-80: #135ca3 !default;
+$ln-tu-color-palette-blue-70: #1669ba !default;
+$ln-tu-color-palette-blue-60: #1976d2 !default;
+$ln-tu-color-palette-blue-50: #428fda !default;
+$ln-tu-color-palette-blue-40: #6ca7e2 !default;
+$ln-tu-color-palette-blue-30: #95c0ea !default;
+$ln-tu-color-palette-blue-20: #bfd9f2 !default;
+$ln-tu-color-palette-blue-10: #e8f1fb !default;
+$ln-tu-color-palette-brand-1: #000000 !default;
+$ln-tu-color-palette-brand-1-highlight: #404040 !default;
+$ln-tu-color-palette-brand-2: #ffffff !default;
+$ln-tu-color-palette-brand-2-highlight: #f2f2f2 !default;
+$ln-tu-color-palette-green-100: #19451c !default;
+$ln-tu-color-palette-green-90: #1f5321 !default;
+$ln-tu-color-palette-green-80: #246127 !default;
+$ln-tu-color-palette-green-70: #296f2c !default;
+$ln-tu-color-palette-green-60: #2e7d32 !default;
+$ln-tu-color-palette-green-50: #549457 !default;
+$ln-tu-color-palette-green-40: #79ac7c !default;
+$ln-tu-color-palette-green-30: #9fc3a1 !default;
+$ln-tu-color-palette-green-20: #c5dbc6 !default;
+$ln-tu-color-palette-green-10: #eaf2eb !default;
+$ln-tu-color-palette-grey-100: #0d0d0d !default;
+$ln-tu-color-palette-grey-90: #262626 !default;
+$ln-tu-color-palette-grey-80: #404040 !default;
+$ln-tu-color-palette-grey-70: #595959 !default;
+$ln-tu-color-palette-grey-60: #737373 !default;
+$ln-tu-color-palette-grey-50: #8c8c8c !default;
+$ln-tu-color-palette-grey-40: #a6a6a6 !default;
+$ln-tu-color-palette-grey-30: #bfbfbf !default;
+$ln-tu-color-palette-grey-20: #d8d8d8 !default;
+$ln-tu-color-palette-grey-10: #f2f2f2 !default;
+$ln-tu-color-palette-blue: #1976d2 !default;
+$ln-tu-color-palette-green: #2e7d32 !default;
+$ln-tu-color-palette-red: #e53212 !default;
+$ln-tu-color-palette-yellow: #ffd000 !default;
+$ln-tu-color-palette-red-100: #750000 !default;
+$ln-tu-color-palette-red-90: #8d0000 !default;
+$ln-tu-color-palette-red-80: #a50000 !default;
+$ln-tu-color-palette-red-70: #bd0000 !default;
+$ln-tu-color-palette-red-60: #e53212 !default;
+$ln-tu-color-palette-red-50: #ec664e !default;
+$ln-tu-color-palette-red-40: #f29888 !default;
+$ln-tu-color-palette-red-30: #f8ccc4 !default;
+$ln-tu-color-palette-red-20: #f3b8b8 !default;
+$ln-tu-color-palette-red-10: #fbe6e6 !default;
+$ln-tu-color-palette-white: #ffffff !default;
+$ln-tu-color-palette-yellow-100: #8c7600 !default;
+$ln-tu-color-palette-yellow-90: #a98e00 !default;
+$ln-tu-color-palette-yellow-80: #c6a600 !default;
+$ln-tu-color-palette-yellow-70: #e2be00 !default;
+$ln-tu-color-palette-yellow-60: #ffd000 !default;
+$ln-tu-color-palette-yellow-50: #ffdc40 !default;
+$ln-tu-color-palette-yellow-40: #ffe77f !default;
+$ln-tu-color-palette-yellow-30: #fff3bf !default;
+$ln-tu-color-palette-yellow-20: #fff4b8 !default;
+$ln-tu-color-palette-yellow-10: #fffbe6 !default;
+$ln-tu-color-palette-black-50: #404040 !default;
+$ln-tu-color-palette-black-60: #000000 !default;
+$ln-tu-color-palette-dark-blue-30: #c5cad0 !default;
+$ln-tu-color-palette-dark-blue-40: #8c94a1 !default;
+$ln-tu-color-palette-dark-blue-50: #535f73 !default;
+$ln-tu-color-palette-dark-blue-60: #192a44 !default;
+$ln-tu-color-palette-strong-blue-30: #d9e1ef !default;
+$ln-tu-color-palette-strong-blue-40: #b3c3e0 !default;
+$ln-tu-color-palette-strong-blue-50: #8da5d0 !default;
+$ln-tu-color-palette-strong-blue-60: #6787c1 !default;
+$ln-tu-color-palette-faux-malachite-30: #e3f1ea !default;
+$ln-tu-color-palette-faux-malachite-40: #c7e4d5 !default;
+$ln-tu-color-palette-faux-malachite-50: #aad6c0 !default;
+$ln-tu-color-palette-faux-malachite-60: #8ec9ab !default;
+$ln-tu-color-palette-black-light: #404040 !default;
+$ln-tu-color-palette-white-dark: #f2f2f2 !default;
+$ln-tu-color-palette-pink-30: #f8bfdc !default;
+$ln-tu-color-palette-pink-40: #f27fba !default;
+$ln-tu-color-palette-pink-50: #ec4098 !default;
+$ln-tu-color-palette-pink-60: #e50075 !default;
+$ln-tu-color-palette-selective-yellow-30: #fff0cc !default;
+$ln-tu-color-palette-selective-yellow-40: #fee299 !default;
+$ln-tu-color-palette-selective-yellow-50: #fdd366 !default;
+$ln-tu-color-palette-selective-yellow-60: #fdc533 !default;
+$ln-tu-color-palette-soft-red-30: #f9d9d7 !default;
+$ln-tu-color-palette-soft-red-40: #f3b2ae !default;
+$ln-tu-color-palette-soft-red-50: #ec8b85 !default;
+$ln-tu-color-palette-soft-red-60: #e6655d !default;
+$ln-tu-color-palette-white-60: #ffffff !default;
+$ln-tu-color-palette-white-70: #f2f2f2 !default;
+$ln-tu-color-monochrome-white: #ffffff !default;
+$ln-tu-color-monochrome-lighter: #f2f2f2 !default;
+$ln-tu-color-monochrome-lighter-rgb: #f2f2f2 !default;
+$ln-tu-color-monochrome-light: #d8d8d8 !default;
+$ln-tu-color-monochrome-light-rgb: #d8d8d8 !default;
+$ln-tu-color-monochrome-medium: #737373 !default;
+$ln-tu-color-monochrome-medium-rgb: #737373 !default;
+$ln-tu-color-monochrome-dark: #404040 !default;
+$ln-tu-color-monochrome-dark-rgb: #404040 !default;
+$ln-tu-color-monochrome-darker: #262626 !default;
+$ln-tu-color-monochrome-darker-rgb: #262626 !default;
+$ln-tu-color-monochrome-grey-v-light: #f2f2f2 !default; // deprecated
+$ln-tu-color-monochrome-grey-light: #d8d8d8 !default; // deprecated
+$ln-tu-color-monochrome-grey: #8c8c8c !default; // deprecated
+$ln-tu-color-monochrome-grey-dark: #404040 !default; // deprecated
+$ln-tu-color-monochrome-grey-darker: #262626 !default; // deprecated
+$ln-tu-color-monochrome-black: #000000 !default;
+$ln-tu-color-promotion-sale-lightest: #fbe6e6 !default;
+$ln-tu-color-promotion-sale-lighter: #f8ccc4 !default;
+$ln-tu-color-promotion-sale-light: #ec664e !default;
+$ln-tu-color-promotion-sale-base: #e53212 !default;
+$ln-tu-color-promotion-sale-dark: #bd0000 !default;
+$ln-tu-color-promotion-sale-darker: #a50000 !default;
+$ln-tu-color-promotion-sale-darkest: #8d0000 !default;
+$ln-tu-color-promotion-new-lightest: #e8f1fb !default;
+$ln-tu-color-promotion-new-lighter: #95c0ea !default;
+$ln-tu-color-promotion-new-light: #428fda !default;
+$ln-tu-color-promotion-new-base: #1976d2 !default;
+$ln-tu-color-promotion-new-dark: #1669ba !default;
+$ln-tu-color-promotion-new-darker: #135ca3 !default;
+$ln-tu-color-promotion-new-darkest: #114e8b !default;
+$ln-tu-color-scheme-light-base: #f2f2f2 !default;
+$ln-tu-color-scheme-light-highlight: #ffffff !default;
+$ln-tu-color-scheme-light-on-base: #404040 !default;
+$ln-tu-color-scheme-light-on-highlight: #000000 !default;
+$ln-tu-color-scheme-dark-base: #404040 !default;
+$ln-tu-color-scheme-dark-highlight: #000000 !default;
+$ln-tu-color-scheme-dark-on-base: #ffffff !default;
+$ln-tu-color-scheme-dark-on-highlight: #ffffff !default;
+$ln-tu-color-scheme-brand-1-base: #000000 !default;
+$ln-tu-color-scheme-brand-1-highlight: #404040 !default;
+$ln-tu-color-scheme-brand-1-on-base: #ffffff !default;
+$ln-tu-color-scheme-brand-1-on-highlight: #ffffff !default;
+$ln-tu-color-scheme-brand-2-base: #ffffff !default;
+$ln-tu-color-scheme-brand-2-highlight: #f2f2f2 !default;
+$ln-tu-color-scheme-brand-2-on-base: #f2f2f2 !default;
+$ln-tu-color-scheme-brand-2-on-highlight: #ffffff !default;
+$ln-tu-color-semantic-error-lighter: #fbe6e6 !default;
+$ln-tu-color-semantic-error-light: #ec664e !default;
+$ln-tu-color-semantic-error-base: #e53212 !default;
+$ln-tu-color-semantic-error-dark: #bd0000 !default;
+$ln-tu-color-semantic-error-darker: #a50000 !default;
+$ln-tu-color-semantic-error-text: #ffffff !default; // The default accessible text on the base value
+$ln-tu-color-semantic-info-lighter: #e8f1fb !default;
+$ln-tu-color-semantic-info-light: #428fda !default;
+$ln-tu-color-semantic-info-base: #1976d2 !default;
+$ln-tu-color-semantic-info-dark: #1669ba !default;
+$ln-tu-color-semantic-info-darker: #135ca3 !default;
+$ln-tu-color-semantic-info-text: #ffffff !default; // The default accessible text on the base value
+$ln-tu-color-semantic-success-lighter: #eaf2eb !default;
+$ln-tu-color-semantic-success-light: #549457 !default;
+$ln-tu-color-semantic-success-base: #2e7d32 !default;
+$ln-tu-color-semantic-success-dark: #296f2c !default;
+$ln-tu-color-semantic-success-darker: #246127 !default;
+$ln-tu-color-semantic-success-text: #ffffff !default; // The default accessible text on the base value
+$ln-tu-color-semantic-warning-lighter: #fffbe6 !default;
+$ln-tu-color-semantic-warning-light: #ffdc40 !default;
+$ln-tu-color-semantic-warning-base: #ffd000 !default;
+$ln-tu-color-semantic-warning-dark: #e2be00 !default;
+$ln-tu-color-semantic-warning-darker: #c6a600 !default;
+$ln-tu-color-semantic-warning-text: #404040 !default; // The default accessible text on the base value
+$ln-tu-color-campaign-1-base: #fdc533 !default; // Denim
+$ln-tu-color-campaign-1-lightest: #fff0cc !default; // Tint 25
+$ln-tu-color-campaign-1-lighter: #fee299 !default; // Tint 50
+$ln-tu-color-campaign-1-light: #fdd366 !default; // Tint 75
+$ln-tu-color-campaign-2-base: #6787c1 !default; // Back To School
+$ln-tu-color-campaign-2-lightest: #d9e1ef !default; // Tint 25
+$ln-tu-color-campaign-2-lighter: #b3c3e0 !default; // Tint 50
+$ln-tu-color-campaign-2-light: #8da5d0 !default; // Tint 75
+$ln-tu-color-campaign-3-base: #e6655d !default; // Lingerie
+$ln-tu-color-campaign-3-lightest: #f9d9d7 !default; // Tint 25
+$ln-tu-color-campaign-3-lighter: #f3b2ae !default; // Tint 50
+$ln-tu-color-campaign-3-light: #ec8b85 !default; // Tint 75
+$ln-tu-color-campaign-4-base: #8ec9ab !default; // Summer Of Love Yourself
+$ln-tu-color-campaign-4-lightest: #e3f1ea !default; // Tint 25
+$ln-tu-color-campaign-4-lighter: #c7e4d5 !default; // Tint 50
+$ln-tu-color-campaign-4-light: #aad6c0 !default; // Tint 75
+$ln-tu-color-campaign-5-base: #192a44 !default; // Work it
+$ln-tu-color-campaign-5-lightest: #c5cad0 !default; // Tint 25
+$ln-tu-color-campaign-5-lighter: #8c94a1 !default; // Tint 50
+$ln-tu-color-campaign-5-light: #535f73 !default; // Tint 75
+$ln-tu-mode-dark-background: #262626 !default;
+$ln-tu-mode-dark-base: #f2f2f2 !default;
+$ln-tu-mode-dark-base-inverse: #404040 !default;
+$ln-tu-mode-dark-border: #404040 !default;
+$ln-tu-mode-dark-border-interactive: #737373 !default;
+$ln-tu-mode-dark-border-interactive-highlight: #f2f2f2 !default;
+$ln-tu-mode-dark-footer-background: #ffffff !default;
+$ln-tu-mode-dark-footer-text: #404040 !default;
+$ln-tu-mode-dark-foreground: #262626 !default;
+$ln-tu-mode-dark-header-background: #262626 !default;
+$ln-tu-mode-dark-header-text: #f2f2f2 !default;
+$ln-tu-mode-dark-highlight: #ffffff !default;
+$ln-tu-mode-dark-highlight-inverse: #000000 !default;
+$ln-tu-mode-default-background: #f2f2f2 !default; // default website background
+$ln-tu-mode-default-base: #404040 !default; // base text colour on default bg
+$ln-tu-mode-default-base-inverse: #404040 !default; // base text colour on default foreground
+$ln-tu-mode-default-border: #d8d8d8 !default;
+$ln-tu-mode-default-border-interactive: #737373 !default;
+$ln-tu-mode-default-border-interactive-highlight: #f2f2f2 !default;
+$ln-tu-mode-default-footer-background: #262626 !default;
+$ln-tu-mode-default-footer-text: #f2f2f2 !default;
+$ln-tu-mode-default-foreground: #ffffff !default; // default background that are given to luna components
+$ln-tu-mode-default-header-background: #ffffff !default;
+$ln-tu-mode-default-header-text: #404040 !default;
+$ln-tu-mode-default-highlight: #000000 !default;
+$ln-tu-mode-default-highlight-inverse: #000000 !default;
+$ln-tu-surface-light-background: #f2f2f2 !default; // surface colour most likely to be used as a background
+$ln-tu-surface-light-base: #404040 !default; // base text colour on default bg
+$ln-tu-surface-light-border: #d8d8d8 !default;
+$ln-tu-surface-light-highlight: #000000 !default;
+$ln-tu-surface-light-interactive: #737373 !default;
+$ln-tu-surface-light-interactive-hover: #f2f2f2 !default;
+$ln-tu-surface-white-background: #ffffff !default;
+$ln-tu-surface-white-base: #404040 !default;
+$ln-tu-surface-white-border: #d8d8d8 !default;
+$ln-tu-surface-white-highlight: #000000 !default;
+$ln-tu-surface-dark-background: #262626 !default;
+$ln-tu-surface-dark-base: #f2f2f2 !default; // base text colour on default bg
+$ln-tu-surface-dark-border: #404040 !default;
+$ln-tu-surface-dark-highlight: #ffffff !default;
+$ln-tu-surface-dark-interactive: #737373 !default;
+$ln-tu-surface-dark-interactive-hover: #404040 !default;
+$ln-tu-surface-grey-background: #262626 !default;
+$ln-tu-surface-grey-base: #f2f2f2 !default; // base text colour on default bg
+$ln-tu-surface-grey-border: #404040 !default;
+$ln-tu-surface-grey-highlight: #000000 !default;
+$ln-tu-modifier-border-width: 1px !default;
+$ln-tu-modifier-border-width-large: 2px !default;
+$ln-tu-modifier-border-radius: 2px !default;
+$ln-tu-modifier-border-radius-large: 4px !default;
+$ln-tu-modifier-border-interactive-width: 1px !default; // generally used for interactive components such as input fields
+$ln-tu-modifier-button-border: 2px !default;
+$ln-tu-modifier-button-text-transform: uppercase !default;
+$ln-tu-modifier-focus-ring-focus-width: 3px !default;
+$ln-tu-modifier-focus-ring-color: #1976d2 !default;
+$ln-tu-modifier-footer-background: #404040 !default;
+$ln-tu-modifier-footer-text: #ffffff !default;
+$ln-tu-modifier-header-background: #ffffff !default;
+$ln-tu-modifier-global-bar-height: 36px !default;
+$ln-tu-modifier-transition-duration: 0.2s !default;
+$ln-tu-modifier-transition-duration-long: 0.4s !default;
+$ln-tu-modifier-transition-timing-function-default: ease-out !default;
+$ln-tu-opacity-default: 0.7 !default;
+$ln-tu-opacity-light: 0.15 !default;
+$ln-tu-opacity-disabled: 0.35 !default;
+$ln-tu-opacity-background: 0.06 !default;
+$ln-tu-overlay-color: #000000 !default;
+$ln-tu-overlay-opacity: 0.7 !default;
+$ln-tu-space-baseline-grid: 8 !default;
+$ln-tu-space-baseline-condensed: 4 !default;
+$ln-tu-space-fixed-width-extra-small: 800 !default;
+$ln-tu-space-fixed-width-small: 1280 !default;
+$ln-tu-space-fixed-width-medium: 1440 !default;
+$ln-tu-space-fixed-width-large: 1800 !default;
+$ln-tu-space-size-small: 24px !default;
+$ln-tu-space-size-medium: 48px !default;
+$ln-tu-space-size-large: 80px !default;
+$ln-tu-space-spacing-default: 8px !default;
+$ln-tu-space-spacing-extra-small: 4px !default;
+$ln-tu-space-spacing-small: 8px !default;
+$ln-tu-space-spacing-medium: 16px !default;
+$ln-tu-space-spacing-large: 24px !default;
+$ln-tu-space-spacing-extra-large: 32px !default;
+$ln-tu-space-spacing-half: 4px !default;
+$ln-tu-space-spacing-x1: 8px !default;
+$ln-tu-space-spacing-x2: 16px !default;
+$ln-tu-space-spacing-x3: 24px !default;
+$ln-tu-space-spacing-x4: 32px !default;
+$ln-tu-space-spacing-x5: 40px !default;
+$ln-tu-space-spacing-x6: 48px !default;
+$ln-tu-space-spacing-x7: 56px !default;
+$ln-tu-space-spacing-x8: 64px !default;
+$ln-tu-space-spacing-x9: 72px !default;
+$ln-tu-space-spacing-x10: 80px !default;
+$ln-tu-space-breakpoints-extra-extra-small: 480px !default;
+$ln-tu-space-breakpoints-extra-small: 600px !default;
+$ln-tu-space-breakpoints-small: 720px !default;
+$ln-tu-space-breakpoints-medium: 960px !default;
+$ln-tu-space-breakpoints-large: 1200px !default;
+$ln-tu-space-breakpoints-extra-large: 1400px !default;
+$ln-tu-space-breakpoints-extra-extra-large: 1800px !default;
+$ln-tu-typography-base-font-family: 'Tu', Arial, Helvetica, sans-serif !default; // The font stack which has fallbacks primarly used on web
+$ln-tu-typography-base-font: Tu !default; // Main font used in this category
+$ln-tu-typography-base-letterform: sans-serif !default; // the letterform type which the font belongs to
+$ln-tu-typography-base-fallback: Arial !default;
+$ln-tu-typography-brand-font-family: 'Tu', Arial, Helvetica, sans-serif !default; // The font stack which has fallbacks primarly used on web
+$ln-tu-typography-brand-font: Tu !default; // Main font used in this category
+$ln-tu-typography-brand-letterform: sans-serif !default; // the letterform type which the font belongs to
+$ln-tu-typography-brand-fallback: Arial !default;
+$ln-tu-typography-monospace-font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace !default;
+$ln-tu-typography-system-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-tu-typography-font-size-root: 1rem !default; // The browser default font-size
+$ln-tu-typography-font-size-default: 16 !default; // The font-size in px
+$ln-tu-typography-font-size-rem: 16 !default; // The font-size in rem
+$ln-tu-typography-font-weight-light: 300 !default;
+$ln-tu-typography-font-weight-regular: 400 !default;
+$ln-tu-typography-font-weight-medium: 500 !default;
+$ln-tu-typography-font-weight-semi-bold: 600 !default;
+$ln-tu-typography-font-weight-bold: 700 !default;
+$ln-tu-typography-font-weight-extra-bold: 800 !default;
+$ln-tu-typography-font-weight-black: 900 !default;
+$ln-tu-font-stack-display-7-font-size: 61px !default;
+$ln-tu-font-stack-display-7-line-height: 76px !default;
+$ln-tu-font-stack-display-7-font-weight: 700 !default;
+$ln-tu-font-stack-display-7-font-family: 'Tu', Arial, Helvetica, sans-serif !default;
+$ln-tu-font-stack-display-6-font-size: 49px !default;
+$ln-tu-font-stack-display-6-line-height: 62px !default;
+$ln-tu-font-stack-display-6-font-weight: 700 !default;
+$ln-tu-font-stack-display-6-font-family: 'Tu', Arial, Helvetica, sans-serif !default;
+$ln-tu-font-stack-display-5-font-size: 39px !default;
+$ln-tu-font-stack-display-5-line-height: 50px !default;
+$ln-tu-font-stack-display-5-font-weight: 700 !default;
+$ln-tu-font-stack-display-5-font-family: 'Tu', Arial, Helvetica, sans-serif !default;
+$ln-tu-font-stack-display-4-font-size: 31px !default;
+$ln-tu-font-stack-display-4-line-height: 40px !default;
+$ln-tu-font-stack-display-4-font-weight: 700 !default;
+$ln-tu-font-stack-display-4-font-family: 'Tu', Arial, Helvetica, sans-serif !default;
+$ln-tu-font-stack-display-3-font-size: 25px !default;
+$ln-tu-font-stack-display-3-line-height: 32px !default;
+$ln-tu-font-stack-display-3-font-weight: 400 !default;
+$ln-tu-font-stack-display-3-font-family: 'Tu', Arial, Helvetica, sans-serif !default;
+$ln-tu-font-stack-display-2-font-size: 21px !default;
+$ln-tu-font-stack-display-2-line-height: 26px !default;
+$ln-tu-font-stack-display-2-font-weight: 400 !default;
+$ln-tu-font-stack-display-2-font-family: 'Tu', Arial, Helvetica, sans-serif !default;
+$ln-tu-font-stack-display-1-font-size: 19px !default;
+$ln-tu-font-stack-display-1-line-height: 26px !default;
+$ln-tu-font-stack-display-1-font-weight: 400 !default;
+$ln-tu-font-stack-display-1-font-family: 'Tu', Arial, Helvetica, sans-serif !default;
+$ln-tu-font-stack-label-1-font-size: 17px !default;
+$ln-tu-font-stack-label-1-line-height: 24px !default;
+$ln-tu-font-stack-label-1-font-weight: 700 !default;
+$ln-tu-font-stack-label-1-font-family: 'Tu', Arial, Helvetica, sans-serif !default;
+$ln-tu-font-stack-label-2-font-size: 17px !default;
+$ln-tu-font-stack-label-2-line-height: 24px !default;
+$ln-tu-font-stack-label-2-font-weight: 700 !default;
+$ln-tu-font-stack-label-2-font-family: 'Tu', Arial, Helvetica, sans-serif !default;
+$ln-tu-font-stack-body-2-font-size: 19px !default;
+$ln-tu-font-stack-body-2-line-height: 26px !default;
+$ln-tu-font-stack-body-2-font-weight: 400 !default;
+$ln-tu-font-stack-body-2-font-family: 'Tu', Arial, Helvetica, sans-serif !default;
+$ln-tu-font-stack-body-1-font-size: 17px !default;
+$ln-tu-font-stack-body-1-line-height: 24px !default;
+$ln-tu-font-stack-body-1-font-weight: 400 !default;
+$ln-tu-font-stack-body-1-font-family: 'Tu', Arial, Helvetica, sans-serif !default;
+$ln-tu-font-stack-caption-font-size: 15px !default;
+$ln-tu-font-stack-caption-line-height: 22px !default;
+$ln-tu-font-stack-caption-font-weight: 400 !default;
+$ln-tu-font-stack-caption-font-family: 'Tu', Arial, Helvetica, sans-serif !default;
+$ln-tu-font-stack-button-font-size: 17px !default;
+$ln-tu-font-stack-button-line-height: 24px !default;
+$ln-tu-font-stack-button-font-weight: 700 !default;
+$ln-tu-font-stack-button-font-family: 'Tu', Arial, Helvetica, sans-serif !default;
+$ln-tu-border-width-small: 1px !default;
+$ln-tu-border-width-default: 2px !default;
+$ln-tu-border-width-large: 2px !default;
+$ln-tu-border-radius-default: 0 !default;
+
+$ln-tu: (
+  'color': (
+    'palette': (
+      'black': $ln-tu-color-palette-black,
+      'blue-100': $ln-tu-color-palette-blue-100,
+      'blue-90': $ln-tu-color-palette-blue-90,
+      'blue-80': $ln-tu-color-palette-blue-80,
+      'blue-70': $ln-tu-color-palette-blue-70,
+      'blue-60': $ln-tu-color-palette-blue-60,
+      'blue-50': $ln-tu-color-palette-blue-50,
+      'blue-40': $ln-tu-color-palette-blue-40,
+      'blue-30': $ln-tu-color-palette-blue-30,
+      'blue-20': $ln-tu-color-palette-blue-20,
+      'blue-10': $ln-tu-color-palette-blue-10,
+      'brand-1': $ln-tu-color-palette-brand-1,
+      'brand-1-highlight': $ln-tu-color-palette-brand-1-highlight,
+      'brand-2': $ln-tu-color-palette-brand-2,
+      'brand-2-highlight': $ln-tu-color-palette-brand-2-highlight,
+      'green-100': $ln-tu-color-palette-green-100,
+      'green-90': $ln-tu-color-palette-green-90,
+      'green-80': $ln-tu-color-palette-green-80,
+      'green-70': $ln-tu-color-palette-green-70,
+      'green-60': $ln-tu-color-palette-green-60,
+      'green-50': $ln-tu-color-palette-green-50,
+      'green-40': $ln-tu-color-palette-green-40,
+      'green-30': $ln-tu-color-palette-green-30,
+      'green-20': $ln-tu-color-palette-green-20,
+      'green-10': $ln-tu-color-palette-green-10,
+      'grey-100': $ln-tu-color-palette-grey-100,
+      'grey-90': $ln-tu-color-palette-grey-90,
+      'grey-80': $ln-tu-color-palette-grey-80,
+      'grey-70': $ln-tu-color-palette-grey-70,
+      'grey-60': $ln-tu-color-palette-grey-60,
+      'grey-50': $ln-tu-color-palette-grey-50,
+      'grey-40': $ln-tu-color-palette-grey-40,
+      'grey-30': $ln-tu-color-palette-grey-30,
+      'grey-20': $ln-tu-color-palette-grey-20,
+      'grey-10': $ln-tu-color-palette-grey-10,
+      'blue': $ln-tu-color-palette-blue,
+      'green': $ln-tu-color-palette-green,
+      'red': $ln-tu-color-palette-red,
+      'yellow': $ln-tu-color-palette-yellow,
+      'red-100': $ln-tu-color-palette-red-100,
+      'red-90': $ln-tu-color-palette-red-90,
+      'red-80': $ln-tu-color-palette-red-80,
+      'red-70': $ln-tu-color-palette-red-70,
+      'red-60': $ln-tu-color-palette-red-60,
+      'red-50': $ln-tu-color-palette-red-50,
+      'red-40': $ln-tu-color-palette-red-40,
+      'red-30': $ln-tu-color-palette-red-30,
+      'red-20': $ln-tu-color-palette-red-20,
+      'red-10': $ln-tu-color-palette-red-10,
+      'white': $ln-tu-color-palette-white,
+      'yellow-100': $ln-tu-color-palette-yellow-100,
+      'yellow-90': $ln-tu-color-palette-yellow-90,
+      'yellow-80': $ln-tu-color-palette-yellow-80,
+      'yellow-70': $ln-tu-color-palette-yellow-70,
+      'yellow-60': $ln-tu-color-palette-yellow-60,
+      'yellow-50': $ln-tu-color-palette-yellow-50,
+      'yellow-40': $ln-tu-color-palette-yellow-40,
+      'yellow-30': $ln-tu-color-palette-yellow-30,
+      'yellow-20': $ln-tu-color-palette-yellow-20,
+      'yellow-10': $ln-tu-color-palette-yellow-10,
+      'black-50': $ln-tu-color-palette-black-50,
+      'black-60': $ln-tu-color-palette-black-60,
+      'dark-blue-30': $ln-tu-color-palette-dark-blue-30,
+      'dark-blue-40': $ln-tu-color-palette-dark-blue-40,
+      'dark-blue-50': $ln-tu-color-palette-dark-blue-50,
+      'dark-blue-60': $ln-tu-color-palette-dark-blue-60,
+      'strong-blue-30': $ln-tu-color-palette-strong-blue-30,
+      'strong-blue-40': $ln-tu-color-palette-strong-blue-40,
+      'strong-blue-50': $ln-tu-color-palette-strong-blue-50,
+      'strong-blue-60': $ln-tu-color-palette-strong-blue-60,
+      'faux-malachite-30': $ln-tu-color-palette-faux-malachite-30,
+      'faux-malachite-40': $ln-tu-color-palette-faux-malachite-40,
+      'faux-malachite-50': $ln-tu-color-palette-faux-malachite-50,
+      'faux-malachite-60': $ln-tu-color-palette-faux-malachite-60,
+      'black-light': $ln-tu-color-palette-black-light,
+      'white-dark': $ln-tu-color-palette-white-dark,
+      'pink-30': $ln-tu-color-palette-pink-30,
+      'pink-40': $ln-tu-color-palette-pink-40,
+      'pink-50': $ln-tu-color-palette-pink-50,
+      'pink-60': $ln-tu-color-palette-pink-60,
+      'selective-yellow-30': $ln-tu-color-palette-selective-yellow-30,
+      'selective-yellow-40': $ln-tu-color-palette-selective-yellow-40,
+      'selective-yellow-50': $ln-tu-color-palette-selective-yellow-50,
+      'selective-yellow-60': $ln-tu-color-palette-selective-yellow-60,
+      'soft-red-30': $ln-tu-color-palette-soft-red-30,
+      'soft-red-40': $ln-tu-color-palette-soft-red-40,
+      'soft-red-50': $ln-tu-color-palette-soft-red-50,
+      'soft-red-60': $ln-tu-color-palette-soft-red-60,
+      'white-60': $ln-tu-color-palette-white-60,
+      'white-70': $ln-tu-color-palette-white-70
+    ),
+    'monochrome': (
+      'white': $ln-tu-color-monochrome-white,
+      'lighter': $ln-tu-color-monochrome-lighter,
+      'lighter--rgb': $ln-tu-color-monochrome-lighter-rgb,
+      'light': $ln-tu-color-monochrome-light,
+      'light--rgb': $ln-tu-color-monochrome-light-rgb,
+      'medium': $ln-tu-color-monochrome-medium,
+      'medium--rgb': $ln-tu-color-monochrome-medium-rgb,
+      'dark': $ln-tu-color-monochrome-dark,
+      'dark--rgb': $ln-tu-color-monochrome-dark-rgb,
+      'darker': $ln-tu-color-monochrome-darker,
+      'darker--rgb': $ln-tu-color-monochrome-darker-rgb,
+      'grey-v-light': $ln-tu-color-monochrome-grey-v-light,
+      'grey-light': $ln-tu-color-monochrome-grey-light,
+      'grey': $ln-tu-color-monochrome-grey,
+      'grey-dark': $ln-tu-color-monochrome-grey-dark,
+      'grey-darker': $ln-tu-color-monochrome-grey-darker,
+      'black': $ln-tu-color-monochrome-black
+    ),
+    'promotion': (
+      'sale': (
+        'lightest': $ln-tu-color-promotion-sale-lightest,
+        'lighter': $ln-tu-color-promotion-sale-lighter,
+        'light': $ln-tu-color-promotion-sale-light,
+        'base': $ln-tu-color-promotion-sale-base,
+        'dark': $ln-tu-color-promotion-sale-dark,
+        'darker': $ln-tu-color-promotion-sale-darker,
+        'darkest': $ln-tu-color-promotion-sale-darkest
+      ),
+      'new': (
+        'lightest': $ln-tu-color-promotion-new-lightest,
+        'lighter': $ln-tu-color-promotion-new-lighter,
+        'light': $ln-tu-color-promotion-new-light,
+        'base': $ln-tu-color-promotion-new-base,
+        'dark': $ln-tu-color-promotion-new-dark,
+        'darker': $ln-tu-color-promotion-new-darker,
+        'darkest': $ln-tu-color-promotion-new-darkest
+      )
+    ),
+    'scheme': (
+      'light': (
+        'base': $ln-tu-color-scheme-light-base,
+        'highlight': $ln-tu-color-scheme-light-highlight,
+        'on': (
+          'base': $ln-tu-color-scheme-light-on-base,
+          'highlight': $ln-tu-color-scheme-light-on-highlight
+        )
+      ),
+      'dark': (
+        'base': $ln-tu-color-scheme-dark-base,
+        'highlight': $ln-tu-color-scheme-dark-highlight,
+        'on': (
+          'base': $ln-tu-color-scheme-dark-on-base,
+          'highlight': $ln-tu-color-scheme-dark-on-highlight
+        )
+      ),
+      'brand-1': (
+        'base': $ln-tu-color-scheme-brand-1-base,
+        'highlight': $ln-tu-color-scheme-brand-1-highlight,
+        'on': (
+          'base': $ln-tu-color-scheme-brand-1-on-base,
+          'highlight': $ln-tu-color-scheme-brand-1-on-highlight
+        )
+      ),
+      'brand-2': (
+        'base': $ln-tu-color-scheme-brand-2-base,
+        'highlight': $ln-tu-color-scheme-brand-2-highlight,
+        'on': (
+          'base': $ln-tu-color-scheme-brand-2-on-base,
+          'highlight': $ln-tu-color-scheme-brand-2-on-highlight
+        )
+      )
+    ),
+    'semantic': (
+      'error': (
+        'lighter': $ln-tu-color-semantic-error-lighter,
+        'light': $ln-tu-color-semantic-error-light,
+        'base': $ln-tu-color-semantic-error-base,
+        'dark': $ln-tu-color-semantic-error-dark,
+        'darker': $ln-tu-color-semantic-error-darker,
+        'text': $ln-tu-color-semantic-error-text
+      ),
+      'info': (
+        'lighter': $ln-tu-color-semantic-info-lighter,
+        'light': $ln-tu-color-semantic-info-light,
+        'base': $ln-tu-color-semantic-info-base,
+        'dark': $ln-tu-color-semantic-info-dark,
+        'darker': $ln-tu-color-semantic-info-darker,
+        'text': $ln-tu-color-semantic-info-text
+      ),
+      'success': (
+        'lighter': $ln-tu-color-semantic-success-lighter,
+        'light': $ln-tu-color-semantic-success-light,
+        'base': $ln-tu-color-semantic-success-base,
+        'dark': $ln-tu-color-semantic-success-dark,
+        'darker': $ln-tu-color-semantic-success-darker,
+        'text': $ln-tu-color-semantic-success-text
+      ),
+      'warning': (
+        'lighter': $ln-tu-color-semantic-warning-lighter,
+        'light': $ln-tu-color-semantic-warning-light,
+        'base': $ln-tu-color-semantic-warning-base,
+        'dark': $ln-tu-color-semantic-warning-dark,
+        'darker': $ln-tu-color-semantic-warning-darker,
+        'text': $ln-tu-color-semantic-warning-text
+      )
+    ),
+    'campaign-1': (
+      'base': $ln-tu-color-campaign-1-base,
+      'lightest': $ln-tu-color-campaign-1-lightest,
+      'lighter': $ln-tu-color-campaign-1-lighter,
+      'light': $ln-tu-color-campaign-1-light
+    ),
+    'campaign-2': (
+      'base': $ln-tu-color-campaign-2-base,
+      'lightest': $ln-tu-color-campaign-2-lightest,
+      'lighter': $ln-tu-color-campaign-2-lighter,
+      'light': $ln-tu-color-campaign-2-light
+    ),
+    'campaign-3': (
+      'base': $ln-tu-color-campaign-3-base,
+      'lightest': $ln-tu-color-campaign-3-lightest,
+      'lighter': $ln-tu-color-campaign-3-lighter,
+      'light': $ln-tu-color-campaign-3-light
+    ),
+    'campaign-4': (
+      'base': $ln-tu-color-campaign-4-base,
+      'lightest': $ln-tu-color-campaign-4-lightest,
+      'lighter': $ln-tu-color-campaign-4-lighter,
+      'light': $ln-tu-color-campaign-4-light
+    ),
+    'campaign-5': (
+      'base': $ln-tu-color-campaign-5-base,
+      'lightest': $ln-tu-color-campaign-5-lightest,
+      'lighter': $ln-tu-color-campaign-5-lighter,
+      'light': $ln-tu-color-campaign-5-light
+    )
+  ),
+  'mode': (
+    'dark': (
+      'background': $ln-tu-mode-dark-background,
+      'base': $ln-tu-mode-dark-base,
+      'base-inverse': $ln-tu-mode-dark-base-inverse,
+      'border': $ln-tu-mode-dark-border,
+      'border-interactive': $ln-tu-mode-dark-border-interactive,
+      'border-interactive-highlight': $ln-tu-mode-dark-border-interactive-highlight,
+      'footer-background': $ln-tu-mode-dark-footer-background,
+      'footer-text': $ln-tu-mode-dark-footer-text,
+      'foreground': $ln-tu-mode-dark-foreground,
+      'header-background': $ln-tu-mode-dark-header-background,
+      'header-text': $ln-tu-mode-dark-header-text,
+      'highlight': $ln-tu-mode-dark-highlight,
+      'highlight-inverse': $ln-tu-mode-dark-highlight-inverse
+    ),
+    'default': (
+      'background': $ln-tu-mode-default-background,
+      'base': $ln-tu-mode-default-base,
+      'base-inverse': $ln-tu-mode-default-base-inverse,
+      'border': $ln-tu-mode-default-border,
+      'border-interactive': $ln-tu-mode-default-border-interactive,
+      'border-interactive-highlight': $ln-tu-mode-default-border-interactive-highlight,
+      'footer-background': $ln-tu-mode-default-footer-background,
+      'footer-text': $ln-tu-mode-default-footer-text,
+      'foreground': $ln-tu-mode-default-foreground,
+      'header-background': $ln-tu-mode-default-header-background,
+      'header-text': $ln-tu-mode-default-header-text,
+      'highlight': $ln-tu-mode-default-highlight,
+      'highlight-inverse': $ln-tu-mode-default-highlight-inverse
+    )
+  ),
+  'surface': (
+    'light': (
+      'background': $ln-tu-surface-light-background,
+      'base': $ln-tu-surface-light-base,
+      'border': $ln-tu-surface-light-border,
+      'highlight': $ln-tu-surface-light-highlight,
+      'interactive': $ln-tu-surface-light-interactive,
+      'interactive-hover': $ln-tu-surface-light-interactive-hover
+    ),
+    'white': (
+      'background': $ln-tu-surface-white-background,
+      'base': $ln-tu-surface-white-base,
+      'border': $ln-tu-surface-white-border,
+      'highlight': $ln-tu-surface-white-highlight
+    ),
+    'dark': (
+      'background': $ln-tu-surface-dark-background,
+      'base': $ln-tu-surface-dark-base,
+      'border': $ln-tu-surface-dark-border,
+      'highlight': $ln-tu-surface-dark-highlight,
+      'interactive': $ln-tu-surface-dark-interactive,
+      'interactive-hover': $ln-tu-surface-dark-interactive-hover
+    ),
+    'grey': (
+      'background': $ln-tu-surface-grey-background,
+      'base': $ln-tu-surface-grey-base,
+      'border': $ln-tu-surface-grey-border,
+      'highlight': $ln-tu-surface-grey-highlight
+    )
+  ),
+  'modifier': (
+    'border': (
+      'width': $ln-tu-modifier-border-width,
+      'width-large': $ln-tu-modifier-border-width-large,
+      'radius': $ln-tu-modifier-border-radius,
+      'radius-large': $ln-tu-modifier-border-radius-large
+    ),
+    'border-interactive': (
+      'width': $ln-tu-modifier-border-interactive-width
+    ),
+    'button': (
+      'border': $ln-tu-modifier-button-border,
+      'text-transform': $ln-tu-modifier-button-text-transform
+    ),
+    'focus-ring': (
+      'focus-width': $ln-tu-modifier-focus-ring-focus-width,
+      'color': $ln-tu-modifier-focus-ring-color
+    ),
+    'footer': (
+      'background': $ln-tu-modifier-footer-background,
+      'text': $ln-tu-modifier-footer-text
+    ),
+    'header': (
+      'background': $ln-tu-modifier-header-background
+    ),
+    'global-bar': (
+      'height': $ln-tu-modifier-global-bar-height
+    ),
+    'transition': (
+      'duration': $ln-tu-modifier-transition-duration,
+      'duration-long': $ln-tu-modifier-transition-duration-long,
+      'timing-function': (
+        'default': $ln-tu-modifier-transition-timing-function-default
+      )
+    )
+  ),
+  'opacity': (
+    'default': $ln-tu-opacity-default,
+    'light': $ln-tu-opacity-light,
+    'disabled': $ln-tu-opacity-disabled,
+    'background': $ln-tu-opacity-background
+  ),
+  'overlay': (
+    'color': $ln-tu-overlay-color,
+    'opacity': $ln-tu-overlay-opacity
+  ),
+  'space': (
+    'baseline': (
+      'grid': $ln-tu-space-baseline-grid,
+      'condensed': $ln-tu-space-baseline-condensed
+    ),
+    'fixed-width': (
+      'extra-small': $ln-tu-space-fixed-width-extra-small,
+      'small': $ln-tu-space-fixed-width-small,
+      'medium': $ln-tu-space-fixed-width-medium,
+      'large': $ln-tu-space-fixed-width-large
+    ),
+    'size': (
+      'small': $ln-tu-space-size-small,
+      'medium': $ln-tu-space-size-medium,
+      'large': $ln-tu-space-size-large
+    ),
+    'spacing': (
+      'default': $ln-tu-space-spacing-default,
+      'extra-small': $ln-tu-space-spacing-extra-small,
+      'small': $ln-tu-space-spacing-small,
+      'medium': $ln-tu-space-spacing-medium,
+      'large': $ln-tu-space-spacing-large,
+      'extra-large': $ln-tu-space-spacing-extra-large,
+      'half': $ln-tu-space-spacing-half,
+      'x1': $ln-tu-space-spacing-x1,
+      'x2': $ln-tu-space-spacing-x2,
+      'x3': $ln-tu-space-spacing-x3,
+      'x4': $ln-tu-space-spacing-x4,
+      'x5': $ln-tu-space-spacing-x5,
+      'x6': $ln-tu-space-spacing-x6,
+      'x7': $ln-tu-space-spacing-x7,
+      'x8': $ln-tu-space-spacing-x8,
+      'x9': $ln-tu-space-spacing-x9,
+      'x10': $ln-tu-space-spacing-x10
+    ),
+    'breakpoints': (
+      'extra-extra-small': $ln-tu-space-breakpoints-extra-extra-small,
+      'extra-small': $ln-tu-space-breakpoints-extra-small,
+      'small': $ln-tu-space-breakpoints-small,
+      'medium': $ln-tu-space-breakpoints-medium,
+      'large': $ln-tu-space-breakpoints-large,
+      'extra-large': $ln-tu-space-breakpoints-extra-large,
+      'extra-extra-large': $ln-tu-space-breakpoints-extra-extra-large
+    )
+  ),
+  'typography': (
+    'base': (
+      'font-family': $ln-tu-typography-base-font-family,
+      'font': $ln-tu-typography-base-font,
+      'letterform': $ln-tu-typography-base-letterform,
+      'fallback': $ln-tu-typography-base-fallback
+    ),
+    'brand': (
+      'font-family': $ln-tu-typography-brand-font-family,
+      'font': $ln-tu-typography-brand-font,
+      'letterform': $ln-tu-typography-brand-letterform,
+      'fallback': $ln-tu-typography-brand-fallback
+    ),
+    'monospace': (
+      'font-family': $ln-tu-typography-monospace-font-family
+    ),
+    'system': (
+      'font-family': $ln-tu-typography-system-font-family
+    ),
+    'font-size': (
+      'root': $ln-tu-typography-font-size-root,
+      'default': $ln-tu-typography-font-size-default,
+      'rem': $ln-tu-typography-font-size-rem
+    ),
+    'font-weight': (
+      'light': $ln-tu-typography-font-weight-light,
+      'regular': $ln-tu-typography-font-weight-regular,
+      'medium': $ln-tu-typography-font-weight-medium,
+      'semi-bold': $ln-tu-typography-font-weight-semi-bold,
+      'bold': $ln-tu-typography-font-weight-bold,
+      'extra-bold': $ln-tu-typography-font-weight-extra-bold,
+      'black': $ln-tu-typography-font-weight-black
+    )
+  ),
+  'font-stack': (
+    'display-7': (
+      'font-size': $ln-tu-font-stack-display-7-font-size,
+      'line-height': $ln-tu-font-stack-display-7-line-height,
+      'font-weight': $ln-tu-font-stack-display-7-font-weight,
+      'font-family': $ln-tu-font-stack-display-7-font-family
+    ),
+    'display-6': (
+      'font-size': $ln-tu-font-stack-display-6-font-size,
+      'line-height': $ln-tu-font-stack-display-6-line-height,
+      'font-weight': $ln-tu-font-stack-display-6-font-weight,
+      'font-family': $ln-tu-font-stack-display-6-font-family
+    ),
+    'display-5': (
+      'font-size': $ln-tu-font-stack-display-5-font-size,
+      'line-height': $ln-tu-font-stack-display-5-line-height,
+      'font-weight': $ln-tu-font-stack-display-5-font-weight,
+      'font-family': $ln-tu-font-stack-display-5-font-family
+    ),
+    'display-4': (
+      'font-size': $ln-tu-font-stack-display-4-font-size,
+      'line-height': $ln-tu-font-stack-display-4-line-height,
+      'font-weight': $ln-tu-font-stack-display-4-font-weight,
+      'font-family': $ln-tu-font-stack-display-4-font-family
+    ),
+    'display-3': (
+      'font-size': $ln-tu-font-stack-display-3-font-size,
+      'line-height': $ln-tu-font-stack-display-3-line-height,
+      'font-weight': $ln-tu-font-stack-display-3-font-weight,
+      'font-family': $ln-tu-font-stack-display-3-font-family
+    ),
+    'display-2': (
+      'font-size': $ln-tu-font-stack-display-2-font-size,
+      'line-height': $ln-tu-font-stack-display-2-line-height,
+      'font-weight': $ln-tu-font-stack-display-2-font-weight,
+      'font-family': $ln-tu-font-stack-display-2-font-family
+    ),
+    'display-1': (
+      'font-size': $ln-tu-font-stack-display-1-font-size,
+      'line-height': $ln-tu-font-stack-display-1-line-height,
+      'font-weight': $ln-tu-font-stack-display-1-font-weight,
+      'font-family': $ln-tu-font-stack-display-1-font-family
+    ),
+    'label-1': (
+      'font-size': $ln-tu-font-stack-label-1-font-size,
+      'line-height': $ln-tu-font-stack-label-1-line-height,
+      'font-weight': $ln-tu-font-stack-label-1-font-weight,
+      'font-family': $ln-tu-font-stack-label-1-font-family
+    ),
+    'label-2': (
+      'font-size': $ln-tu-font-stack-label-2-font-size,
+      'line-height': $ln-tu-font-stack-label-2-line-height,
+      'font-weight': $ln-tu-font-stack-label-2-font-weight,
+      'font-family': $ln-tu-font-stack-label-2-font-family
+    ),
+    'body-2': (
+      'font-size': $ln-tu-font-stack-body-2-font-size,
+      'line-height': $ln-tu-font-stack-body-2-line-height,
+      'font-weight': $ln-tu-font-stack-body-2-font-weight,
+      'font-family': $ln-tu-font-stack-body-2-font-family
+    ),
+    'body-1': (
+      'font-size': $ln-tu-font-stack-body-1-font-size,
+      'line-height': $ln-tu-font-stack-body-1-line-height,
+      'font-weight': $ln-tu-font-stack-body-1-font-weight,
+      'font-family': $ln-tu-font-stack-body-1-font-family
+    ),
+    'caption': (
+      'font-size': $ln-tu-font-stack-caption-font-size,
+      'line-height': $ln-tu-font-stack-caption-line-height,
+      'font-weight': $ln-tu-font-stack-caption-font-weight,
+      'font-family': $ln-tu-font-stack-caption-font-family
+    ),
+    'button': (
+      'font-size': $ln-tu-font-stack-button-font-size,
+      'line-height': $ln-tu-font-stack-button-line-height,
+      'font-weight': $ln-tu-font-stack-button-font-weight,
+      'font-family': $ln-tu-font-stack-button-font-family
+    )
+  ),
+  'border': (
+    'width': (
+      'small': $ln-tu-border-width-small,
+      'default': $ln-tu-border-width-default,
+      'large': $ln-tu-border-width-large
+    ),
+    'radius': (
+      'default': $ln-tu-border-radius-default
+    )
+  )
+);

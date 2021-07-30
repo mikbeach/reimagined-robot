@@ -1,0 +1,909 @@
+
+/**
+ * Do not edit directly
+ * Generated on Mon, 26 Jul 2021 14:20:39 GMT
+ */
+
+$ln-nectar-color-palette-black: #000000 !default;
+$ln-nectar-color-palette-blue-100: #0e4174 !default;
+$ln-nectar-color-palette-blue-90: #114e8b !default;
+$ln-nectar-color-palette-blue-80: #135ca3 !default;
+$ln-nectar-color-palette-blue-70: #1669ba !default;
+$ln-nectar-color-palette-blue-60: #1976d2 !default;
+$ln-nectar-color-palette-blue-50: #428fda !default;
+$ln-nectar-color-palette-blue-40: #6ca7e2 !default;
+$ln-nectar-color-palette-blue-30: #95c0ea !default;
+$ln-nectar-color-palette-blue-20: #bfd9f2 !default;
+$ln-nectar-color-palette-blue-10: #e8f1fb !default;
+$ln-nectar-color-palette-brand-1: #8223fa !default;
+$ln-nectar-color-palette-brand-1-highlight: #6c18cb !default;
+$ln-nectar-color-palette-brand-2: #ff6d4f !default;
+$ln-nectar-color-palette-brand-2-highlight: #d75241 !default;
+$ln-nectar-color-palette-green-100: #004851 !default;
+$ln-nectar-color-palette-green-90: #006c63 !default;
+$ln-nectar-color-palette-green-80: #008971 !default;
+$ln-nectar-color-palette-green-70: #00b587 !default;
+$ln-nectar-color-palette-green-60: #00d999 !default;
+$ln-nectar-color-palette-green-50: #2ee0ab !default;
+$ln-nectar-color-palette-green-40: #5ce7be !default;
+$ln-nectar-color-palette-green-30: #8aeed0 !default;
+$ln-nectar-color-palette-green-20: #b8f4e2 !default;
+$ln-nectar-color-palette-green-10: #e6fbf5 !default;
+$ln-nectar-color-palette-grey-100: #0d0b11 !default;
+$ln-nectar-color-palette-grey-90: #26212f !default;
+$ln-nectar-color-palette-grey-80: #3f384c !default;
+$ln-nectar-color-palette-grey-70: #585068 !default;
+$ln-nectar-color-palette-grey-60: #726a82 !default;
+$ln-nectar-color-palette-grey-50: #8b839b !default;
+$ln-nectar-color-palette-grey-40: #a49db3 !default;
+$ln-nectar-color-palette-grey-30: #beb8ca !default;
+$ln-nectar-color-palette-grey-20: #d8d4e0 !default;
+$ln-nectar-color-palette-grey-10: #f2f1f5 !default;
+$ln-nectar-color-palette-blue: #1976d2 !default;
+$ln-nectar-color-palette-green: #00d999 !default;
+$ln-nectar-color-palette-red: #ff6d4f !default;
+$ln-nectar-color-palette-yellow: #ffcd00 !default;
+$ln-nectar-color-palette-red-100: #5f0019 !default;
+$ln-nectar-color-palette-red-90: #871b26 !default;
+$ln-nectar-color-palette-red-80: #af3734 !default;
+$ln-nectar-color-palette-red-70: #d75241 !default;
+$ln-nectar-color-palette-red-60: #ff6d4f !default;
+$ln-nectar-color-palette-red-50: #ff876f !default;
+$ln-nectar-color-palette-red-40: #ffa28e !default;
+$ln-nectar-color-palette-red-30: #ffbcae !default;
+$ln-nectar-color-palette-red-20: #ffd6ce !default;
+$ln-nectar-color-palette-red-10: #fff0ed !default;
+$ln-nectar-color-palette-white: #ffffff !default;
+$ln-nectar-color-palette-yellow-100: #6a2a05 !default;
+$ln-nectar-color-palette-yellow-90: #8f5304 !default;
+$ln-nectar-color-palette-yellow-80: #b47c02 !default;
+$ln-nectar-color-palette-yellow-70: #daa401 !default;
+$ln-nectar-color-palette-yellow-60: #ffcd00 !default;
+$ln-nectar-color-palette-yellow-50: #ffd62e !default;
+$ln-nectar-color-palette-yellow-40: #ffdf5c !default;
+$ln-nectar-color-palette-yellow-30: #ffe88a !default;
+$ln-nectar-color-palette-yellow-20: #fff1b8 !default;
+$ln-nectar-color-palette-yellow-10: #fffae6 !default;
+$ln-nectar-color-palette-brand-3: #00d999 !default;
+$ln-nectar-color-palette-brand-3-highlight: #00b587 !default;
+$ln-nectar-color-palette-brand-4: #ffcd00 !default;
+$ln-nectar-color-palette-brand-4-highlight: #daa401 !default;
+$ln-nectar-color-palette-purple: #8223fa !default;
+$ln-nectar-color-palette-purple-dark: #6c18cb !default;
+$ln-nectar-color-palette-purple-darker: #5d11ab !default;
+$ln-nectar-color-palette-purple-darkest: #4a0983 !default;
+$ln-nectar-color-palette-yellow-dark: #daa401 !default;
+$ln-nectar-color-palette-yellow-darker: #b47c02 !default;
+$ln-nectar-color-palette-yellow-darkest: #8f5304 !default;
+$ln-nectar-color-palette-red-dark: #d75241 !default;
+$ln-nectar-color-palette-red-darker: #af3734 !default;
+$ln-nectar-color-palette-red-darkest: #871b26 !default;
+$ln-nectar-color-palette-green-dark: #00b587 !default;
+$ln-nectar-color-palette-green-darker: #008971 !default;
+$ln-nectar-color-palette-green-darkest: #006c63 !default;
+$ln-nectar-color-palette-putty: #f3f0ec !default;
+$ln-nectar-color-palette-purple-100: #38005c !default;
+$ln-nectar-color-palette-purple-90: #4a0983 !default;
+$ln-nectar-color-palette-purple-80: #5d11ab !default;
+$ln-nectar-color-palette-purple-70: #6c18cb !default;
+$ln-nectar-color-palette-purple-60: #8223fa !default;
+$ln-nectar-color-palette-purple-50: #994bfb !default;
+$ln-nectar-color-palette-purple-40: #af72fc !default;
+$ln-nectar-color-palette-purple-30: #c69afd !default;
+$ln-nectar-color-palette-purple-20: #dcc1fe !default;
+$ln-nectar-color-palette-purple-10: #f3e9ff !default;
+$ln-nectar-color-palette-putty-60: #f3f0ec !default;
+$ln-nectar-color-monochrome-white: #ffffff !default;
+$ln-nectar-color-monochrome-lighter: #f2f1f5 !default;
+$ln-nectar-color-monochrome-lighter-rgb: #f2f1f5 !default;
+$ln-nectar-color-monochrome-light: #d8d4e0 !default;
+$ln-nectar-color-monochrome-light-rgb: #d8d4e0 !default;
+$ln-nectar-color-monochrome-medium: #726a82 !default;
+$ln-nectar-color-monochrome-medium-rgb: #726a82 !default;
+$ln-nectar-color-monochrome-dark: #3f384c !default;
+$ln-nectar-color-monochrome-dark-rgb: #3f384c !default;
+$ln-nectar-color-monochrome-darker: #26212f !default;
+$ln-nectar-color-monochrome-darker-rgb: #26212f !default;
+$ln-nectar-color-monochrome-grey-v-light: #f2f1f5 !default; // deprecated
+$ln-nectar-color-monochrome-grey-light: #d8d4e0 !default; // deprecated
+$ln-nectar-color-monochrome-grey: #8b839b !default; // deprecated
+$ln-nectar-color-monochrome-grey-dark: #3f384c !default; // deprecated
+$ln-nectar-color-monochrome-grey-darker: #26212f !default; // deprecated
+$ln-nectar-color-monochrome-black: #000000 !default;
+$ln-nectar-color-promotion-sale-lightest: #fff0ed !default;
+$ln-nectar-color-promotion-sale-lighter: #ffbcae !default;
+$ln-nectar-color-promotion-sale-light: #ff876f !default;
+$ln-nectar-color-promotion-sale-base: #ff6d4f !default;
+$ln-nectar-color-promotion-sale-dark: #d75241 !default;
+$ln-nectar-color-promotion-sale-darker: #af3734 !default;
+$ln-nectar-color-promotion-sale-darkest: #871b26 !default;
+$ln-nectar-color-promotion-new-lightest: #e8f1fb !default;
+$ln-nectar-color-promotion-new-lighter: #95c0ea !default;
+$ln-nectar-color-promotion-new-light: #428fda !default;
+$ln-nectar-color-promotion-new-base: #1976d2 !default;
+$ln-nectar-color-promotion-new-dark: #1669ba !default;
+$ln-nectar-color-promotion-new-darker: #135ca3 !default;
+$ln-nectar-color-promotion-new-darkest: #114e8b !default;
+$ln-nectar-color-scheme-light-base: #f2f1f5 !default;
+$ln-nectar-color-scheme-light-highlight: #ffffff !default;
+$ln-nectar-color-scheme-light-on-base: #3f384c !default;
+$ln-nectar-color-scheme-light-on-highlight: #000000 !default;
+$ln-nectar-color-scheme-dark-base: #3f384c !default;
+$ln-nectar-color-scheme-dark-highlight: #000000 !default;
+$ln-nectar-color-scheme-dark-on-base: #ffffff !default;
+$ln-nectar-color-scheme-dark-on-highlight: #ffffff !default;
+$ln-nectar-color-scheme-brand-1-base: #8223fa !default;
+$ln-nectar-color-scheme-brand-1-highlight: #6c18cb !default;
+$ln-nectar-color-scheme-brand-1-on-base: #ffffff !default;
+$ln-nectar-color-scheme-brand-1-on-highlight: #ffffff !default;
+$ln-nectar-color-scheme-brand-2-base: #ffcd00 !default;
+$ln-nectar-color-scheme-brand-2-highlight: #daa401 !default;
+$ln-nectar-color-scheme-brand-2-on-base: #871b26 !default;
+$ln-nectar-color-scheme-brand-2-on-highlight: #871b26 !default;
+$ln-nectar-color-scheme-brand-3-base: #ff6d4f !default;
+$ln-nectar-color-scheme-brand-3-highlight: #d75241 !default;
+$ln-nectar-color-scheme-brand-3-on-base: #ffffff !default;
+$ln-nectar-color-scheme-brand-3-on-highlight: #ffffff !default;
+$ln-nectar-color-scheme-brand-4-base: #00d999 !default;
+$ln-nectar-color-scheme-brand-4-highlight: #008971 !default;
+$ln-nectar-color-scheme-brand-4-on-base: #ffffff !default;
+$ln-nectar-color-scheme-brand-4-on-highlight: #ffffff !default;
+$ln-nectar-color-semantic-error-lighter: #fff0ed !default;
+$ln-nectar-color-semantic-error-light: #ff876f !default;
+$ln-nectar-color-semantic-error-base: #b20620 !default;
+$ln-nectar-color-semantic-error-dark: #d75241 !default;
+$ln-nectar-color-semantic-error-darker: #af3734 !default;
+$ln-nectar-color-semantic-error-text: #ffffff !default; // The default accessible text on the base value
+$ln-nectar-color-semantic-info-lighter: #e8f1fb !default;
+$ln-nectar-color-semantic-info-light: #428fda !default;
+$ln-nectar-color-semantic-info-base: #1976d2 !default;
+$ln-nectar-color-semantic-info-dark: #1669ba !default;
+$ln-nectar-color-semantic-info-darker: #135ca3 !default;
+$ln-nectar-color-semantic-info-text: #ffffff !default; // The default accessible text on the base value
+$ln-nectar-color-semantic-success-lighter: #e6fbf5 !default;
+$ln-nectar-color-semantic-success-light: #2ee0ab !default;
+$ln-nectar-color-semantic-success-base: #00d999 !default;
+$ln-nectar-color-semantic-success-dark: #00b587 !default;
+$ln-nectar-color-semantic-success-darker: #008971 !default;
+$ln-nectar-color-semantic-success-text: #ffffff !default; // The default accessible text on the base value
+$ln-nectar-color-semantic-warning-lighter: #fffae6 !default;
+$ln-nectar-color-semantic-warning-light: #ffd62e !default;
+$ln-nectar-color-semantic-warning-base: #ffcd00 !default;
+$ln-nectar-color-semantic-warning-dark: #daa401 !default;
+$ln-nectar-color-semantic-warning-darker: #b47c02 !default;
+$ln-nectar-color-semantic-warning-text: #3f384c !default; // The default accessible text on the base value
+$ln-nectar-color-brand-1-base: #8223fa !default;
+$ln-nectar-color-brand-1-lightest: #f3e9ff !default;
+$ln-nectar-color-brand-1-lighter: #c69afd !default;
+$ln-nectar-color-brand-1-light: #994bfb !default;
+$ln-nectar-color-brand-1-dark: #6c18cb !default;
+$ln-nectar-color-brand-1-darker: #4a0983 !default;
+$ln-nectar-color-brand-1-darkest: #38005c !default;
+$ln-nectar-color-brand-2-base: #ff6d4f !default;
+$ln-nectar-color-brand-2-lightest: #fff0ed !default;
+$ln-nectar-color-brand-2-lighter: #ffbcae !default;
+$ln-nectar-color-brand-2-light: #ff876f !default;
+$ln-nectar-color-brand-2-dark: #d75241 !default;
+$ln-nectar-color-brand-2-darker: #871b26 !default;
+$ln-nectar-color-brand-2-darkest: #5f0019 !default;
+$ln-nectar-color-brand-3-base: #00d999 !default;
+$ln-nectar-color-brand-3-lightest: #e6fbf5 !default;
+$ln-nectar-color-brand-3-lighter: #8aeed0 !default;
+$ln-nectar-color-brand-3-light: #2ee0ab !default;
+$ln-nectar-color-brand-3-dark: #00b587 !default;
+$ln-nectar-color-brand-3-darker: #006c63 !default;
+$ln-nectar-color-brand-3-darkest: #004851 !default;
+$ln-nectar-color-brand-4-base: #ffcd00 !default;
+$ln-nectar-color-brand-4-lightest: #fffae6 !default;
+$ln-nectar-color-brand-4-lighter: #ffe88a !default;
+$ln-nectar-color-brand-4-light: #ffd62e !default;
+$ln-nectar-color-brand-4-dark: #daa401 !default;
+$ln-nectar-color-brand-4-darker: #8f5304 !default;
+$ln-nectar-color-brand-4-darkest: #6a2a05 !default;
+$ln-nectar-mode-dark-background: #26212f !default;
+$ln-nectar-mode-dark-base: #f2f1f5 !default;
+$ln-nectar-mode-dark-base-inverse: #3f384c !default;
+$ln-nectar-mode-dark-border: #3f384c !default;
+$ln-nectar-mode-dark-border-interactive: #726a82 !default;
+$ln-nectar-mode-dark-border-interactive-highlight: #f2f1f5 !default;
+$ln-nectar-mode-dark-footer-background: #ffffff !default;
+$ln-nectar-mode-dark-footer-text: #3f384c !default;
+$ln-nectar-mode-dark-foreground: #26212f !default;
+$ln-nectar-mode-dark-header-background: #26212f !default;
+$ln-nectar-mode-dark-header-text: #f2f1f5 !default;
+$ln-nectar-mode-dark-highlight: #ffffff !default;
+$ln-nectar-mode-dark-highlight-inverse: #000000 !default;
+$ln-nectar-mode-default-background: #f3f0ec !default; // default website background
+$ln-nectar-mode-default-base: #3f384c !default; // base text colour on default bg
+$ln-nectar-mode-default-base-inverse: #3f384c !default; // base text colour on default foreground
+$ln-nectar-mode-default-border: #d8d4e0 !default;
+$ln-nectar-mode-default-border-interactive: #726a82 !default;
+$ln-nectar-mode-default-border-interactive-highlight: #f2f1f5 !default;
+$ln-nectar-mode-default-footer-background: #26212f !default;
+$ln-nectar-mode-default-footer-text: #f2f1f5 !default;
+$ln-nectar-mode-default-foreground: #ffffff !default; // default background that are given to luna components
+$ln-nectar-mode-default-header-background: #ffffff !default;
+$ln-nectar-mode-default-header-text: #3f384c !default;
+$ln-nectar-mode-default-highlight: #000000 !default;
+$ln-nectar-mode-default-highlight-inverse: #000000 !default;
+$ln-nectar-surface-light-background: #f2f1f5 !default; // surface colour most likely to be used as a background
+$ln-nectar-surface-light-base: #3f384c !default; // base text colour on default bg
+$ln-nectar-surface-light-border: #d8d4e0 !default;
+$ln-nectar-surface-light-highlight: #000000 !default;
+$ln-nectar-surface-light-interactive: #726a82 !default;
+$ln-nectar-surface-light-interactive-hover: #f2f1f5 !default;
+$ln-nectar-surface-white-background: #ffffff !default;
+$ln-nectar-surface-white-base: #3f384c !default;
+$ln-nectar-surface-white-border: #d8d4e0 !default;
+$ln-nectar-surface-white-highlight: #000000 !default;
+$ln-nectar-surface-dark-background: #26212f !default;
+$ln-nectar-surface-dark-base: #f2f1f5 !default; // base text colour on default bg
+$ln-nectar-surface-dark-border: #3f384c !default;
+$ln-nectar-surface-dark-highlight: #ffffff !default;
+$ln-nectar-surface-dark-interactive: #726a82 !default;
+$ln-nectar-surface-dark-interactive-hover: #3f384c !default;
+$ln-nectar-surface-grey-background: #26212f !default;
+$ln-nectar-surface-grey-base: #f2f1f5 !default; // base text colour on default bg
+$ln-nectar-surface-grey-border: #3f384c !default;
+$ln-nectar-surface-grey-highlight: #000000 !default;
+$ln-nectar-modifier-border-width: 1px !default;
+$ln-nectar-modifier-border-width-large: 2px !default;
+$ln-nectar-modifier-border-radius: 12px !default;
+$ln-nectar-modifier-border-radius-large: 24px !default;
+$ln-nectar-modifier-border-interactive-width: 2px !default; // generally used for interactive components such as input fields
+$ln-nectar-modifier-button-border: 2px !default;
+$ln-nectar-modifier-focus-ring-focus-width: 3px !default;
+$ln-nectar-modifier-focus-ring-color: #1976d2 !default;
+$ln-nectar-modifier-footer-background: #ffffff !default;
+$ln-nectar-modifier-footer-text: #26212f !default;
+$ln-nectar-modifier-header-background: #ffffff !default;
+$ln-nectar-modifier-header-background-dark: #000000 !default;
+$ln-nectar-modifier-global-bar-height: 36px !default;
+$ln-nectar-modifier-transition-duration: 0.2s !default;
+$ln-nectar-modifier-transition-duration-long: 0.4s !default;
+$ln-nectar-modifier-transition-timing-function-default: ease-out !default;
+$ln-nectar-opacity-default: 0.7 !default;
+$ln-nectar-opacity-light: 0.15 !default;
+$ln-nectar-opacity-disabled: 0.35 !default;
+$ln-nectar-opacity-background: 0.06 !default;
+$ln-nectar-overlay-color: #000000 !default;
+$ln-nectar-overlay-opacity: 0.7 !default;
+$ln-nectar-space-baseline-grid: 8 !default;
+$ln-nectar-space-baseline-condensed: 4 !default;
+$ln-nectar-space-fixed-width-extra-small: 800 !default;
+$ln-nectar-space-fixed-width-small: 1280 !default;
+$ln-nectar-space-fixed-width-medium: 1440 !default;
+$ln-nectar-space-fixed-width-large: 1800 !default;
+$ln-nectar-space-size-small: 24px !default;
+$ln-nectar-space-size-medium: 44px !default;
+$ln-nectar-space-size-large: 80px !default;
+$ln-nectar-space-spacing-default: 8px !default;
+$ln-nectar-space-spacing-extra-small: 4px !default;
+$ln-nectar-space-spacing-small: 8px !default;
+$ln-nectar-space-spacing-medium: 16px !default;
+$ln-nectar-space-spacing-large: 24px !default;
+$ln-nectar-space-spacing-extra-large: 32px !default;
+$ln-nectar-space-spacing-half: 4px !default;
+$ln-nectar-space-spacing-x1: 8px !default;
+$ln-nectar-space-spacing-x2: 16px !default;
+$ln-nectar-space-spacing-x3: 24px !default;
+$ln-nectar-space-spacing-x4: 32px !default;
+$ln-nectar-space-spacing-x5: 40px !default;
+$ln-nectar-space-spacing-x6: 48px !default;
+$ln-nectar-space-spacing-x7: 56px !default;
+$ln-nectar-space-spacing-x8: 64px !default;
+$ln-nectar-space-spacing-x9: 72px !default;
+$ln-nectar-space-spacing-x10: 80px !default;
+$ln-nectar-space-breakpoints-extra-extra-small: 320px !default;
+$ln-nectar-space-breakpoints-extra-small: 375px !default;
+$ln-nectar-space-breakpoints-small: 480px !default;
+$ln-nectar-space-breakpoints-medium: 768px !default;
+$ln-nectar-space-breakpoints-large: 960px !default;
+$ln-nectar-space-breakpoints-extra-large: 1024px !default;
+$ln-nectar-space-breakpoints-extra-extra-large: 1400px !default;
+$ln-nectar-typography-base-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default; // The font stack which has fallbacks primarly used on web
+$ln-nectar-typography-base-font: System !default; // Main font used in this category
+$ln-nectar-typography-base-letterform: sans-serif !default; // the letterform type which the font belongs to
+$ln-nectar-typography-brand-font-family: ItalianPlateNo1Expanded, 'Helvetica Neue', Helvetica, Arial, sans-serif !default; // The font stack which has fallbacks primarly used on web
+$ln-nectar-typography-brand-font: ItalianPlateNo1Expanded !default; // Main font used in this category
+$ln-nectar-typography-brand-letterform: sans-serif !default; // the letterform type which the font belongs to
+$ln-nectar-typography-monospace-font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace !default;
+$ln-nectar-typography-system-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-nectar-typography-font-size-root: 1rem !default; // The browser default font-size
+$ln-nectar-typography-font-size-default: 16 !default; // The font-size in px
+$ln-nectar-typography-font-size-rem: 16 !default; // The font-size in rem
+$ln-nectar-typography-font-weight-light: 300 !default;
+$ln-nectar-typography-font-weight-regular: 400 !default;
+$ln-nectar-typography-font-weight-medium: 500 !default;
+$ln-nectar-typography-font-weight-semi-bold: 600 !default;
+$ln-nectar-typography-font-weight-bold: 700 !default;
+$ln-nectar-typography-font-weight-extra-bold: 800 !default;
+$ln-nectar-typography-font-weight-black: 900 !default;
+$ln-nectar-typography-small-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-nectar-typography-small-font: Barlow !default;
+$ln-nectar-typography-small-letterform: sans-serif !default;
+$ln-nectar-font-stack-display-7-font-size: 61px !default;
+$ln-nectar-font-stack-display-7-line-height: 76px !default;
+$ln-nectar-font-stack-display-7-font-weight: 800 !default;
+$ln-nectar-font-stack-display-7-font-family: ItalianPlateNo1Expanded, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-nectar-font-stack-display-6-font-size: 49px !default;
+$ln-nectar-font-stack-display-6-line-height: 62px !default;
+$ln-nectar-font-stack-display-6-font-weight: 800 !default;
+$ln-nectar-font-stack-display-6-font-family: ItalianPlateNo1Expanded, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-nectar-font-stack-display-5-font-size: 39px !default;
+$ln-nectar-font-stack-display-5-line-height: 50px !default;
+$ln-nectar-font-stack-display-5-font-weight: 800 !default;
+$ln-nectar-font-stack-display-5-font-family: ItalianPlateNo1Expanded, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-nectar-font-stack-display-4-font-size: 31px !default;
+$ln-nectar-font-stack-display-4-line-height: 40px !default;
+$ln-nectar-font-stack-display-4-font-weight: 800 !default;
+$ln-nectar-font-stack-display-4-font-family: ItalianPlateNo1Expanded, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-nectar-font-stack-display-3-font-size: 25px !default;
+$ln-nectar-font-stack-display-3-line-height: 32px !default;
+$ln-nectar-font-stack-display-3-font-weight: 700 !default;
+$ln-nectar-font-stack-display-3-font-family: ItalianPlateNo1Expanded, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-nectar-font-stack-display-2-font-size: 21px !default;
+$ln-nectar-font-stack-display-2-line-height: 26px !default;
+$ln-nectar-font-stack-display-2-font-weight: 700 !default;
+$ln-nectar-font-stack-display-2-font-family: ItalianPlateNo1Expanded, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-nectar-font-stack-display-1-font-size: 19px !default;
+$ln-nectar-font-stack-display-1-line-height: 26px !default;
+$ln-nectar-font-stack-display-1-font-weight: 700 !default;
+$ln-nectar-font-stack-display-1-font-family: ItalianPlateNo1Expanded, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-nectar-font-stack-label-1-font-size: 17px !default;
+$ln-nectar-font-stack-label-1-line-height: 24px !default;
+$ln-nectar-font-stack-label-1-font-weight: 700 !default;
+$ln-nectar-font-stack-label-1-font-family: ItalianPlateNo1Expanded, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-nectar-font-stack-label-2-font-size: 17px !default;
+$ln-nectar-font-stack-label-2-line-height: 24px !default;
+$ln-nectar-font-stack-label-2-font-weight: 700 !default;
+$ln-nectar-font-stack-label-2-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif !default;
+$ln-nectar-font-stack-body-2-font-size: 19px !default;
+$ln-nectar-font-stack-body-2-line-height: 26px !default;
+$ln-nectar-font-stack-body-2-font-weight: 500 !default;
+$ln-nectar-font-stack-body-2-font-family: ItalianPlateNo1Expanded, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-nectar-font-stack-body-1-font-size: 17px !default;
+$ln-nectar-font-stack-body-1-line-height: 24px !default;
+$ln-nectar-font-stack-body-1-font-weight: 500 !default;
+$ln-nectar-font-stack-body-1-font-family: ItalianPlateNo1Expanded, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-nectar-font-stack-caption-font-size: 15px !default;
+$ln-nectar-font-stack-caption-line-height: 22px !default;
+$ln-nectar-font-stack-caption-font-weight: 500 !default;
+$ln-nectar-font-stack-caption-font-family: Barlow, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-nectar-font-stack-button-font-size: 17px !default;
+$ln-nectar-font-stack-button-line-height: 24px !default;
+$ln-nectar-font-stack-button-font-weight: 700 !default;
+$ln-nectar-font-stack-button-font-family: ItalianPlateNo1Expanded, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-nectar-base-font-family: ItalianPlateNo1Expanded, Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$ln-nectar-base-font: ItalianPlateNo1Expanded !default;
+$ln-nectar-base-letterform: sans-serif !default;
+
+$ln-nectar: (
+  'color': (
+    'palette': (
+      'black': $ln-nectar-color-palette-black,
+      'blue-100': $ln-nectar-color-palette-blue-100,
+      'blue-90': $ln-nectar-color-palette-blue-90,
+      'blue-80': $ln-nectar-color-palette-blue-80,
+      'blue-70': $ln-nectar-color-palette-blue-70,
+      'blue-60': $ln-nectar-color-palette-blue-60,
+      'blue-50': $ln-nectar-color-palette-blue-50,
+      'blue-40': $ln-nectar-color-palette-blue-40,
+      'blue-30': $ln-nectar-color-palette-blue-30,
+      'blue-20': $ln-nectar-color-palette-blue-20,
+      'blue-10': $ln-nectar-color-palette-blue-10,
+      'brand-1': $ln-nectar-color-palette-brand-1,
+      'brand-1-highlight': $ln-nectar-color-palette-brand-1-highlight,
+      'brand-2': $ln-nectar-color-palette-brand-2,
+      'brand-2-highlight': $ln-nectar-color-palette-brand-2-highlight,
+      'green-100': $ln-nectar-color-palette-green-100,
+      'green-90': $ln-nectar-color-palette-green-90,
+      'green-80': $ln-nectar-color-palette-green-80,
+      'green-70': $ln-nectar-color-palette-green-70,
+      'green-60': $ln-nectar-color-palette-green-60,
+      'green-50': $ln-nectar-color-palette-green-50,
+      'green-40': $ln-nectar-color-palette-green-40,
+      'green-30': $ln-nectar-color-palette-green-30,
+      'green-20': $ln-nectar-color-palette-green-20,
+      'green-10': $ln-nectar-color-palette-green-10,
+      'grey-100': $ln-nectar-color-palette-grey-100,
+      'grey-90': $ln-nectar-color-palette-grey-90,
+      'grey-80': $ln-nectar-color-palette-grey-80,
+      'grey-70': $ln-nectar-color-palette-grey-70,
+      'grey-60': $ln-nectar-color-palette-grey-60,
+      'grey-50': $ln-nectar-color-palette-grey-50,
+      'grey-40': $ln-nectar-color-palette-grey-40,
+      'grey-30': $ln-nectar-color-palette-grey-30,
+      'grey-20': $ln-nectar-color-palette-grey-20,
+      'grey-10': $ln-nectar-color-palette-grey-10,
+      'blue': $ln-nectar-color-palette-blue,
+      'green': $ln-nectar-color-palette-green,
+      'red': $ln-nectar-color-palette-red,
+      'yellow': $ln-nectar-color-palette-yellow,
+      'red-100': $ln-nectar-color-palette-red-100,
+      'red-90': $ln-nectar-color-palette-red-90,
+      'red-80': $ln-nectar-color-palette-red-80,
+      'red-70': $ln-nectar-color-palette-red-70,
+      'red-60': $ln-nectar-color-palette-red-60,
+      'red-50': $ln-nectar-color-palette-red-50,
+      'red-40': $ln-nectar-color-palette-red-40,
+      'red-30': $ln-nectar-color-palette-red-30,
+      'red-20': $ln-nectar-color-palette-red-20,
+      'red-10': $ln-nectar-color-palette-red-10,
+      'white': $ln-nectar-color-palette-white,
+      'yellow-100': $ln-nectar-color-palette-yellow-100,
+      'yellow-90': $ln-nectar-color-palette-yellow-90,
+      'yellow-80': $ln-nectar-color-palette-yellow-80,
+      'yellow-70': $ln-nectar-color-palette-yellow-70,
+      'yellow-60': $ln-nectar-color-palette-yellow-60,
+      'yellow-50': $ln-nectar-color-palette-yellow-50,
+      'yellow-40': $ln-nectar-color-palette-yellow-40,
+      'yellow-30': $ln-nectar-color-palette-yellow-30,
+      'yellow-20': $ln-nectar-color-palette-yellow-20,
+      'yellow-10': $ln-nectar-color-palette-yellow-10,
+      'brand-3': $ln-nectar-color-palette-brand-3,
+      'brand-3-highlight': $ln-nectar-color-palette-brand-3-highlight,
+      'brand-4': $ln-nectar-color-palette-brand-4,
+      'brand-4-highlight': $ln-nectar-color-palette-brand-4-highlight,
+      'purple': $ln-nectar-color-palette-purple,
+      'purple-dark': $ln-nectar-color-palette-purple-dark,
+      'purple-darker': $ln-nectar-color-palette-purple-darker,
+      'purple-darkest': $ln-nectar-color-palette-purple-darkest,
+      'yellow-dark': $ln-nectar-color-palette-yellow-dark,
+      'yellow-darker': $ln-nectar-color-palette-yellow-darker,
+      'yellow-darkest': $ln-nectar-color-palette-yellow-darkest,
+      'red-dark': $ln-nectar-color-palette-red-dark,
+      'red-darker': $ln-nectar-color-palette-red-darker,
+      'red-darkest': $ln-nectar-color-palette-red-darkest,
+      'green-dark': $ln-nectar-color-palette-green-dark,
+      'green-darker': $ln-nectar-color-palette-green-darker,
+      'green-darkest': $ln-nectar-color-palette-green-darkest,
+      'putty': $ln-nectar-color-palette-putty,
+      'purple-100': $ln-nectar-color-palette-purple-100,
+      'purple-90': $ln-nectar-color-palette-purple-90,
+      'purple-80': $ln-nectar-color-palette-purple-80,
+      'purple-70': $ln-nectar-color-palette-purple-70,
+      'purple-60': $ln-nectar-color-palette-purple-60,
+      'purple-50': $ln-nectar-color-palette-purple-50,
+      'purple-40': $ln-nectar-color-palette-purple-40,
+      'purple-30': $ln-nectar-color-palette-purple-30,
+      'purple-20': $ln-nectar-color-palette-purple-20,
+      'purple-10': $ln-nectar-color-palette-purple-10,
+      'putty-60': $ln-nectar-color-palette-putty-60
+    ),
+    'monochrome': (
+      'white': $ln-nectar-color-monochrome-white,
+      'lighter': $ln-nectar-color-monochrome-lighter,
+      'lighter--rgb': $ln-nectar-color-monochrome-lighter-rgb,
+      'light': $ln-nectar-color-monochrome-light,
+      'light--rgb': $ln-nectar-color-monochrome-light-rgb,
+      'medium': $ln-nectar-color-monochrome-medium,
+      'medium--rgb': $ln-nectar-color-monochrome-medium-rgb,
+      'dark': $ln-nectar-color-monochrome-dark,
+      'dark--rgb': $ln-nectar-color-monochrome-dark-rgb,
+      'darker': $ln-nectar-color-monochrome-darker,
+      'darker--rgb': $ln-nectar-color-monochrome-darker-rgb,
+      'grey-v-light': $ln-nectar-color-monochrome-grey-v-light,
+      'grey-light': $ln-nectar-color-monochrome-grey-light,
+      'grey': $ln-nectar-color-monochrome-grey,
+      'grey-dark': $ln-nectar-color-monochrome-grey-dark,
+      'grey-darker': $ln-nectar-color-monochrome-grey-darker,
+      'black': $ln-nectar-color-monochrome-black
+    ),
+    'promotion': (
+      'sale': (
+        'lightest': $ln-nectar-color-promotion-sale-lightest,
+        'lighter': $ln-nectar-color-promotion-sale-lighter,
+        'light': $ln-nectar-color-promotion-sale-light,
+        'base': $ln-nectar-color-promotion-sale-base,
+        'dark': $ln-nectar-color-promotion-sale-dark,
+        'darker': $ln-nectar-color-promotion-sale-darker,
+        'darkest': $ln-nectar-color-promotion-sale-darkest
+      ),
+      'new': (
+        'lightest': $ln-nectar-color-promotion-new-lightest,
+        'lighter': $ln-nectar-color-promotion-new-lighter,
+        'light': $ln-nectar-color-promotion-new-light,
+        'base': $ln-nectar-color-promotion-new-base,
+        'dark': $ln-nectar-color-promotion-new-dark,
+        'darker': $ln-nectar-color-promotion-new-darker,
+        'darkest': $ln-nectar-color-promotion-new-darkest
+      )
+    ),
+    'scheme': (
+      'light': (
+        'base': $ln-nectar-color-scheme-light-base,
+        'highlight': $ln-nectar-color-scheme-light-highlight,
+        'on': (
+          'base': $ln-nectar-color-scheme-light-on-base,
+          'highlight': $ln-nectar-color-scheme-light-on-highlight
+        )
+      ),
+      'dark': (
+        'base': $ln-nectar-color-scheme-dark-base,
+        'highlight': $ln-nectar-color-scheme-dark-highlight,
+        'on': (
+          'base': $ln-nectar-color-scheme-dark-on-base,
+          'highlight': $ln-nectar-color-scheme-dark-on-highlight
+        )
+      ),
+      'brand-1': (
+        'base': $ln-nectar-color-scheme-brand-1-base,
+        'highlight': $ln-nectar-color-scheme-brand-1-highlight,
+        'on': (
+          'base': $ln-nectar-color-scheme-brand-1-on-base,
+          'highlight': $ln-nectar-color-scheme-brand-1-on-highlight
+        )
+      ),
+      'brand-2': (
+        'base': $ln-nectar-color-scheme-brand-2-base,
+        'highlight': $ln-nectar-color-scheme-brand-2-highlight,
+        'on': (
+          'base': $ln-nectar-color-scheme-brand-2-on-base,
+          'highlight': $ln-nectar-color-scheme-brand-2-on-highlight
+        )
+      ),
+      'brand-3': (
+        'base': $ln-nectar-color-scheme-brand-3-base,
+        'highlight': $ln-nectar-color-scheme-brand-3-highlight,
+        'on': (
+          'base': $ln-nectar-color-scheme-brand-3-on-base,
+          'highlight': $ln-nectar-color-scheme-brand-3-on-highlight
+        )
+      ),
+      'brand-4': (
+        'base': $ln-nectar-color-scheme-brand-4-base,
+        'highlight': $ln-nectar-color-scheme-brand-4-highlight,
+        'on': (
+          'base': $ln-nectar-color-scheme-brand-4-on-base,
+          'highlight': $ln-nectar-color-scheme-brand-4-on-highlight
+        )
+      )
+    ),
+    'semantic': (
+      'error': (
+        'lighter': $ln-nectar-color-semantic-error-lighter,
+        'light': $ln-nectar-color-semantic-error-light,
+        'base': $ln-nectar-color-semantic-error-base,
+        'dark': $ln-nectar-color-semantic-error-dark,
+        'darker': $ln-nectar-color-semantic-error-darker,
+        'text': $ln-nectar-color-semantic-error-text
+      ),
+      'info': (
+        'lighter': $ln-nectar-color-semantic-info-lighter,
+        'light': $ln-nectar-color-semantic-info-light,
+        'base': $ln-nectar-color-semantic-info-base,
+        'dark': $ln-nectar-color-semantic-info-dark,
+        'darker': $ln-nectar-color-semantic-info-darker,
+        'text': $ln-nectar-color-semantic-info-text
+      ),
+      'success': (
+        'lighter': $ln-nectar-color-semantic-success-lighter,
+        'light': $ln-nectar-color-semantic-success-light,
+        'base': $ln-nectar-color-semantic-success-base,
+        'dark': $ln-nectar-color-semantic-success-dark,
+        'darker': $ln-nectar-color-semantic-success-darker,
+        'text': $ln-nectar-color-semantic-success-text
+      ),
+      'warning': (
+        'lighter': $ln-nectar-color-semantic-warning-lighter,
+        'light': $ln-nectar-color-semantic-warning-light,
+        'base': $ln-nectar-color-semantic-warning-base,
+        'dark': $ln-nectar-color-semantic-warning-dark,
+        'darker': $ln-nectar-color-semantic-warning-darker,
+        'text': $ln-nectar-color-semantic-warning-text
+      )
+    ),
+    'brand-1': (
+      'base': $ln-nectar-color-brand-1-base,
+      'lightest': $ln-nectar-color-brand-1-lightest,
+      'lighter': $ln-nectar-color-brand-1-lighter,
+      'light': $ln-nectar-color-brand-1-light,
+      'dark': $ln-nectar-color-brand-1-dark,
+      'darker': $ln-nectar-color-brand-1-darker,
+      'darkest': $ln-nectar-color-brand-1-darkest
+    ),
+    'brand-2': (
+      'base': $ln-nectar-color-brand-2-base,
+      'lightest': $ln-nectar-color-brand-2-lightest,
+      'lighter': $ln-nectar-color-brand-2-lighter,
+      'light': $ln-nectar-color-brand-2-light,
+      'dark': $ln-nectar-color-brand-2-dark,
+      'darker': $ln-nectar-color-brand-2-darker,
+      'darkest': $ln-nectar-color-brand-2-darkest
+    ),
+    'brand-3': (
+      'base': $ln-nectar-color-brand-3-base,
+      'lightest': $ln-nectar-color-brand-3-lightest,
+      'lighter': $ln-nectar-color-brand-3-lighter,
+      'light': $ln-nectar-color-brand-3-light,
+      'dark': $ln-nectar-color-brand-3-dark,
+      'darker': $ln-nectar-color-brand-3-darker,
+      'darkest': $ln-nectar-color-brand-3-darkest
+    ),
+    'brand-4': (
+      'base': $ln-nectar-color-brand-4-base,
+      'lightest': $ln-nectar-color-brand-4-lightest,
+      'lighter': $ln-nectar-color-brand-4-lighter,
+      'light': $ln-nectar-color-brand-4-light,
+      'dark': $ln-nectar-color-brand-4-dark,
+      'darker': $ln-nectar-color-brand-4-darker,
+      'darkest': $ln-nectar-color-brand-4-darkest
+    )
+  ),
+  'mode': (
+    'dark': (
+      'background': $ln-nectar-mode-dark-background,
+      'base': $ln-nectar-mode-dark-base,
+      'base-inverse': $ln-nectar-mode-dark-base-inverse,
+      'border': $ln-nectar-mode-dark-border,
+      'border-interactive': $ln-nectar-mode-dark-border-interactive,
+      'border-interactive-highlight': $ln-nectar-mode-dark-border-interactive-highlight,
+      'footer-background': $ln-nectar-mode-dark-footer-background,
+      'footer-text': $ln-nectar-mode-dark-footer-text,
+      'foreground': $ln-nectar-mode-dark-foreground,
+      'header-background': $ln-nectar-mode-dark-header-background,
+      'header-text': $ln-nectar-mode-dark-header-text,
+      'highlight': $ln-nectar-mode-dark-highlight,
+      'highlight-inverse': $ln-nectar-mode-dark-highlight-inverse
+    ),
+    'default': (
+      'background': $ln-nectar-mode-default-background,
+      'base': $ln-nectar-mode-default-base,
+      'base-inverse': $ln-nectar-mode-default-base-inverse,
+      'border': $ln-nectar-mode-default-border,
+      'border-interactive': $ln-nectar-mode-default-border-interactive,
+      'border-interactive-highlight': $ln-nectar-mode-default-border-interactive-highlight,
+      'footer-background': $ln-nectar-mode-default-footer-background,
+      'footer-text': $ln-nectar-mode-default-footer-text,
+      'foreground': $ln-nectar-mode-default-foreground,
+      'header-background': $ln-nectar-mode-default-header-background,
+      'header-text': $ln-nectar-mode-default-header-text,
+      'highlight': $ln-nectar-mode-default-highlight,
+      'highlight-inverse': $ln-nectar-mode-default-highlight-inverse
+    )
+  ),
+  'surface': (
+    'light': (
+      'background': $ln-nectar-surface-light-background,
+      'base': $ln-nectar-surface-light-base,
+      'border': $ln-nectar-surface-light-border,
+      'highlight': $ln-nectar-surface-light-highlight,
+      'interactive': $ln-nectar-surface-light-interactive,
+      'interactive-hover': $ln-nectar-surface-light-interactive-hover
+    ),
+    'white': (
+      'background': $ln-nectar-surface-white-background,
+      'base': $ln-nectar-surface-white-base,
+      'border': $ln-nectar-surface-white-border,
+      'highlight': $ln-nectar-surface-white-highlight
+    ),
+    'dark': (
+      'background': $ln-nectar-surface-dark-background,
+      'base': $ln-nectar-surface-dark-base,
+      'border': $ln-nectar-surface-dark-border,
+      'highlight': $ln-nectar-surface-dark-highlight,
+      'interactive': $ln-nectar-surface-dark-interactive,
+      'interactive-hover': $ln-nectar-surface-dark-interactive-hover
+    ),
+    'grey': (
+      'background': $ln-nectar-surface-grey-background,
+      'base': $ln-nectar-surface-grey-base,
+      'border': $ln-nectar-surface-grey-border,
+      'highlight': $ln-nectar-surface-grey-highlight
+    )
+  ),
+  'modifier': (
+    'border': (
+      'width': $ln-nectar-modifier-border-width,
+      'width-large': $ln-nectar-modifier-border-width-large,
+      'radius': $ln-nectar-modifier-border-radius,
+      'radius-large': $ln-nectar-modifier-border-radius-large
+    ),
+    'border-interactive': (
+      'width': $ln-nectar-modifier-border-interactive-width
+    ),
+    'button': (
+      'border': $ln-nectar-modifier-button-border
+    ),
+    'focus-ring': (
+      'focus-width': $ln-nectar-modifier-focus-ring-focus-width,
+      'color': $ln-nectar-modifier-focus-ring-color
+    ),
+    'footer': (
+      'background': $ln-nectar-modifier-footer-background,
+      'text': $ln-nectar-modifier-footer-text
+    ),
+    'header': (
+      'background': $ln-nectar-modifier-header-background,
+      'background-dark': $ln-nectar-modifier-header-background-dark
+    ),
+    'global-bar': (
+      'height': $ln-nectar-modifier-global-bar-height
+    ),
+    'transition': (
+      'duration': $ln-nectar-modifier-transition-duration,
+      'duration-long': $ln-nectar-modifier-transition-duration-long,
+      'timing-function': (
+        'default': $ln-nectar-modifier-transition-timing-function-default
+      )
+    )
+  ),
+  'opacity': (
+    'default': $ln-nectar-opacity-default,
+    'light': $ln-nectar-opacity-light,
+    'disabled': $ln-nectar-opacity-disabled,
+    'background': $ln-nectar-opacity-background
+  ),
+  'overlay': (
+    'color': $ln-nectar-overlay-color,
+    'opacity': $ln-nectar-overlay-opacity
+  ),
+  'space': (
+    'baseline': (
+      'grid': $ln-nectar-space-baseline-grid,
+      'condensed': $ln-nectar-space-baseline-condensed
+    ),
+    'fixed-width': (
+      'extra-small': $ln-nectar-space-fixed-width-extra-small,
+      'small': $ln-nectar-space-fixed-width-small,
+      'medium': $ln-nectar-space-fixed-width-medium,
+      'large': $ln-nectar-space-fixed-width-large
+    ),
+    'size': (
+      'small': $ln-nectar-space-size-small,
+      'medium': $ln-nectar-space-size-medium,
+      'large': $ln-nectar-space-size-large
+    ),
+    'spacing': (
+      'default': $ln-nectar-space-spacing-default,
+      'extra-small': $ln-nectar-space-spacing-extra-small,
+      'small': $ln-nectar-space-spacing-small,
+      'medium': $ln-nectar-space-spacing-medium,
+      'large': $ln-nectar-space-spacing-large,
+      'extra-large': $ln-nectar-space-spacing-extra-large,
+      'half': $ln-nectar-space-spacing-half,
+      'x1': $ln-nectar-space-spacing-x1,
+      'x2': $ln-nectar-space-spacing-x2,
+      'x3': $ln-nectar-space-spacing-x3,
+      'x4': $ln-nectar-space-spacing-x4,
+      'x5': $ln-nectar-space-spacing-x5,
+      'x6': $ln-nectar-space-spacing-x6,
+      'x7': $ln-nectar-space-spacing-x7,
+      'x8': $ln-nectar-space-spacing-x8,
+      'x9': $ln-nectar-space-spacing-x9,
+      'x10': $ln-nectar-space-spacing-x10
+    ),
+    'breakpoints': (
+      'extra-extra-small': $ln-nectar-space-breakpoints-extra-extra-small,
+      'extra-small': $ln-nectar-space-breakpoints-extra-small,
+      'small': $ln-nectar-space-breakpoints-small,
+      'medium': $ln-nectar-space-breakpoints-medium,
+      'large': $ln-nectar-space-breakpoints-large,
+      'extra-large': $ln-nectar-space-breakpoints-extra-large,
+      'extra-extra-large': $ln-nectar-space-breakpoints-extra-extra-large
+    )
+  ),
+  'typography': (
+    'base': (
+      'font-family': $ln-nectar-typography-base-font-family,
+      'font': $ln-nectar-typography-base-font,
+      'letterform': $ln-nectar-typography-base-letterform
+    ),
+    'brand': (
+      'font-family': $ln-nectar-typography-brand-font-family,
+      'font': $ln-nectar-typography-brand-font,
+      'letterform': $ln-nectar-typography-brand-letterform
+    ),
+    'monospace': (
+      'font-family': $ln-nectar-typography-monospace-font-family
+    ),
+    'system': (
+      'font-family': $ln-nectar-typography-system-font-family
+    ),
+    'font-size': (
+      'root': $ln-nectar-typography-font-size-root,
+      'default': $ln-nectar-typography-font-size-default,
+      'rem': $ln-nectar-typography-font-size-rem
+    ),
+    'font-weight': (
+      'light': $ln-nectar-typography-font-weight-light,
+      'regular': $ln-nectar-typography-font-weight-regular,
+      'medium': $ln-nectar-typography-font-weight-medium,
+      'semi-bold': $ln-nectar-typography-font-weight-semi-bold,
+      'bold': $ln-nectar-typography-font-weight-bold,
+      'extra-bold': $ln-nectar-typography-font-weight-extra-bold,
+      'black': $ln-nectar-typography-font-weight-black
+    ),
+    'small': (
+      'font-family': $ln-nectar-typography-small-font-family,
+      'font': $ln-nectar-typography-small-font,
+      'letterform': $ln-nectar-typography-small-letterform
+    )
+  ),
+  'font-stack': (
+    'display-7': (
+      'font-size': $ln-nectar-font-stack-display-7-font-size,
+      'line-height': $ln-nectar-font-stack-display-7-line-height,
+      'font-weight': $ln-nectar-font-stack-display-7-font-weight,
+      'font-family': $ln-nectar-font-stack-display-7-font-family
+    ),
+    'display-6': (
+      'font-size': $ln-nectar-font-stack-display-6-font-size,
+      'line-height': $ln-nectar-font-stack-display-6-line-height,
+      'font-weight': $ln-nectar-font-stack-display-6-font-weight,
+      'font-family': $ln-nectar-font-stack-display-6-font-family
+    ),
+    'display-5': (
+      'font-size': $ln-nectar-font-stack-display-5-font-size,
+      'line-height': $ln-nectar-font-stack-display-5-line-height,
+      'font-weight': $ln-nectar-font-stack-display-5-font-weight,
+      'font-family': $ln-nectar-font-stack-display-5-font-family
+    ),
+    'display-4': (
+      'font-size': $ln-nectar-font-stack-display-4-font-size,
+      'line-height': $ln-nectar-font-stack-display-4-line-height,
+      'font-weight': $ln-nectar-font-stack-display-4-font-weight,
+      'font-family': $ln-nectar-font-stack-display-4-font-family
+    ),
+    'display-3': (
+      'font-size': $ln-nectar-font-stack-display-3-font-size,
+      'line-height': $ln-nectar-font-stack-display-3-line-height,
+      'font-weight': $ln-nectar-font-stack-display-3-font-weight,
+      'font-family': $ln-nectar-font-stack-display-3-font-family
+    ),
+    'display-2': (
+      'font-size': $ln-nectar-font-stack-display-2-font-size,
+      'line-height': $ln-nectar-font-stack-display-2-line-height,
+      'font-weight': $ln-nectar-font-stack-display-2-font-weight,
+      'font-family': $ln-nectar-font-stack-display-2-font-family
+    ),
+    'display-1': (
+      'font-size': $ln-nectar-font-stack-display-1-font-size,
+      'line-height': $ln-nectar-font-stack-display-1-line-height,
+      'font-weight': $ln-nectar-font-stack-display-1-font-weight,
+      'font-family': $ln-nectar-font-stack-display-1-font-family
+    ),
+    'label-1': (
+      'font-size': $ln-nectar-font-stack-label-1-font-size,
+      'line-height': $ln-nectar-font-stack-label-1-line-height,
+      'font-weight': $ln-nectar-font-stack-label-1-font-weight,
+      'font-family': $ln-nectar-font-stack-label-1-font-family
+    ),
+    'label-2': (
+      'font-size': $ln-nectar-font-stack-label-2-font-size,
+      'line-height': $ln-nectar-font-stack-label-2-line-height,
+      'font-weight': $ln-nectar-font-stack-label-2-font-weight,
+      'font-family': $ln-nectar-font-stack-label-2-font-family
+    ),
+    'body-2': (
+      'font-size': $ln-nectar-font-stack-body-2-font-size,
+      'line-height': $ln-nectar-font-stack-body-2-line-height,
+      'font-weight': $ln-nectar-font-stack-body-2-font-weight,
+      'font-family': $ln-nectar-font-stack-body-2-font-family
+    ),
+    'body-1': (
+      'font-size': $ln-nectar-font-stack-body-1-font-size,
+      'line-height': $ln-nectar-font-stack-body-1-line-height,
+      'font-weight': $ln-nectar-font-stack-body-1-font-weight,
+      'font-family': $ln-nectar-font-stack-body-1-font-family
+    ),
+    'caption': (
+      'font-size': $ln-nectar-font-stack-caption-font-size,
+      'line-height': $ln-nectar-font-stack-caption-line-height,
+      'font-weight': $ln-nectar-font-stack-caption-font-weight,
+      'font-family': $ln-nectar-font-stack-caption-font-family
+    ),
+    'button': (
+      'font-size': $ln-nectar-font-stack-button-font-size,
+      'line-height': $ln-nectar-font-stack-button-line-height,
+      'font-weight': $ln-nectar-font-stack-button-font-weight,
+      'font-family': $ln-nectar-font-stack-button-font-family
+    )
+  ),
+  'base': (
+    'font-family': $ln-nectar-base-font-family,
+    'font': $ln-nectar-base-font,
+    'letterform': $ln-nectar-base-letterform
+  )
+);

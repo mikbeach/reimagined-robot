@@ -1,0 +1,308 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 26 Jul 2021 14:20:43 GMT
+ */
+
+.ln-theme--luna {
+  --ln-font-stack-caption-line-height: 1.5714285714285714;
+  --ln-font-stack-caption-font-size: 0.875rem;
+  --ln-font-stack-body-1-line-height: 1.5;
+  --ln-font-stack-body-1-font-size: 1rem;
+  --ln-font-stack-body-2-line-height: 1.4444444444444444;
+  --ln-font-stack-body-2-font-size: 1.125rem;
+  --ln-font-stack-label-2-line-height: 1.5;
+  --ln-font-stack-label-2-font-size: 1rem;
+  --ln-font-stack-label-1-line-height: 1.5;
+  --ln-font-stack-label-1-font-size: 1rem;
+  --ln-font-stack-display-1-line-height: 1.4444444444444444;
+  --ln-font-stack-display-1-font-size: 1.125rem;
+  --ln-font-stack-display-2-line-height: 1.3;
+  --ln-font-stack-display-2-font-size: 1.25rem;
+  --ln-font-stack-display-3-line-height: 1.3333333333333333;
+  --ln-font-stack-display-3-font-size: 1.5rem;
+  --ln-font-stack-display-4-line-height: 1.3333333333333333;
+  --ln-font-stack-display-4-font-size: 1.875rem;
+  --ln-font-stack-display-5-line-height: 1.3157894736842106;
+  --ln-font-stack-display-5-font-size: 2.375rem;
+  --ln-font-stack-display-6-line-height: 1.2916666666666667;
+  --ln-font-stack-display-6-font-size: 3rem;
+  --ln-font-stack-display-7-line-height: 1.2666666666666666;
+  --ln-font-stack-display-7-font-size: 3.75rem;
+  --ln-typography-font-weight-black: 900;
+  --ln-typography-font-weight-extra-bold: 800;
+  --ln-typography-font-weight-bold: 700;
+  --ln-typography-font-weight-semi-bold: 600;
+  --ln-typography-font-weight-medium: 500;
+  --ln-typography-font-weight-regular: 400;
+  --ln-typography-font-weight-light: 300;
+  --ln-typography-font-size-rem: 1rem; /* The font-size in rem */
+  --ln-typography-font-size-default: 16px; /* The font-size in px */
+  --ln-typography-font-size-root: 16; /* The browser default font-size */
+  --ln-typography-system-font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  --ln-typography-monospace-font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  --ln-typography-brand-letterform: sans-serif; /* the letterform type which the font belongs to */
+  --ln-typography-brand-font: System; /* Main font used in this category */
+  --ln-typography-base-letterform: sans-serif; /* the letterform type which the font belongs to */
+  --ln-typography-base-font: System; /* Main font used in this category */
+  --ln-space-breakpoints-extra-extra-large: 1800px;
+  --ln-space-breakpoints-extra-large: 1400px;
+  --ln-space-breakpoints-large: 1200px;
+  --ln-space-breakpoints-medium: 960px;
+  --ln-space-breakpoints-small: 720px;
+  --ln-space-breakpoints-extra-small: 600px;
+  --ln-space-breakpoints-extra-extra-small: 480px;
+  --ln-space-spacing-x10: 5rem;
+  --ln-space-spacing-x9: 4.5rem;
+  --ln-space-spacing-x8: 4rem;
+  --ln-space-spacing-x7: 3.5rem;
+  --ln-space-spacing-x6: 3rem;
+  --ln-space-spacing-x5: 2.5rem;
+  --ln-space-spacing-x4: 2rem;
+  --ln-space-spacing-x3: 1.5rem;
+  --ln-space-spacing-x2: 1rem;
+  --ln-space-spacing-x1: 0.5rem;
+  --ln-space-spacing-half: 0.25rem;
+  --ln-space-spacing-extra-large: 32px;
+  --ln-space-spacing-large: 24px;
+  --ln-space-spacing-medium: 16px;
+  --ln-space-spacing-small: 8px;
+  --ln-space-spacing-extra-small: 4px;
+  --ln-space-spacing-default: 8px;
+  --ln-space-fixed-width-large: 1800px;
+  --ln-space-fixed-width-medium: 1440px;
+  --ln-space-fixed-width-small: 1280px;
+  --ln-space-fixed-width-extra-small: 800px;
+  --ln-space-baseline-condensed: 4px;
+  --ln-space-baseline-grid: 8px;
+  --ln-opacity-background: 0.06;
+  --ln-opacity-disabled: 0.35;
+  --ln-opacity-light: 0.15;
+  --ln-opacity-default: 0.7;
+  --ln-modifier-transition-timing-function-default: ease-out;
+  --ln-modifier-transition-duration-long: 0.4s;
+  --ln-modifier-transition-duration: 0.2s;
+  --ln-modifier-global-bar-height: 36px;
+  --ln-modifier-focus-ring-focus-width: 3px;
+  --ln-modifier-border-radius-large: 4px;
+  --ln-modifier-border-radius: 2px;
+  --ln-modifier-border-width-large: 2px;
+  --ln-modifier-border-width: 1px;
+  --ln-color-monochrome-black: #000000;
+  --ln-color-monochrome-white: #ffffff;
+  --ln-color-palette-yellow-10: #fffbe6;
+  --ln-color-palette-yellow-20: #fff4b8;
+  --ln-color-palette-yellow-30: #ffec8a;
+  --ln-color-palette-yellow-40: #ffe55c;
+  --ln-color-palette-yellow-50: #ffdd2e;
+  --ln-color-palette-yellow-60: #ffd600;
+  --ln-color-palette-yellow-70: #e2be00;
+  --ln-color-palette-yellow-80: #c6a600;
+  --ln-color-palette-yellow-90: #a98e00;
+  --ln-color-palette-yellow-100: #8c7600;
+  --ln-color-palette-white: #ffffff;
+  --ln-color-palette-red-10: #fbe6e6;
+  --ln-color-palette-red-20: #f3b8b8;
+  --ln-color-palette-red-30: #ec8a8a;
+  --ln-color-palette-red-40: #e45c5c;
+  --ln-color-palette-red-50: #dd2e2e;
+  --ln-color-palette-red-60: #d50000;
+  --ln-color-palette-red-70: #bd0000;
+  --ln-color-palette-red-80: #a50000;
+  --ln-color-palette-red-90: #8d0000;
+  --ln-color-palette-red-100: #750000;
+  --ln-color-palette-grey-10: #f2f2f2;
+  --ln-color-palette-grey-20: #d8d8d8;
+  --ln-color-palette-grey-30: #bfbfbf;
+  --ln-color-palette-grey-40: #a6a6a6;
+  --ln-color-palette-grey-50: #8c8c8c;
+  --ln-color-palette-grey-60: #737373;
+  --ln-color-palette-grey-70: #595959;
+  --ln-color-palette-grey-80: #404040;
+  --ln-color-palette-grey-90: #262626;
+  --ln-color-palette-grey-100: #0d0d0d;
+  --ln-color-palette-green-10: #eaf2eb;
+  --ln-color-palette-green-20: #c5dbc6;
+  --ln-color-palette-green-30: #9fc3a1;
+  --ln-color-palette-green-40: #79ac7c;
+  --ln-color-palette-green-50: #549457;
+  --ln-color-palette-green-60: #2e7d32;
+  --ln-color-palette-green-70: #296f2c;
+  --ln-color-palette-green-80: #246127;
+  --ln-color-palette-green-90: #1f5321;
+  --ln-color-palette-green-100: #19451c;
+  --ln-color-palette-blue-10: #e8f1fb;
+  --ln-color-palette-blue-20: #bfd9f2;
+  --ln-color-palette-blue-30: #95c0ea;
+  --ln-color-palette-blue-40: #6ca7e2;
+  --ln-color-palette-blue-50: #428fda;
+  --ln-color-palette-blue-60: #1976d2;
+  --ln-color-palette-blue-70: #1669ba;
+  --ln-color-palette-blue-80: #135ca3;
+  --ln-color-palette-blue-90: #114e8b;
+  --ln-color-palette-blue-100: #0e4174;
+  --ln-color-palette-black: #000000;
+  --ln-font-stack-button-line-height: 1.5;
+  --ln-font-stack-button-font-size: var(--ln-font-stack-label-1-font-size);
+  --ln-font-stack-caption-font-weight: 400;
+  --ln-font-stack-body-1-font-weight: 400;
+  --ln-font-stack-body-2-font-weight: 400;
+  --ln-font-stack-label-2-font-weight: 700;
+  --ln-font-stack-label-1-font-weight: 700;
+  --ln-font-stack-display-1-font-weight: 700;
+  --ln-font-stack-display-2-font-weight: 700;
+  --ln-font-stack-display-3-font-weight: 700;
+  --ln-font-stack-display-4-font-weight: 700;
+  --ln-font-stack-display-5-font-weight: 700;
+  --ln-font-stack-display-6-font-weight: 700;
+  --ln-font-stack-display-7-font-weight: 700;
+  --ln-typography-brand-font-family: var(--ln-typography-system-font-family); /* The font stack which has fallbacks primarly used on web */
+  --ln-typography-base-font-family: var(--ln-typography-system-font-family); /* The font stack which has fallbacks primarly used on web */
+  --ln-space-size-large: var(--ln-space-spacing-x10);
+  --ln-space-size-medium: var(--ln-space-spacing-x6);
+  --ln-space-size-small: var(--ln-space-spacing-x3);
+  --ln-overlay-opacity: var(--ln-opacity-default);
+  --ln-overlay-color: var(--ln-color-palette-black);
+  --ln-modifier-header-background: var(--ln-color-monochrome-white);
+  --ln-modifier-footer-text: var(--ln-color-monochrome-white);
+  --ln-modifier-button-border: var(--ln-modifier-border-width-large);
+  --ln-modifier-border-interactive-width: var(--ln-modifier-border-width); /* generally used for interactive components such as input fields */
+  --ln-surface-grey-highlight: var(--ln-color-palette-black);
+  --ln-surface-grey-background: var(--ln-color-palette-grey-90);
+  --ln-surface-dark-highlight: var(--ln-color-palette-white);
+  --ln-surface-white-highlight: var(--ln-color-palette-black);
+  --ln-surface-white-background: var(--ln-color-palette-white);
+  --ln-surface-light-highlight: var(--ln-color-palette-black);
+  --ln-mode-dark-highlight-inverse: var(--ln-color-palette-black);
+  --ln-mode-dark-highlight: var(--ln-color-palette-white);
+  --ln-mode-dark-foreground: var(--ln-color-palette-grey-90);
+  --ln-color-semantic-warning-darker: var(--ln-color-palette-yellow-80);
+  --ln-color-semantic-warning-dark: var(--ln-color-palette-yellow-70);
+  --ln-color-semantic-warning-base: var(--ln-color-palette-yellow-60);
+  --ln-color-semantic-warning-light: var(--ln-color-palette-yellow-50);
+  --ln-color-semantic-warning-lighter: var(--ln-color-palette-yellow-10);
+  --ln-color-semantic-success-text: var(--ln-color-palette-white); /* The default accessible text on the base value */
+  --ln-color-semantic-success-darker: var(--ln-color-palette-green-80);
+  --ln-color-semantic-success-dark: var(--ln-color-palette-green-70);
+  --ln-color-semantic-success-base: var(--ln-color-palette-green-60);
+  --ln-color-semantic-success-light: var(--ln-color-palette-green-50);
+  --ln-color-semantic-success-lighter: var(--ln-color-palette-green-10);
+  --ln-color-semantic-info-text: var(--ln-color-palette-white); /* The default accessible text on the base value */
+  --ln-color-semantic-info-darker: var(--ln-color-palette-blue-80);
+  --ln-color-semantic-info-dark: var(--ln-color-palette-blue-70);
+  --ln-color-semantic-info-base: var(--ln-color-palette-blue-60);
+  --ln-color-semantic-info-light: var(--ln-color-palette-blue-50);
+  --ln-color-semantic-info-lighter: var(--ln-color-palette-blue-10);
+  --ln-color-semantic-error-text: var(--ln-color-palette-white); /* The default accessible text on the base value */
+  --ln-color-semantic-error-darker: var(--ln-color-palette-red-80);
+  --ln-color-semantic-error-dark: var(--ln-color-palette-red-70);
+  --ln-color-semantic-error-base: var(--ln-color-palette-red-60);
+  --ln-color-semantic-error-light: var(--ln-color-palette-red-50);
+  --ln-color-semantic-error-lighter: var(--ln-color-palette-red-10);
+  --ln-color-scheme-brand-2-on-highlight: var(--ln-color-palette-white);
+  --ln-color-scheme-brand-2-on-base: var(--ln-color-palette-white);
+  --ln-color-scheme-brand-2-highlight: var(--ln-color-palette-black);
+  --ln-color-scheme-brand-1-on-highlight: var(--ln-color-palette-white);
+  --ln-color-scheme-brand-1-on-base: var(--ln-color-palette-white);
+  --ln-color-scheme-brand-1-highlight: var(--ln-color-palette-black);
+  --ln-color-scheme-dark-on-highlight: var(--ln-color-palette-white);
+  --ln-color-scheme-dark-on-base: var(--ln-color-palette-white);
+  --ln-color-scheme-dark-highlight: var(--ln-color-palette-black);
+  --ln-color-scheme-light-on-highlight: var(--ln-color-palette-black);
+  --ln-color-scheme-light-highlight: var(--ln-color-palette-white);
+  --ln-color-promotion-new-darkest: var(--ln-color-palette-blue-90);
+  --ln-color-promotion-new-darker: var(--ln-color-palette-blue-80);
+  --ln-color-promotion-new-dark: var(--ln-color-palette-blue-70);
+  --ln-color-promotion-new-base: var(--ln-color-palette-blue-60);
+  --ln-color-promotion-new-light: var(--ln-color-palette-blue-50);
+  --ln-color-promotion-new-lighter: var(--ln-color-palette-blue-30);
+  --ln-color-promotion-new-lightest: var(--ln-color-palette-blue-10);
+  --ln-color-promotion-sale-darkest: var(--ln-color-palette-red-90);
+  --ln-color-promotion-sale-darker: var(--ln-color-palette-red-80);
+  --ln-color-promotion-sale-dark: var(--ln-color-palette-red-70);
+  --ln-color-promotion-sale-base: var(--ln-color-palette-red-60);
+  --ln-color-promotion-sale-light: var(--ln-color-palette-red-50);
+  --ln-color-promotion-sale-lighter: var(--ln-color-palette-red-30);
+  --ln-color-promotion-sale-lightest: var(--ln-color-palette-red-10);
+  --ln-color-monochrome-grey-darker: var(--ln-color-palette-grey-90); /* deprecated */
+  --ln-color-monochrome-grey-dark: var(--ln-color-palette-grey-80); /* deprecated */
+  --ln-color-monochrome-grey: var(--ln-color-palette-grey-50); /* deprecated */
+  --ln-color-monochrome-grey-light: var(--ln-color-palette-grey-20); /* deprecated */
+  --ln-color-monochrome-grey-v-light: var(--ln-color-palette-grey-10); /* deprecated */
+  --ln-color-monochrome-darker-rgb: rgba(38,38,38,1);
+  --ln-color-monochrome-darker: var(--ln-color-palette-grey-90);
+  --ln-color-monochrome-dark-rgb: rgba(64,64,64,1);
+  --ln-color-monochrome-dark: var(--ln-color-palette-grey-80);
+  --ln-color-monochrome-medium-rgb: rgba(115,115,115,1);
+  --ln-color-monochrome-medium: var(--ln-color-palette-grey-60);
+  --ln-color-monochrome-light-rgb: var(--ln-color-palette-grey-20);
+  --ln-color-monochrome-light: rgba(216,216,216,1);
+  --ln-color-monochrome-lighter-rgb: rgba(242,242,242,1);
+  --ln-color-monochrome-lighter: var(--ln-color-palette-grey-10);
+  --ln-color-palette-yellow: var(--ln-color-palette-yellow-60);
+  --ln-color-palette-red: var(--ln-color-palette-red-60);
+  --ln-color-palette-green: var(--ln-color-palette-green-60);
+  --ln-color-palette-blue: var(--ln-color-palette-blue-60);
+  --ln-color-palette-brand-2-highlight: var(--ln-color-palette-green-80);
+  --ln-color-palette-brand-2: var(--ln-color-palette-green-60);
+  --ln-color-palette-brand-1-highlight: var(--ln-color-palette-blue-80);
+  --ln-color-palette-brand-1: var(--ln-color-palette-blue-60);
+  --ln-font-stack-button-font-weight: 700;
+  --ln-font-stack-caption-font-family: var(--ln-typography-base-font-family);
+  --ln-font-stack-body-1-font-family: var(--ln-typography-base-font-family);
+  --ln-font-stack-body-2-font-family: var(--ln-typography-base-font-family);
+  --ln-font-stack-label-2-font-family: var(--ln-typography-base-font-family);
+  --ln-font-stack-label-1-font-family: var(--ln-typography-brand-font-family);
+  --ln-font-stack-display-1-font-family: var(--ln-typography-brand-font-family);
+  --ln-font-stack-display-2-font-family: var(--ln-typography-brand-font-family);
+  --ln-font-stack-display-3-font-family: var(--ln-typography-brand-font-family);
+  --ln-font-stack-display-4-font-family: var(--ln-typography-brand-font-family);
+  --ln-font-stack-display-5-font-family: var(--ln-typography-brand-font-family);
+  --ln-font-stack-display-6-font-family: var(--ln-typography-brand-font-family);
+  --ln-font-stack-display-7-font-family: var(--ln-typography-brand-font-family);
+  --ln-modifier-footer-background: var(--ln-color-monochrome-dark);
+  --ln-modifier-focus-ring-color: var(--ln-color-palette-blue);
+  --ln-surface-grey-border: var(--ln-color-monochrome-dark);
+  --ln-surface-grey-base: var(--ln-color-monochrome-lighter); /* base text colour on default bg */
+  --ln-surface-dark-interactive-hover: var(--ln-color-monochrome-dark);
+  --ln-surface-dark-interactive: var(--ln-color-monochrome-medium);
+  --ln-surface-dark-border: var(--ln-color-monochrome-dark);
+  --ln-surface-dark-base: var(--ln-color-monochrome-lighter); /* base text colour on default bg */
+  --ln-surface-dark-background: var(--ln-color-monochrome-darker);
+  --ln-surface-white-border: var(--ln-color-monochrome-light);
+  --ln-surface-white-base: var(--ln-color-monochrome-dark);
+  --ln-surface-light-interactive-hover: var(--ln-color-monochrome-lighter);
+  --ln-surface-light-interactive: var(--ln-color-monochrome-medium);
+  --ln-surface-light-border: var(--ln-color-monochrome-light);
+  --ln-surface-light-base: var(--ln-color-monochrome-dark); /* base text colour on default bg */
+  --ln-surface-light-background: var(--ln-color-monochrome-lighter); /* surface colour most likely to be used as a background */
+  --ln-mode-default-highlight-inverse: var(--ln-surface-white-highlight);
+  --ln-mode-default-highlight: var(--ln-surface-light-highlight);
+  --ln-mode-default-header-background: var(--ln-surface-white-background);
+  --ln-mode-default-foreground: var(--ln-surface-white-background); /* default background that are given to luna components */
+  --ln-mode-default-footer-background: var(--ln-surface-grey-background);
+  --ln-mode-dark-header-text: var(--ln-color-monochrome-lighter);
+  --ln-mode-dark-header-background: var(--ln-color-monochrome-darker);
+  --ln-mode-dark-footer-background: var(--ln-surface-white-background);
+  --ln-mode-dark-border: var(--ln-color-monochrome-dark);
+  --ln-mode-dark-base-inverse: var(--ln-color-monochrome-dark);
+  --ln-mode-dark-base: var(--ln-color-monochrome-lighter);
+  --ln-mode-dark-background: var(--ln-color-monochrome-darker);
+  --ln-color-semantic-warning-text: var(--ln-color-monochrome-dark); /* The default accessible text on the base value */
+  --ln-color-scheme-brand-2-base: var(--ln-color-monochrome-dark);
+  --ln-color-scheme-brand-1-base: var(--ln-color-monochrome-dark);
+  --ln-color-scheme-dark-base: var(--ln-color-monochrome-dark);
+  --ln-color-scheme-light-on-base: var(--ln-color-monochrome-dark);
+  --ln-color-scheme-light-base: var(--ln-color-monochrome-lighter);
+  --ln-font-stack-button-font-family: var(--ln-font-stack-label-1-font-family);
+  --ln-mode-default-header-text: var(--ln-surface-light-base);
+  --ln-mode-default-footer-text: var(--ln-surface-grey-base);
+  --ln-mode-default-border-interactive-highlight: var(--ln-surface-light-interactive-hover);
+  --ln-mode-default-border-interactive: var(--ln-surface-light-interactive);
+  --ln-mode-default-border: var(--ln-surface-light-border);
+  --ln-mode-default-base-inverse: var(--ln-surface-white-base); /* base text colour on default foreground */
+  --ln-mode-default-base: var(--ln-surface-light-base); /* base text colour on default bg */
+  --ln-mode-default-background: var(--ln-surface-light-background); /* default website background */
+  --ln-mode-dark-footer-text: var(--ln-surface-light-base);
+  --ln-mode-dark-border-interactive-highlight: var(--ln-surface-light-interactive-hover);
+  --ln-mode-dark-border-interactive: var(--ln-surface-light-interactive);
+}

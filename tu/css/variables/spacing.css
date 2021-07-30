@@ -1,0 +1,40 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 26 Jul 2021 14:20:42 GMT
+ */
+
+:root {
+  --ln-space-baseline-grid: 8px;
+  --ln-space-baseline-condensed: 4px;
+  --ln-space-fixed-width-extra-small: 800px;
+  --ln-space-fixed-width-small: 1280px;
+  --ln-space-fixed-width-medium: 1440px;
+  --ln-space-fixed-width-large: 1800px;
+  --ln-space-size-small: 1.5rem;
+  --ln-space-size-medium: 3rem;
+  --ln-space-size-large: 5rem;
+  --ln-space-spacing-default: 8px;
+  --ln-space-spacing-extra-small: 4px;
+  --ln-space-spacing-small: 8px;
+  --ln-space-spacing-medium: 16px;
+  --ln-space-spacing-large: 24px;
+  --ln-space-spacing-extra-large: 32px;
+  --ln-space-spacing-half: 0.25rem;
+  --ln-space-spacing-x1: 0.5rem;
+  --ln-space-spacing-x2: 1rem;
+  --ln-space-spacing-x3: 1.5rem;
+  --ln-space-spacing-x4: 2rem;
+  --ln-space-spacing-x5: 2.5rem;
+  --ln-space-spacing-x6: 3rem;
+  --ln-space-spacing-x7: 3.5rem;
+  --ln-space-spacing-x8: 4rem;
+  --ln-space-spacing-x9: 4.5rem;
+  --ln-space-spacing-x10: 5rem;
+  --ln-space-breakpoints-extra-extra-small: 480px;
+  --ln-space-breakpoints-extra-small: 600px;
+  --ln-space-breakpoints-small: 720px;
+  --ln-space-breakpoints-medium: 960px;
+  --ln-space-breakpoints-large: 1200px;
+  --ln-space-breakpoints-extra-large: 1400px;
+  --ln-space-breakpoints-extra-extra-large: 1800px;
+}

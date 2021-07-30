@@ -1,0 +1,27 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 26 Jul 2021 14:20:40 GMT
+ */
+
+:root {
+  --ln-surface-light-background: #f2f1f5; /* surface colour most likely to be used as a background */
+  --ln-surface-light-base: #3f384c; /* base text colour on default bg */
+  --ln-surface-light-border: rgba(216,212,224,1);
+  --ln-surface-light-highlight: #000000;
+  --ln-surface-light-interactive: #726a82;
+  --ln-surface-light-interactive-hover: #f2f1f5;
+  --ln-surface-white-background: #ffffff;
+  --ln-surface-white-base: #3f384c;
+  --ln-surface-white-border: rgba(216,212,224,1);
+  --ln-surface-white-highlight: #000000;
+  --ln-surface-dark-background: #26212f;
+  --ln-surface-dark-base: #f2f1f5; /* base text colour on default bg */
+  --ln-surface-dark-border: #3f384c;
+  --ln-surface-dark-highlight: #ffffff;
+  --ln-surface-dark-interactive: #726a82;
+  --ln-surface-dark-interactive-hover: #3f384c;
+  --ln-surface-grey-background: #26212f;
+  --ln-surface-grey-base: #f2f1f5; /* base text colour on default bg */
+  --ln-surface-grey-border: #3f384c;
+  --ln-surface-grey-highlight: #000000;
+}
